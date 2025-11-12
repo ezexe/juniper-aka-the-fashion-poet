@@ -1,0 +1,1747 @@
+{
+  "Header": {
+    "OrderHeader": {
+      "TradingPartnerId": "560ALLJUNIPER08",
+      "PurchaseOrderNumber": "5358685",
+      "TsetPurposeCode": "07",
+      "PrimaryPOTypeCode": "SA",
+      "PurchaseOrderDate": "2021-10-05",
+      "Department": "0896"
+    },
+    "PaymentTerms": [
+      {
+        "TermsType": "05",
+        "TermsBasisDateCode": "2",
+        "TermsNetDueDays": 60
+      }
+    ],
+    "Dates": [
+      {
+        "DateTimeQualifier": "001",
+        "Date": "2021-10-22"
+      },
+      {
+        "DateTimeQualifier": "064",
+        "Date": "2021-10-18"
+      }
+    ],
+    "FOBRelatedInstruction": [
+      {
+        "FOBPayCode": "DF"
+      }
+    ],
+    "References": [
+      {
+        "ReferenceQual": "BT",
+        "ReferenceID": "7083600010"
+      },
+      {
+        "ReferenceQual": "MR",
+        "ReferenceID": "COLLECTIONS"
+      }
+    ],
+    "Notes": [
+      {
+        "NoteCode": "GEN",
+        "Note": "MTX: Delivery of Goods constitutes agreement as defined by Master PurchasingAgreement as posted on macysnet.com"
+      }
+    ]
+  },
+  "LineItem": [
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "1",
+        "ConsumerPackageCode": "810081708289",
+        "OrderQty": 44.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 25.0,
+        "PurchasePriceBasis": "PE",
+        "Class": "77"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "RTL",
+          "UnitPrice": 98.0
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0001",
+              "Qty": 3.0
+            },
+            {
+              "Location": "0002",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0003",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0005",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0006",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0008",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0010",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0011",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0012",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0014",
+              "Qty": 1.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0016",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0017",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0020",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0022",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0024",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0026",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0027",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0028",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0030",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0031",
+              "Qty": 1.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0032",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0037",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0046",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0053",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0055",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0058",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0060",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0061",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0062",
+              "Qty": 2.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "2",
+        "ConsumerPackageCode": "810081708296",
+        "OrderQty": 88.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 25.0,
+        "PurchasePriceBasis": "PE",
+        "Class": "77"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "RTL",
+          "UnitPrice": 98.0
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0001",
+              "Qty": 6.0
+            },
+            {
+              "Location": "0002",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0003",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0005",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0006",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0008",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0010",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0011",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0012",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0014",
+              "Qty": 2.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0016",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0017",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0020",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0022",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0024",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0026",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0027",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0028",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0030",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0031",
+              "Qty": 2.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0032",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0037",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0046",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0053",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0055",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0058",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0060",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0061",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0062",
+              "Qty": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "3",
+        "ConsumerPackageCode": "810081708302",
+        "OrderQty": 88.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 25.0,
+        "PurchasePriceBasis": "PE",
+        "Class": "77"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "RTL",
+          "UnitPrice": 98.0
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0001",
+              "Qty": 6.0
+            },
+            {
+              "Location": "0002",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0003",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0005",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0006",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0008",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0010",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0011",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0012",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0014",
+              "Qty": 2.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0016",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0017",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0020",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0022",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0024",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0026",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0027",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0028",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0030",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0031",
+              "Qty": 2.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0032",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0037",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0046",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0053",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0055",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0058",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0060",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0061",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0062",
+              "Qty": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "4",
+        "ConsumerPackageCode": "810081708319",
+        "OrderQty": 44.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 25.0,
+        "PurchasePriceBasis": "PE",
+        "Class": "77"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "RTL",
+          "UnitPrice": 98.0
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0001",
+              "Qty": 3.0
+            },
+            {
+              "Location": "0002",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0003",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0005",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0006",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0008",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0010",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0011",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0012",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0014",
+              "Qty": 1.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0016",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0017",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0020",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0022",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0024",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0026",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0027",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0028",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0030",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0031",
+              "Qty": 1.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0032",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0037",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0046",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0053",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0055",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0058",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0060",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0061",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0062",
+              "Qty": 2.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "5",
+        "ConsumerPackageCode": "810081708203",
+        "OrderQty": 49.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 16.5,
+        "PurchasePriceBasis": "PE",
+        "Class": "71"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "RTL",
+          "UnitPrice": 58.0
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0001",
+              "Qty": 5.0
+            },
+            {
+              "Location": "0002",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0003",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0005",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0006",
+              "Qty": 3.0
+            },
+            {
+              "Location": "0008",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0010",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0011",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0012",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0014",
+              "Qty": 1.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0016",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0017",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0020",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0022",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0024",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0026",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0027",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0028",
+              "Qty": 3.0
+            },
+            {
+              "Location": "0030",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0031",
+              "Qty": 2.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0032",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0034",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0053",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0055",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0060",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0062",
+              "Qty": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "6",
+        "ConsumerPackageCode": "810081708210",
+        "OrderQty": 98.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 16.5,
+        "PurchasePriceBasis": "PE",
+        "Class": "71"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "RTL",
+          "UnitPrice": 58.0
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0001",
+              "Qty": 10.0
+            },
+            {
+              "Location": "0002",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0003",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0005",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0006",
+              "Qty": 6.0
+            },
+            {
+              "Location": "0008",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0010",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0011",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0012",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0014",
+              "Qty": 2.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0016",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0017",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0020",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0022",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0024",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0026",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0027",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0028",
+              "Qty": 6.0
+            },
+            {
+              "Location": "0030",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0031",
+              "Qty": 4.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0032",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0034",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0053",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0055",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0060",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0062",
+              "Qty": 6.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "7",
+        "ConsumerPackageCode": "810081708227",
+        "OrderQty": 98.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 16.5,
+        "PurchasePriceBasis": "PE",
+        "Class": "71"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "RTL",
+          "UnitPrice": 58.0
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0001",
+              "Qty": 10.0
+            },
+            {
+              "Location": "0002",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0003",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0005",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0006",
+              "Qty": 6.0
+            },
+            {
+              "Location": "0008",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0010",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0011",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0012",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0014",
+              "Qty": 2.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0016",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0017",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0020",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0022",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0024",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0026",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0027",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0028",
+              "Qty": 6.0
+            },
+            {
+              "Location": "0030",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0031",
+              "Qty": 4.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0032",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0034",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0053",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0055",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0060",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0062",
+              "Qty": 6.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "8",
+        "ConsumerPackageCode": "810081708234",
+        "OrderQty": 49.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 16.5,
+        "PurchasePriceBasis": "PE",
+        "Class": "71"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "RTL",
+          "UnitPrice": 58.0
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0001",
+              "Qty": 5.0
+            },
+            {
+              "Location": "0002",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0003",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0005",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0006",
+              "Qty": 3.0
+            },
+            {
+              "Location": "0008",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0010",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0011",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0012",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0014",
+              "Qty": 1.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0016",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0017",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0020",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0022",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0024",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0026",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0027",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0028",
+              "Qty": 3.0
+            },
+            {
+              "Location": "0030",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0031",
+              "Qty": 2.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0032",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0034",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0053",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0055",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0060",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0062",
+              "Qty": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "9",
+        "ConsumerPackageCode": "810081708241",
+        "OrderQty": 49.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 12.5,
+        "PurchasePriceBasis": "PE",
+        "Class": "71"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "RTL",
+          "UnitPrice": 48.0
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0001",
+              "Qty": 5.0
+            },
+            {
+              "Location": "0002",
+              "Qty": 3.0
+            },
+            {
+              "Location": "0003",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0004",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0005",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0006",
+              "Qty": 3.0
+            },
+            {
+              "Location": "0008",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0010",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0011",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0012",
+              "Qty": 1.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0020",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0027",
+              "Qty": 3.0
+            },
+            {
+              "Location": "0028",
+              "Qty": 3.0
+            },
+            {
+              "Location": "0029",
+              "Qty": 3.0
+            },
+            {
+              "Location": "0034",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0037",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0046",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0053",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0057",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0058",
+              "Qty": 1.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0060",
+              "Qty": 3.0
+            },
+            {
+              "Location": "0061",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0062",
+              "Qty": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "10",
+        "ConsumerPackageCode": "810081708258",
+        "OrderQty": 98.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 12.5,
+        "PurchasePriceBasis": "PE",
+        "Class": "71"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "RTL",
+          "UnitPrice": 48.0
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0001",
+              "Qty": 10.0
+            },
+            {
+              "Location": "0002",
+              "Qty": 6.0
+            },
+            {
+              "Location": "0003",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0004",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0005",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0006",
+              "Qty": 6.0
+            },
+            {
+              "Location": "0008",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0010",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0011",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0012",
+              "Qty": 2.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0020",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0027",
+              "Qty": 6.0
+            },
+            {
+              "Location": "0028",
+              "Qty": 6.0
+            },
+            {
+              "Location": "0029",
+              "Qty": 6.0
+            },
+            {
+              "Location": "0034",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0037",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0046",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0053",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0057",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0058",
+              "Qty": 2.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0060",
+              "Qty": 6.0
+            },
+            {
+              "Location": "0061",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0062",
+              "Qty": 6.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "11",
+        "ConsumerPackageCode": "810081708265",
+        "OrderQty": 98.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 12.5,
+        "PurchasePriceBasis": "PE",
+        "Class": "71"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "RTL",
+          "UnitPrice": 48.0
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0001",
+              "Qty": 10.0
+            },
+            {
+              "Location": "0002",
+              "Qty": 6.0
+            },
+            {
+              "Location": "0003",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0004",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0005",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0006",
+              "Qty": 6.0
+            },
+            {
+              "Location": "0008",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0010",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0011",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0012",
+              "Qty": 2.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0020",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0027",
+              "Qty": 6.0
+            },
+            {
+              "Location": "0028",
+              "Qty": 6.0
+            },
+            {
+              "Location": "0029",
+              "Qty": 6.0
+            },
+            {
+              "Location": "0034",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0037",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0046",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0053",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0057",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0058",
+              "Qty": 2.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0060",
+              "Qty": 6.0
+            },
+            {
+              "Location": "0061",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0062",
+              "Qty": 6.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "12",
+        "ConsumerPackageCode": "810081708272",
+        "OrderQty": 49.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 12.5,
+        "PurchasePriceBasis": "PE",
+        "Class": "71"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "RTL",
+          "UnitPrice": 48.0
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0001",
+              "Qty": 5.0
+            },
+            {
+              "Location": "0002",
+              "Qty": 3.0
+            },
+            {
+              "Location": "0003",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0004",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0005",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0006",
+              "Qty": 3.0
+            },
+            {
+              "Location": "0008",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0010",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0011",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0012",
+              "Qty": 1.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0020",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0027",
+              "Qty": 3.0
+            },
+            {
+              "Location": "0028",
+              "Qty": 3.0
+            },
+            {
+              "Location": "0029",
+              "Qty": 3.0
+            },
+            {
+              "Location": "0034",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0037",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0046",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0053",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0057",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0058",
+              "Qty": 1.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationCodeQualifier": "92",
+          "LocationQuantity": [
+            {
+              "Location": "0060",
+              "Qty": 3.0
+            },
+            {
+              "Location": "0061",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0062",
+              "Qty": 3.0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Summary": {
+    "TotalLineItemNumber": 12
+  }
+}

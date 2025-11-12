@@ -1,0 +1,999 @@
+{
+  "Header" : {
+    "OrderHeader" : {
+      "TradingPartnerId" : "591ALLJUNIPER08",
+      "PurchaseOrderNumber" : "0007879283",
+      "TsetPurposeCode" : "00",
+      "PrimaryPOTypeCode" : "SA",
+      "PurchaseOrderDate" : "2021-12-10",
+      "Department" : "0832",
+      "Vendor" : "436"
+    },
+    "PaymentTerms" : [ {
+      "TermsType" : "01",
+      "TermsBasisDateCode" : "2",
+      "TermsNetDueDays" : 30
+    } ],
+    "Dates" : [ {
+      "DateTimeQualifier" : "010",
+      "Date" : "2022-01-18"
+    }, {
+      "DateTimeQualifier" : "001",
+      "Date" : "2022-02-08"
+    } ],
+    "References" : [ {
+      "ReferenceQual" : "VR",
+      "ReferenceID" : "7124274"
+    }, {
+      "ReferenceQual" : "PG",
+      "ReferenceID" : "46"
+    } ],
+    "Notes" : [ {
+      "Note" : "All purchase orders placed by Saks OFF 5TH LLC for Saks OFF 5TH's e-commerce business are governed by the terms and conditions set forth in the Saks OFF 5TH  Vendor Standards Manual and any addenda, which are located at  https://sites.google.com/hbc.com/hbc-vendor-standards/saks-off-5th/vendor-standards"
+    } ]
+  },
+  "LineItem" : [ {
+    "OrderLine" : {
+      "LineSequenceNumber" : "1",
+      "VendorPartNumber" : "WO-7182",
+      "ConsumerPackageCode" : "810081701082",
+      "OrderQty" : 25.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "XS",
+      "ProductColorDescription" : "BLACK"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 130.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 49.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "MIDI DRESS W SMOCKED"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "9999"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0789",
+        "Qty" : 25.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "2",
+      "VendorPartNumber" : "WO-7182",
+      "ConsumerPackageCode" : "810081701099",
+      "OrderQty" : 50.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "S",
+      "ProductColorDescription" : "BLACK"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 130.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 49.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "MIDI DRESS W SMOCKED"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "9999"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0789",
+        "Qty" : 50.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "3",
+      "VendorPartNumber" : "WO-7182",
+      "ConsumerPackageCode" : "810081701105",
+      "OrderQty" : 50.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "M",
+      "ProductColorDescription" : "BLACK"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 130.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 49.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "MIDI DRESS W SMOCKED"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "9999"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0789",
+        "Qty" : 50.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "4",
+      "VendorPartNumber" : "WO-7182",
+      "ConsumerPackageCode" : "810081701112",
+      "OrderQty" : 25.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "L",
+      "ProductColorDescription" : "BLACK"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 130.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 49.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "MIDI DRESS W SMOCKED"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "9999"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0789",
+        "Qty" : 25.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "5",
+      "VendorPartNumber" : "7269",
+      "ConsumerPackageCode" : "810094062392",
+      "OrderQty" : 13.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 26.0,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "X SMALL",
+      "ProductColorDescription" : "BLACK / WH"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 138.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 59.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "PUFF SLV MIDI DR"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "9999"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0789",
+        "Qty" : 13.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "6",
+      "VendorPartNumber" : "7269",
+      "ConsumerPackageCode" : "810094062408",
+      "OrderQty" : 39.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 26.0,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "SMALL",
+      "ProductColorDescription" : "BLACK / WH"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 138.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 59.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "PUFF SLV MIDI DR"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "9999"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0789",
+        "Qty" : 39.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "7",
+      "VendorPartNumber" : "7269",
+      "ConsumerPackageCode" : "810094062415",
+      "OrderQty" : 39.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 26.0,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "MEDIUM",
+      "ProductColorDescription" : "BLACK / WH"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 138.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 59.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "PUFF SLV MIDI DR"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "9999"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0789",
+        "Qty" : 39.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "8",
+      "VendorPartNumber" : "7269",
+      "ConsumerPackageCode" : "810094062422",
+      "OrderQty" : 13.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 26.0,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "LARGE",
+      "ProductColorDescription" : "BLACK / WH"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 138.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 59.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "PUFF SLV MIDI DR"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "9999"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0789",
+        "Qty" : 13.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "9",
+      "VendorPartNumber" : "WO-7182",
+      "ConsumerPackageCode" : "810094062996",
+      "OrderQty" : 20.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "X SMALL",
+      "ProductColorDescription" : "HOT PINK"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 130.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 49.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "MIDI�DRESS�W�SMO"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "9999"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0789",
+        "Qty" : 20.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "10",
+      "VendorPartNumber" : "WO-7182",
+      "ConsumerPackageCode" : "810094063009",
+      "OrderQty" : 40.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "SMALL",
+      "ProductColorDescription" : "HOT PINK"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 130.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 49.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "MIDI�DRESS�W�SMO"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "9999"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0789",
+        "Qty" : 40.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "11",
+      "VendorPartNumber" : "WO-7182",
+      "ConsumerPackageCode" : "810094063016",
+      "OrderQty" : 40.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "MEDIUM",
+      "ProductColorDescription" : "HOT PINK"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 130.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 49.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "MIDI�DRESS�W�SMO"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "9999"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0789",
+        "Qty" : 40.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "12",
+      "VendorPartNumber" : "WO-7182",
+      "ConsumerPackageCode" : "810094063023",
+      "OrderQty" : 20.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "LARGE",
+      "ProductColorDescription" : "HOT PINK"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 130.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 49.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "MIDI�DRESS�W�SMO"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "9999"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0789",
+        "Qty" : 20.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "13",
+      "VendorPartNumber" : "7289",
+      "ConsumerPackageCode" : "810094063030",
+      "OrderQty" : 17.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 26.0,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "X SMALL",
+      "ProductColorDescription" : "LT BLUE /"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 158.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 59.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "SHIRT DRESS W CA"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "9999"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0789",
+        "Qty" : 17.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "14",
+      "VendorPartNumber" : "7289",
+      "ConsumerPackageCode" : "810094063047",
+      "OrderQty" : 34.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 26.0,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "SMALL",
+      "ProductColorDescription" : "LT BLUE /"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 158.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 59.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "SHIRT DRESS W CA"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "9999"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0789",
+        "Qty" : 34.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "15",
+      "VendorPartNumber" : "7289",
+      "ConsumerPackageCode" : "810094063054",
+      "OrderQty" : 34.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 26.0,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "MEDIUM",
+      "ProductColorDescription" : "LT BLUE /"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 158.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 59.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "SHIRT DRESS W CA"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "9999"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0789",
+        "Qty" : 34.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "16",
+      "VendorPartNumber" : "7289",
+      "ConsumerPackageCode" : "810094063061",
+      "OrderQty" : 17.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 26.0,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "LARGE",
+      "ProductColorDescription" : "LT BLUE /"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 158.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 59.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "SHIRT DRESS W CA"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "9999"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0789",
+        "Qty" : 17.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "17",
+      "VendorPartNumber" : "16372",
+      "ConsumerPackageCode" : "810094065119",
+      "OrderQty" : 25.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 16.5,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "X SMALL",
+      "ProductColorDescription" : "WHITE"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 98.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 34.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "BALLOON SLV SMOC"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "9999"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0789",
+        "Qty" : 25.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "18",
+      "VendorPartNumber" : "16372",
+      "ConsumerPackageCode" : "810094065126",
+      "OrderQty" : 50.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 16.5,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "SMALL",
+      "ProductColorDescription" : "WHITE"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 98.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 34.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "BALLOON SLV SMOC"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "9999"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0789",
+        "Qty" : 50.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "19",
+      "VendorPartNumber" : "16372",
+      "ConsumerPackageCode" : "810094065133",
+      "OrderQty" : 50.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 16.5,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "MEDIUM",
+      "ProductColorDescription" : "WHITE"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 98.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 34.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "BALLOON SLV SMOC"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "9999"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0789",
+        "Qty" : 50.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "20",
+      "VendorPartNumber" : "16372",
+      "ConsumerPackageCode" : "810094065140",
+      "OrderQty" : 25.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 16.5,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "LARGE",
+      "ProductColorDescription" : "WHITE"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 98.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 34.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "BALLOON SLV SMOC"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "9999"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0789",
+        "Qty" : 25.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "21",
+      "VendorPartNumber" : "16372",
+      "ConsumerPackageCode" : "810094065157",
+      "OrderQty" : 20.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 16.5,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "X SMALL",
+      "ProductColorDescription" : "FRENCH BLU"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 98.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 34.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "BALLOON SLV SMOC"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "9999"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0789",
+        "Qty" : 20.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "22",
+      "VendorPartNumber" : "16372",
+      "ConsumerPackageCode" : "810094065164",
+      "OrderQty" : 40.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 16.5,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "SMALL",
+      "ProductColorDescription" : "FRENCH BLU"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 98.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 34.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "BALLOON SLV SMOC"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "9999"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0789",
+        "Qty" : 40.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "23",
+      "VendorPartNumber" : "16372",
+      "ConsumerPackageCode" : "810094065171",
+      "OrderQty" : 40.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 16.5,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "MEDIUM",
+      "ProductColorDescription" : "FRENCH BLU"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 98.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 34.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "BALLOON SLV SMOC"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "9999"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0789",
+        "Qty" : 40.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "24",
+      "VendorPartNumber" : "16372",
+      "ConsumerPackageCode" : "810094065188",
+      "OrderQty" : 20.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 16.5,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "LARGE",
+      "ProductColorDescription" : "FRENCH BLU"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 98.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 34.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "BALLOON SLV SMOC"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "9999"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0789",
+        "Qty" : 20.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  } ],
+  "Summary" : {
+    "TotalLineItemNumber" : 24
+  }
+}

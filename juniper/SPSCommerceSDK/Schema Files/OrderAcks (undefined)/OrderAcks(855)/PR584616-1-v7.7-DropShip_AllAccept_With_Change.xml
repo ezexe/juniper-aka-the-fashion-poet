@@ -1,0 +1,76 @@
+<OrderAck>
+	<Header>
+		<OrderHeader>
+			<TradingPartnerId>SPSALLTESTID</TradingPartnerId>
+			<PurchaseOrderNumber>PO584616-1</PurchaseOrderNumber>
+			<TsetPurposeCode>00</TsetPurposeCode>
+			<PurchaseOrderDate>2020-12-01</PurchaseOrderDate>
+			<AcknowledgementType>AC</AcknowledgementType>
+			<AcknowledgementDate>2020-12-02</AcknowledgementDate>
+			<BuyersCurrency>USD</BuyersCurrency>
+			<Department>SPS</Department>
+			<Vendor>VEND6174</Vendor>
+			<CustomerOrderNumber>98745612</CustomerOrderNumber>
+		</OrderHeader>
+		<Dates>
+			<DateTimeQualifier>002</DateTimeQualifier>
+			<Date>2020-12-20</Date>
+			<Time>14:22:14</Time>
+		</Dates>
+		<Address>
+			<AddressTypeCode>ST</AddressTypeCode>
+			<AddressName>SPS Commerce</AddressName>
+			<Address1>333 S 7th Street</Address1>
+			<Address2>Suite 1000</Address2>
+			<City>Minneapolis</City>
+			<State>MN</State>
+			<PostalCode>55402</PostalCode>
+			<Country>USA</Country>
+		</Address>
+		<References>
+			<ReferenceQual>CT</ReferenceQual>
+			<ReferenceID>5987-1</ReferenceID>
+			<Description>Customer Contract Number</Description>
+		</References>
+	</Header>
+	<LineItem>
+		<OrderLine>
+			<LineSequenceNumber>1</LineSequenceNumber>
+			<BuyerPartNumber>SPSBuyerItem1</BuyerPartNumber>
+			<VendorPartNumber>SPSSupplierHD-20</VendorPartNumber>
+			<ConsumerPackageCode>859563003863</ConsumerPackageCode>
+			<GTIN>00859563003863</GTIN>
+			<UPCCaseCode>496099966745</UPCCaseCode>
+			<OrderQty>1</OrderQty>
+			<OrderQtyUOM>EA</OrderQtyUOM>
+			<PurchasePrice>20</PurchasePrice>
+		</OrderLine>
+		<LineItemAcknowledgement>
+			<ItemStatusCode>IA</ItemStatusCode>
+			<ItemScheduleQty>1</ItemScheduleQty>
+			<ItemScheduleUOM>EA</ItemScheduleUOM>
+			<ItemScheduleQualifier>068</ItemScheduleQualifier>
+			<ItemScheduleDate>2020-12-15</ItemScheduleDate>
+		</LineItemAcknowledgement>
+		<PriceInformation>
+			<PriceTypeIDCode>RTL</PriceTypeIDCode>
+			<UnitPrice>60</UnitPrice>
+		</PriceInformation>
+		<ProductOrItemDescription>
+			<ProductCharacteristicCode>08</ProductCharacteristicCode>
+			<ProductDescription>Sample Description1</ProductDescription>
+		</ProductOrItemDescription>
+		<References>
+			<ReferenceQual>MR</ReferenceQual>
+			<ReferenceID>MerchandiseTypeCode</ReferenceID>
+		</References>
+		<Notes>
+			<NoteCode>GEN</NoteCode>
+			<Note>Gift Message: Happy Birthday!</Note>
+		</Notes>
+	</LineItem>
+	<Summary>
+		<TotalAmount>20</TotalAmount>
+		<TotalLineItemNumber>1</TotalLineItemNumber>
+	</Summary>
+</OrderAck>

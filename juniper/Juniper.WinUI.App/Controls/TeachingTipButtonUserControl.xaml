@@ -1,0 +1,58 @@
+﻿<UserControl
+    x:Class="Juniper.WinUI.App.Controls.TeachingTipButtonUserControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="using:Juniper.WinUI.App.Controls"
+             xmlns:interactionCore="using:Microsoft.Xaml.Interactions.Core"
+             xmlns:interaction="using:Microsoft.Xaml.Interactivity"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid VerticalAlignment="Stretch"
+          HorizontalAlignment="Stretch">
+        <Button x:Name="ButtonRoot"
+                Style="{StaticResource DateTimePickerFlyoutButtonStyle}"
+                VerticalAlignment="Stretch"
+                HorizontalAlignment="Stretch">
+            <interaction:Interaction.Behaviors>
+                <interactionCore:EventTriggerBehavior EventName="Click">
+                    <interactionCore:ChangePropertyAction TargetObject="{x:Bind TTRoot}"
+                                                          PropertyName="IsOpen"
+                                                          Value="True" />
+                </interactionCore:EventTriggerBehavior >
+            </interaction:Interaction.Behaviors>
+            <Button.Resources>
+                <TeachingTip x:Name="TTRoot"
+                             Background="{ThemeResource AcrylicInAppFillColorDefaultBrush}"
+                             BorderBrush="{ThemeResource AcrylicInAppFillColorDefaultBrush}"
+                             Target="{x:Bind ButtonRoot}">
+                    <TeachingTip.Content>
+                        <Grid>
+                            <Grid.Resources>
+                                <CollectionViewSource x:Name="ListCSV"
+                                                      Source="{x:Bind ItemsSource,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}"
+                                                      IsSourceGrouped="True" />
+                            </Grid.Resources>
+                            <ListView ItemsSource="{x:Bind ListCSV.View, Mode=OneWay}"
+                                      ItemTemplate="{x:Bind ItemTemplate}"
+                                      ItemsPanel="{StaticResource GroupInfoListItemsPanelTemplate}">
+                                <ListView.GroupStyle>
+                                    <GroupStyle HeaderTemplate="{x:Bind GroupHeaderTemplate}" />
+                                </ListView.GroupStyle>
+                            </ListView>
+                        </Grid>
+                    </TeachingTip.Content>
+                </TeachingTip>
+            </Button.Resources>
+            <Button.Content>
+                <StackPanel>
+                    <SymbolIcon Symbol="{x:Bind ItemSymbol}" />
+                    <TextBlock HorizontalAlignment="Center"
+                               Margin="4,2,0,0"
+                               Text="{x:Bind ItemText,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" />
+                </StackPanel>
+            </Button.Content>
+        </Button>
+    </Grid>
+</UserControl>

@@ -1,0 +1,239 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows10.0.19041.0</TargetFramework>
+    <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+    <RootNamespace>Juniper.WinUI.App</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Platforms>x86;x64;arm64</Platforms>
+    <RuntimeIdentifiers>win10-x86;win10-x64;win10-arm64</RuntimeIdentifiers>
+    <PublishProfile>win10-$(Platform).pubxml</PublishProfile>
+    <UseWinUI>true</UseWinUI>
+    <EnablePreviewMsixTooling>true</EnablePreviewMsixTooling>
+    <GenerateAppInstallerFile>False</GenerateAppInstallerFile>
+    <AppxPackageSigningEnabled>True</AppxPackageSigningEnabled>
+    <PackageCertificateKeyFile>Juniper.WinUI.App_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <AppxPackageSigningTimestampDigestAlgorithm>SHA256</AppxPackageSigningTimestampDigestAlgorithm>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxSymbolPackageEnabled>True</AppxSymbolPackageEnabled>
+    <GenerateTestArtifacts>True</GenerateTestArtifacts>
+    <AppxBundle>Never</AppxBundle>
+    <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
+    <AppxPackageDir>C:\Users\elimd\OneDrive\Juniper\</AppxPackageDir>
+	  <!--<EnableDefaultPageItems>false</EnableDefaultPageItems>
+	   <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+	  <EnableDefaultItems>false</EnableDefaultItems>
+	  <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+	  <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
+	  <EnableDefaultNoneItems>false</EnableDefaultNoneItems>-->
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Controls\AddableButtonUserControl.xaml" />
+    <None Remove="Controls\AddableGridViewUserControl.xaml" />
+    <None Remove="Controls\AddableListViewUserControl.xaml" />
+    <None Remove="Controls\AddressFieldsUserControl.xaml" />
+    <None Remove="Controls\CanFilterUserControl.xaml" />
+    <None Remove="Controls\CanSendDocumentsUserControl.xaml" />
+    <None Remove="Controls\DateFilterUserControl.xaml" />
+    <None Remove="Controls\HasIncrementalsListUserControl.xaml" />
+    <None Remove="Controls\PageHeaderUserControl.xaml" />
+    <None Remove="Controls\PageTitleHeaderUserControl.xaml" />
+    <None Remove="Controls\RemoveableItemUserControl.xaml" />
+    <None Remove="Controls\SemanticZoomBaseUserControl.xaml" />
+    <None Remove="Controls\TeachingTipButtonUserControl.xaml" />
+    <None Remove="Controls\TitledFieldsUserControl.xaml" />
+    <None Remove="ItemTemplates.xaml" />
+    <None Remove="Navigation\NavigationRootPage.xaml" />
+    <None Remove="Pages\850Page.xaml" />
+    <None Remove="Pages\ASNPage.xaml" />
+    <None Remove="Pages\InvoicePage.xaml" />
+    <None Remove="Pages\InvoicesPage.xaml" />
+    <None Remove="Pages\OrdersPage.xaml" />
+    <None Remove="Pages\PDFRenderingPage.xaml" />
+    <None Remove="Pages\PurchaseOrderPage.xaml" />
+    <None Remove="Pages\SendMultiInvoicePreviewPage.xaml" />
+    <None Remove="Pages\SettingsPage.xaml" />
+    <None Remove="Pages\ShipmentsPage.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="..\SPSCommerceSDK\Fields\fields.json" Link="Assets\fields\fields.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\SPSCommerceSDK\Fields\InvoiceFields.json" Link="Assets\fields\InvoiceFields.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\SPSCommerceSDK\Schema Files\Orders (undefined) json\Bloomingdales 850 PO 5358685.json" Link="Assets\Bloomingdales 850 PO 5358685.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\SPSCommerceSDK\Schema Files\Orders (undefined) json\Nordstrom 850 PO 32263980.json" Link="Assets\Nordstrom 850 PO 32263980.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SplashScreen.scale-200.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\LockScreenLogo.scale-200.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Square150x150Logo.scale-200.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Square44x44Logo.scale-200.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\StoreLogo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Wide310x150Logo.scale-200.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Adobe.PDFServicesSDK" Version="2.2.1" />
+    <PackageReference Include="CommunityToolkit.WinUI" Version="7.1.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+	  <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.1.4" />
+	  <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.22621.1" />
+    <PackageReference Include="Microsoft.Xaml.Behaviors.WinUI.Managed" Version="2.0.8" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="6.0.0" />
+    <Manifest Include="$(ApplicationManifest)" />
+  </ItemGroup>
+
+  <!-- Defining the "Msix" ProjectCapability here allows the Single-project MSIX Packaging
+       Tools extension to be activated for this project even if the Windows App SDK Nuget
+       package has not yet been restored -->
+  <ItemGroup Condition="'$(DisableMsixProjectCapabilityAddedByProject)'!='true' and '$(EnablePreviewMsixTooling)'=='true'">
+    <ProjectCapability Include="Msix" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Juniper.Core\Juniper.Core.csproj" />
+    <ProjectReference Include="..\SPSCommerceSDK\SPSCommerceSDK.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Controls\AddressFieldsUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Controls\PageHeaderUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\fields\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Controls\RemoveableItemUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+	  <Page Update="Controls\SemanticZoomBaseUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Update="Controls\DateFilterUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Update="Controls\CanFilterUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Update="Controls\TeachingTipButtonUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Update="Controls\HasIncrementalsListUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Update="Controls\TitledFieldsUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Update="Controls\AddableGridViewUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Update="Controls\CanSendDocumentsUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Update="Controls\PageTitleHeaderUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Update="Controls\AddableButtonUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Update="Controls\AddableListViewUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <None Update="Data\ControlInfoData.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Page Update="Pages\850Page.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Update="Pages\SendMultiInvoicePreviewPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Update="Pages\PDFRenderingPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Update="Pages\InvoicesPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Update="Pages\ShipmentsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Update="ItemTemplates.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Update="Pages\InvoicePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Update="Pages\ASNPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Update="Pages\PurchaseOrderPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Update="Pages\OrdersPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Update="Pages\SettingsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Navigation\NavigationRootPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Update="Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\SPSCommerceSDK\Schema Files\Shipping_-_Store_to_DC_Listing_for_Small_Ticket_Merchandise.xls" Link="Assets\Shipping_-_Store_to_DC_Listing_for_Small_Ticket_Merchandise.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="..\SPSCommerceSDK\Schema Files\Shipping_-_Store_to_DC_Listing_for_Small_Ticket_Merchandise.xls - Bloomingdale's Outlet.csv" Link="Assets\Shipping_-_Store_to_DC_Listing_for_Small_Ticket_Merchandise.xls - Bloomingdale%27s Outlet.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="..\SPSCommerceSDK\Schema Files\Shipping_-_Store_to_DC_Listing_for_Small_Ticket_Merchandise.xls - Bloomingdale's.csv" Link="Assets\Shipping_-_Store_to_DC_Listing_for_Small_Ticket_Merchandise.xls - Bloomingdale%27s.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="..\SPSCommerceSDK\Schema Files\UPC%27s.xlsx" Link="Assets\UPC%27s.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="..\SPSCommerceSDK\Schema Files\UPC's.xlsx - UPC.csv" Link="Assets\UPC%27s.xlsx - UPC.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="Assets\Saks Store_DC Address List.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

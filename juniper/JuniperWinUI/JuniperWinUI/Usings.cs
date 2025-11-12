@@ -1,0 +1,11 @@
+﻿global using Windows.ApplicationModel.Core;
+global using Microsoft.Toolkit.Mvvm.ComponentModel;
+global using Microsoft.Toolkit.Mvvm.DependencyInjection;
+global using Microsoft.Toolkit.Mvvm.Input;
+global using Microsoft.Toolkit.Mvvm.Messaging;
+global using Juniper.Core.Services;
+global using Microsoft.Extensions.DependencyInjection;
+global using JuniperWinUI.Services;
+global using Juniper.Core.ViewModels;
+global using Windows.Foundation.Collections;
+global using Windows.Storage;

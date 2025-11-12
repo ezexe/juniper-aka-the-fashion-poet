@@ -1,0 +1,57 @@
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Bloomingdale's Outlet,,,,,,,,,
+,,,,,,,,,
+ Department 835 Fine Jewelry Vendors see Routing Guide,,,,,,,,,
+,,,,,,,,,
+,ALPHA,STORE ,MALL NAME/,,,,,EFFECTIVE,
+DIV,DC LOC,NUMBER,STORE NAME,ADDRESS,CITY,STATE,ZIP,DATE,COMMENTS
+BOS,JP,0038,Potomac Mills Outlet,2700 Potomac Mills Circle,Woodbridge,VA,22192,,
+BOS,CL,0075,Woodfield Outlet,1488 East Golf Rd,Schaumburg,IL,60173,,
+BOS,CL,0076,Rosemont Outlet,5220 Rose Street,Rosemont,IL,60018,,
+BOS,SC,0120,Riverhead Tanger Outlet Center,1170 W. Main Street Suite 912,Riverhead,NY,11901,Spring 2021,New Store Opening
+BOS,CL,0142,Northbrook,145 Skokie Boulevard,Northbrook,IL,60062,Fall 2019,New Store Opening
+BOS,SC,0151,Bergen Town Center Outlet,260 Bergen Town Center,Paramus,NJ,07652,,
+BOS,SC,0152,Gallery at Westbury ,900 Old Country Road ,Garden City,NY,11530,,
+BOS,SC,0153,Upper West Side,2085 Broadway,New York,NY,10023,,
+BOS,SC,0154,Liberty Place,1625 Chestnut Street ,Philadelphia ,PA,19103,,
+BOS,SC,0155,Jersey Gardens ,651 Kapkowski Road Unit 60,Elizabeth ,NJ,07201,Fall 2021,New Store Opening
+BOS,ST,0160,Sawgrass Mills Outlet,12801 W Sunrise Blvd,Sunrise,FL,33323,3/29/2021,"Serviced by ST, effective March 29, 2021"
+BOS,ST,0161,Dolphin Outlet,11401 NW 12th Street,Miami,FL,33172,3/29/2021,"Serviced by ST, effective March 29, 2021"
+BOS,ST,0162,Miromar Outlet,10801 Corkscrew Rd #163,Estero,FL,33928,3/29/2021,"Serviced by ST, effective March 29, 2021"
+BOS,HU,0170,Shops at Park Lane,8180 Park Lane Suite C140 ,Park Lane,TX,75231,,
+BOS,HU,0171,Paragon Grand Prairie,120 & Great Southwest Pkwy,Grand Prairie,TX,75052,,
+BOS,SW,0180,Wrentham Outlet,One Premium Outlets Blvd,Wrentham,MA,02093,,
+BOS,SW,0181,Merrimack Outlets,80 Premium Outlets Suite 0599,Merrimack,NH,03054,,
+BOS,HA,0190,Paragon Livermore Valley,3130 Livermore Outlets Drive,Livermore,CA,94551,,
+BOS,CI,0191,Mission Valley,1646 Camino del Rio North Suite FSU13,San Diego ,CA ,92108,,
+BOS,CI,0192,Outlets at Orange Center,20 City Boulevard West,Orange,CA,92868,,
+BOS,CI,0193,Beverly Connection Center,100 North La Cieniga Boulevard,Los Angeles,CA,90048,,
+BOS,CI,0194,Metro Pointe,901 South Coast Drive,Costa Mesa,CA,92626,Fall 2019,New Store Opening
+BOS,CI,0195,Woodland Hills,21494 Victory Blvd,Woodland Hills,CA,91367,Spring 2020,New Store Opening
+,,,,,,,,,
+Pool Stock Locations,,,,,,,,,
+BOS,CI,0057,Los Angeles Pool Stock,15541 East Gale Ave,City of Industry,CA,91745,,
+BOS,SC,0056,Upper West Side Pool Stock,500 Meadowlands Pkwy,Secaucus,NJ,07094,,
+BOS,CL,0089,Minooka Pool Stock,601 Midpoint Road ,Minooka,IL,60447,,
+BOS,HA,0066,Hayward Pool Stock,28701 Hall Rd,Hayward,CA,94545,,
+BOS,HU,0069,Houston Pool Stock,2103 Ernestine,Houston ,TX,77023,,
+BOS,JP,0079,Joppa Pool Stock,3300 Fashion Way,Joppa,MD,21085,,
+BOS,SC,0078,Secaucus Pool Stock,500 Meadowlands Pkwy,Secaucus,NJ,07094,,
+BOS,ST,0080,Stone Mountain Pool Stock,4401 Sarr Pkwy,Stone Mountain,GA,30083,3/30/2021,Name and Location Change
+BOS,SW,0084,South Windsor Pool Stock,301 Governors Highway,South Windsor ,CT,06074,,
+BOS,CD,0138,Cheshire Pool Stock/Customer Fulfillment Center,475 Knotter Dr,Cheshire,CT,06410,07/29/20,
+,,,,,,,,,
+Small Ticket DC Locations - Alpha DC location should be transmitted in the 856 (ASN) Document,,,,,,,,,
+BOS,CD,,Cheshire DC,475 Knotter Dr,Cheshire ,CT,06410,,
+BOS,CI,,Los Angeles DC,15541 East Gale Ave,City of Industry,CA,91745,,
+BOS,CL,,Minooka DC  ,601 Midpoint Road ,Minooka,IL,60447,,
+BOS,GN,,Gandy DC,4130 W Gandy Blvd,Tampa,FL,33611,12/28/2020,Closing Spring 2021
+BOS,HA,,Hayward DC,28701 Hall Rd,Hayward,CA,94545,,
+BOS,HU,,Houston DC,2103 Ernestine,Houston ,TX,77023,,
+BOS,JP,,Joppa DC,3300 Fashion Way,Joppa,MD,21085,,
+BOS,SC,,Secaucus DC,500 Meadowlands Pkwy,Secaucus,NJ,07094,,
+BOS,ST,,Stone Mountain DC,4401 Sarr Pkwy,Stone Mountain,GA,30083,,
+BOS,SW,,South Windsor DC,301 Governors Highway,South Windsor ,CT,06074,,

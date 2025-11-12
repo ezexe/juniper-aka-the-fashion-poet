@@ -1,0 +1,326 @@
+﻿<Page x:Class="Juniper.WinUI.App.Pages.PurchaseOrderPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:Juniper.WinUI.App.Pages"
+      xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
+      xmlns:models="using:Juniper.Core.Models"
+      xmlns:viewModels="using:Juniper.Core.ViewModels"
+      xmlns:interfaces="using:Juniper.Core.Interfaces"
+      xmlns:interactionCore="using:Microsoft.Xaml.Interactions.Core"
+      xmlns:interaction="using:Microsoft.Xaml.Interactivity"
+      xmlns:userControls="using:Juniper.WinUI.App.Controls"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d">
+    <Grid Padding="{StaticResource PageDefaultPadding}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Margin="{StaticResource ActionsPaddingUpDown}">
+        <TextBlock Style="{StaticResource TitleTextBlockStyle11}"
+                   VerticalAlignment="Center">
+            <Run Text="{x:Bind ViewModel.DisplayName}" /> 
+        </TextBlock>
+            <TextBlock Margin="{StaticResource ActionsPaddingSmall}">
+                <Run Text="Purchase Order #" />
+                 <Run Text="{x:Bind ViewModel.POData.Order.Header.OrderHeader.PurchaseOrderNumber}" />
+            </TextBlock>
+        </StackPanel>
+
+        <Frame x:Name="contentFrame"
+               Grid.Row="1"
+               Grid.Column="1"
+               HorizontalAlignment="Stretch"
+               HorizontalContentAlignment="Stretch" />
+
+        <Grid x:Name="SplitList"
+              Grid.Row="1"
+              Grid.Column="0"
+              VerticalAlignment="Top"
+              HorizontalAlignment="Left"
+              Width="{StaticResource MultipleOf4RectWidthXXMedium}"
+              Margin="{StaticResource ActionsXXLargePaddingDown}"
+              Padding="{StaticResource ActionsPadding}"
+              BorderThickness="{StaticResource ControlBorderThickness}"
+              CornerRadius="{StaticResource ControlCornerRadius}"
+              BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
+              Background="{ThemeResource CardBackgroundFillColorDefaultBrush}">
+            <Grid.Resources>
+                <DataTemplate x:Key="FolderTemplate"
+                              x:DataType="viewModels:ASNViewModel">
+                    <TreeViewItem ItemsSource="{x:Bind InvoiceViewModels}">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Orientation="Horizontal">
+                                <SymbolIcon Symbol="Map"
+                                            Margin="{StaticResource ActionsPaddingRight}" />
+                                <TextBlock Text="{x:Bind StringId}"
+                                           Style="{StaticResource SubtitleTextBlockStyle}" />
+                            </StackPanel>
+                            
+                            <Grid Grid.Column="1"
+                                  VerticalAlignment="Top"
+                                  CornerRadius="{StaticResource ControlCornerRadius}"
+                                  Visibility="{Binding Status,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged, Converter={StaticResource DocumentStatusToEnabledConverter}, ConverterParameter=StatusVisual}">
+                                <Ellipse Fill="{ThemeResource SystemAccentColorDark1}"
+                                         Width="{StaticResource smallIconElementSize}"
+                                         Height="{StaticResource smallIconElementSize}" />
+                            </Grid>
+                        </Grid>
+                    </TreeViewItem>
+                </DataTemplate>
+
+                <DataTemplate x:Key="FileTemplate"
+                              x:DataType="viewModels:InvoiceViewModel">
+                    <TreeViewItem>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Orientation="Horizontal">
+                                <SymbolIcon Symbol="Document"
+                                            Margin="{StaticResource ActionsPaddingRight}" />
+                                <TextBlock Text="{x:Bind StringId}"
+                                           FontSize="18"
+                                           FontWeight="Medium"
+                                           Style="{StaticResource BodyTextBlockStyle}" />
+                            </StackPanel>
+                            
+                            <Grid Grid.Column="1"
+                                  VerticalAlignment="Top"
+                                  CornerRadius="{StaticResource ControlCornerRadius}"
+                                  Visibility="{Binding Status,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged, Converter={StaticResource DocumentStatusToEnabledConverter}, ConverterParameter=StatusVisual}">
+                                <Ellipse Fill="{ThemeResource SystemAccentColorDark1}"
+                                         Width="{StaticResource smallIconElementSize}"
+                                         Height="{StaticResource smallIconElementSize}" />
+                            </Grid>
+                        </Grid>
+                    </TreeViewItem>
+                </DataTemplate>
+
+                <local:DocumentItemTemplateSelector x:Key="ExplorerItemTemplateSelector"
+                                                    ShipmentTemplate="{StaticResource FolderTemplate}"
+                                                    InvoiceTemplate="{StaticResource FileTemplate}" />
+                
+                <Style TargetType="AppBarButton">
+                    <Setter Property="LabelPosition"
+                            Value="Default" />
+                    <Setter Property="Margin"
+                            Value="0" />
+                </Style>
+            </Grid.Resources>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Documents"
+                           Style="{StaticResource TitleTextBlockStyle}"
+                           Margin="{StaticResource ActionsPaddingLeft}"
+                           FontSize="22"
+                           LineHeight="32"
+                           VerticalAlignment="Center" />
+                <CommandBar DefaultLabelPosition="Collapsed"
+                            Grid.Column="1">
+                <AppBarButton LabelPosition="Collapsed"
+                              Grid.Column="1"
+                              Icon="Add"
+                              VerticalAlignment="Center"
+                              HorizontalAlignment="Right">
+                    <AppBarButton.Flyout>
+                        <MenuFlyout>
+                            <MenuFlyoutItem Icon="Map"
+                                            Text="Shipment"
+                                            ToolTipService.ToolTip="Create New ASN"
+                                            Command="{x:Bind ViewModel.OnCommand}"
+                                            CommandParameter="CommandCreateASN" />
+                            <MenuFlyoutItem Icon="Document"
+                                            Text="Single Invoice"
+                                            ToolTipService.ToolTip="Will create 1 invoice combining all stores in the asn."
+                                            Command="{x:Bind ViewModel.OnCommand}"
+                                            CommandParameter="CommandCreateInvoice" />
+                            <MenuFlyoutItem Icon="TwoPage"
+                                            Text="Multiple Invoices"
+                                            ToolTipService.ToolTip="Will create 1 invoice for every store in the asn."
+                                            Command="{x:Bind ViewModel.OnCommand}"
+                                            CommandParameter="CommandCreateMultipleInvoice" />
+                        </MenuFlyout>
+                    </AppBarButton.Flyout>
+                </AppBarButton>
+
+                <AppBarToggleButton x:Name="ToggleSwitch2"
+                                    Grid.Column="2"
+                                    Icon="Bullets"
+                                    LabelPosition="Collapsed"
+                                    VerticalAlignment="Center"
+                                    HorizontalAlignment="Right"
+                                    Click="ToggleSwitch2_Click">
+                    <!--<Viewbox MaxWidth="{StaticResource SquareButtonIconSmall}"
+                             MaxHeight="{StaticResource SquareButtonIconSmall}">
+                        <SymbolIcon Symbol="Bullets" />
+                    </Viewbox>-->
+                    </AppBarToggleButton>
+                </CommandBar>
+            </Grid>
+            
+            <TreeView x:Name="TrvDocuments"
+                      Grid.Row="1"
+                      Visibility="Visible"
+                      SelectionMode="Single"
+                      ItemTemplateSelector="{StaticResource ExplorerItemTemplateSelector}"
+                      ItemsSource="{x:Bind ViewModel.ASNCollection}"
+                      SelectedItem="{x:Bind TreeViewSelectedItem,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" />
+
+            <CommandBar x:Name="CBshipments"
+                        Grid.Row="2"
+                        DefaultLabelPosition="Collapsed"
+                        Visibility="Collapsed">
+                <!--<AppBarButton Icon="Add"
+                              Label="New Invoice"
+                              ToolTipService.ToolTip="Create New Invoice">
+                    <AppBarButton.Flyout>
+                        <MenuFlyout>
+                            <MenuFlyoutItem Icon="Document"
+                                            Text="Single"
+                                            ToolTipService.ToolTip="Will create 1 invoice combining all stores in the asn."
+                                            Command="{x:Bind ViewModel.OnCommand}"
+                                            CommandParameter="CommandCreateInvoice" />
+                            <MenuFlyoutItem Icon="TwoPage"
+                                            Text="Multiple"
+                                            ToolTipService.ToolTip="Will create 1 invoice for every store in the asn."
+                                            Command="{x:Bind ViewModel.OnCommand}"
+                                            CommandParameter="CommandCreateMultipleInvoice" />
+                        </MenuFlyout>
+                    </AppBarButton.Flyout>
+                </AppBarButton>-->
+
+                <AppBarButton x:Name="AbbPackingList"
+                              Label="Packing List"
+                              Icon="List"
+                              ToolTipService.ToolTip="Create Packing List For the Selected Shipments">
+                    <AppBarButton.Flyout>
+                        <MenuFlyout>
+                            <MenuFlyoutItem Icon="TwoPage"
+                                            Text="Multiple Files"
+                                            ToolTipService.ToolTip="Create packing list for selected shipments in sepertae files"
+                                            Click="AbbPackingList_Click" />
+                            <MenuFlyoutItem Icon="Document"
+                                            Text="Single file"
+                                            ToolTipService.ToolTip="Create packing list for selected shipments in one files"
+                                            Click="AbbPackingListSingle_Click"/>
+                        </MenuFlyout>
+                    </AppBarButton.Flyout>
+                </AppBarButton>
+
+                <AppBarButton x:Name="AbbLabels"
+                              Label="Labels"
+                              Icon="Print"
+                              ToolTipService.ToolTip="Create Shipping Labels For Selected Shipments"
+                              Click="AbbLabels_Click" />
+
+                <AppBarButton Icon="Send"
+                              Label="Send"
+                              ToolTipService.ToolTip="Send selected documents"
+                              IsEnabled="{x:Bind ViewModel.IsActionsEnabled,Mode=OneWay}">
+                    <AppBarButton.Flyout>
+                        <MenuFlyout>
+                            <MenuFlyoutItem Icon="Map"
+                                            Text="Selected Shipments"
+                                            ToolTipService.ToolTip="Send shipping documents(856) for selected shipments"
+                                            Click="AsnMenuFlyoutItem_Click" />
+                            <MenuFlyoutItem Icon="Document"
+                                            Text="Selected Invoices"
+                                            ToolTipService.ToolTip="Send invoice documents(810) for selected invoices"
+                                            Click="InvMenuFlyoutItem_Click" />
+                        </MenuFlyout>
+                    </AppBarButton.Flyout>
+                </AppBarButton>
+            </CommandBar>
+
+            <!--<userControls:HasIncrementalsListUserControl x:Name="HILShipments"
+                                                         Visibility="Visible"
+                                                         Grid.Row="0"
+                                                         TitleHeader="Shipments"
+                                                         ItemsSource="{x:Bind ViewModel.ASNCollection}"
+                                                         SelectedItemsSource="{x:Bind ViewModel.SelectedASNViewModel,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}">
+                <userControls:HasIncrementalsListUserControl.Options>
+                    <CommandBar DefaultLabelPosition="Bottom">
+                        <AppBarButton Command="{x:Bind ViewModel.OnCommand}"
+                                      CommandParameter="CommandCreateASN"
+                                      Grid.Row="1"
+                                      Icon="Add"
+                                      Label="New ASN"
+                                      ToolTipService.ToolTip="Create New ASN" />
+                        
+                        <AppBarButton x:Name="AbbPackingList"
+                                      Label="Packing List"
+                                      Icon="List"
+                                      ToolTipService.ToolTip="Create Packing List For the Selected Shipments"
+                                      Click="abbPackingList_Click"/>
+
+                        <AppBarButton x:Name="AbbLabels"
+                                      Label="Labels"
+                                      Icon="Print"
+                                      ToolTipService.ToolTip="Create Shipping Labels For Selected Shipments"
+                                      Click="AbbLabels_Click" />
+                    </CommandBar>
+                </userControls:HasIncrementalsListUserControl.Options>
+            </userControls:HasIncrementalsListUserControl>
+
+            <userControls:HasIncrementalsListUserControl x:Name="HILInvoices"
+                                                         Visibility="Visible"
+                                                         Grid.Row="1"
+                                                         TitleHeader="Invoices"
+                                                         ItemsSource="{x:Bind ViewModel.InvoiceViewModels,Mode=OneWay}"
+                                                         SelectedItemsSource="{x:Bind ViewModel.SelectedInvoiceViewModel,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}">
+                <userControls:HasIncrementalsListUserControl.Options>
+                    <CommandBar DefaultLabelPosition="Bottom">
+                        <AppBarButton Icon="Add"
+                                      Label="New Invoice"
+                                      ToolTipService.ToolTip="Create New Invoice">
+                            <AppBarButton.Flyout>
+                                <MenuFlyout>
+                                    <MenuFlyoutItem Icon="Document"
+                                                    Text="Single"
+                                                    ToolTipService.ToolTip="Will create 1 invoice combining all stores in the asn."
+                                                    Command="{x:Bind ViewModel.OnCommand}"
+                                                    CommandParameter="CommandCreateInvoice" />
+                                    <MenuFlyoutItem Icon="TwoPage"
+                                                    Text="Multiple"
+                                                    ToolTipService.ToolTip="Will create 1 invoice for every store in the asn."
+                                                    Command="{x:Bind ViewModel.OnCommand}"
+                                                    CommandParameter="CommandCreateMultipleInvoice" />
+                                </MenuFlyout>
+                            </AppBarButton.Flyout>
+                        </AppBarButton>
+
+                        <AppBarButton Icon="Send"
+                                      Label="Send"
+                                      ToolTipService.ToolTip="Send selected invoices"
+                                      Click="AppBarButton_Click"
+                                      IsEnabled="{x:Bind ViewModel.IsActionsEnabled,Mode=OneWay}" />
+                    </CommandBar>
+                </userControls:HasIncrementalsListUserControl.Options>
+            </userControls:HasIncrementalsListUserControl>-->
+        </Grid>
+
+    </Grid>
+</Page>

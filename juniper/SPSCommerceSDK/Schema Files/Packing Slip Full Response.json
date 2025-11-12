@@ -1,0 +1,726 @@
+{
+  "status": "ok",
+  "templates": [
+    {
+      "canRender": false,
+      "description": "",
+      "id": "874e5ad9",
+      "name": "Aafes Through Vendor Net",
+      "ownerID": "26449545546219762962361247758650817067",
+      "ownerName": "AAFES Direct to Consumer through VendorNet",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "9ea91fa6",
+      "name": "Academy Sports Drop Ship Through Vendornet",
+      "ownerID": "187624329616040162404135185554827078110",
+      "ownerName": "Academy Sports Drop Ship Through Vendornet",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "96e95008",
+      "name": "Ace Hardware",
+      "ownerID": "95071442673129472633062150693899942348",
+      "ownerName": "ACE HARDWARE",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "933bae39",
+      "name": "Amazon.com",
+      "ownerID": "70132919753047667723117840396213025861",
+      "ownerName": "AMAZON.COM",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "f14591e8",
+      "name": "Amazon Marketplace",
+      "ownerID": "315128064632805656503110027745424314275",
+      "ownerName": "Amazon Marketplace",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "4cea315f",
+      "name": "AMERIMARK Direct",
+      "ownerID": "306721386843428390010452086013604328793",
+      "ownerName": "AMERIMARK Direct",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "27d79c11",
+      "name": "Ashley Furniture",
+      "ownerID": "285626440038258459201420872274459153917",
+      "ownerName": "Ashley Furniture",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "361a8f0c",
+      "name": "Babylist",
+      "ownerID": "162329650998704120969686120099339640381",
+      "ownerName": "Babylist",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "acccc551",
+      "name": "Bass Pro",
+      "ownerID": "125717426732194819842741041419235120175",
+      "ownerName": "Bass Pro",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "Logo will generate off the codes inputted into the Division field: BBB(BedBathandBeyond),BAB(BuyBuyBaby),BBB-CA(BedBathandBeyondCANADA),BAB-CA(ByeByeBabyCANADA)\nIf LTL is the method of shipping, 'LT' should be entered in the CarrierTransMethodCode field",
+      "id": "3cca4a46",
+      "name": "Bed, Bath & Beyond (Commerce Hub)",
+      "ownerID": "259889492215541937588155479921848612835",
+      "ownerName": "Bed, Bath & Beyond (Commerce Hub)",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "49bc51f6",
+      "name": "BestBuy.com through Commerce Hub",
+      "ownerID": "93508480887018818742771755089393425884",
+      "ownerName": "BestBuy.com through Commerce Hub",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "243654ce",
+      "name": "Bloomingdales",
+      "ownerID": "101318959921645378165218948388130990959",
+      "ownerName": "Bloomingdales",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "To reflect the appropriate retailer business entity on your packingslip, please input either 'Fingerhut' or 'Gettington' within the division field",
+      "id": "41874f98",
+      "name": "Bluestem Brands, Inc. through Commerce Hub",
+      "ownerID": "31503745752702460368568893851929012920",
+      "ownerName": "Bluestem Brands, Inc. through Commerce Hub",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "a7961c14",
+      "name": "BuildDirect.com",
+      "ownerID": "216738079605788806025736227407631581882",
+      "ownerName": "BuildDirect.com",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "64365223",
+      "name": "Burlington Coat Factory",
+      "ownerID": "193561672528300687085979403916493254738",
+      "ownerName": "BURLINGTON COAT FACTORY",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "b485623f",
+      "name": "Cabelas",
+      "ownerID": "39483696449497646122890851468877071199",
+      "ownerName": "Cabela's",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "dc05629b",
+      "name": "Camping World Inc.",
+      "ownerID": "111020840905443826049373825758758092548",
+      "ownerName": "Camping World Inc.",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "bab81491",
+      "name": "Concourse Team Express, LLC",
+      "ownerID": "339652108049555261241738825632606440826",
+      "ownerName": "Concourse Team Express, LLC",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "68c8b806",
+      "name": "Costco Commerce Hub",
+      "ownerID": "245678530532073512686187694998501698968",
+      "ownerName": "Costco.com thru Commercehub",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "a515c074",
+      "name": "Costco Commerce Hub",
+      "ownerID": "313201024051748960083110773003559993329",
+      "ownerName": "Costco.ca thru CommerceHub",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "5832fad5",
+      "name": "CVS Pharmacy",
+      "ownerID": "254200781194613151129521512001712970104",
+      "ownerName": "CVS Pharmacy",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "b6980c9b",
+      "name": "Dicks Sporting Goods Vendor Direct",
+      "ownerID": "222551547909646950536371899141778038721",
+      "ownerName": "Dicks Sporting Goods Vendor Direct - CommerceHub",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "f9965f32",
+      "name": "Evine Live",
+      "ownerID": "308526846813199273236938379453863911345",
+      "ownerName": "Evine Live",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "6c548935",
+      "name": "Fao Schwarz Inc.",
+      "ownerID": "263467568198379682874288428264992125090",
+      "ownerName": "Fao Schwarz Inc.",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "- Division field triggers the correct logo. ZORO logo is used if 31 is sent in this field\n- Header References is used to trigger the PS Type.  If ReferenceQual = PK / ReferenceID=NE is sent, a Stocked PS will be generated. Otherwise - regular PS",
+      "id": "958a32d8",
+      "name": "FINDMRO (Grainger Sourcing)",
+      "ownerID": "251472166104225853847806926811011922369",
+      "ownerName": "FINDMRO (Grainger Sourcing)",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "1bd75e0e",
+      "name": "Fisher Scientific Company LLC",
+      "ownerID": "321570149190999270361809513143602196395",
+      "ownerName": "Fisher Scientific Company LLC",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "3bc4d8e1",
+      "name": "Food52, Inc.",
+      "ownerID": "249826593980398135176353452511109600849",
+      "ownerName": "Food52, Inc.",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "8ee4ba13",
+      "name": "Global Equipment Inc.",
+      "ownerID": "102037770556154601885008118236362282398",
+      "ownerName": "GLOBAL EQUIPMENT",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "- Division field triggers the correct logo. ZORO logo is used if 31 is sent in this field\n- Header References is used to trigger the PS Type.  If ReferenceQual = PK / ReferenceID=NE is sent, a Stocked PS will be generated. Otherwise - regular PS",
+      "id": "e063472d",
+      "name": "Grainger",
+      "ownerID": "205877797545868000309295487937350390059",
+      "ownerName": "Grainger",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "1fc21740",
+      "name": "GSI Commerce - Vendor Direct - Fogdog",
+      "ownerID": "32019867972045034360860873555944185162",
+      "ownerName": "GSI Commerce - Vendor Direct",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "The header Division field triggers the appropriate logo and 'Return and Exchange' text on the packing slip. The options are: plumstruck.com, jet.com or hayneedle.com. The hayneedle logo will display with no return text if anything else is sent.",
+      "id": "d0547276",
+      "name": "Hayneedle.com",
+      "ownerID": "15628558539355900741242710687499054425",
+      "ownerName": "Hayneedle.com",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "f5beb035",
+      "name": "HEB - Drop Ship",
+      "ownerID": "257773777847368393612366284641895681883",
+      "ownerName": "HEB - Drop Ship",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "c795fc71",
+      "name": "Hibbett.com through Radial",
+      "ownerID": "43333406088828526986248679164962102364",
+      "ownerName": "Hibbett.com through Radial",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "14a47940",
+      "name": "Home Depot.ca through Commerce Hub",
+      "ownerID": "265708385408599450916249887525068115296",
+      "ownerName": "Home Depot.ca through Commerce Hub",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "5d9a1a05",
+      "name": "Home Depot.comthrough Commerce Hub",
+      "ownerID": "244847580368161263217802529856856163296",
+      "ownerName": "Home Depot.com through Commerce Hub",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "ec3d68ee",
+      "name": "Home Shopping Network",
+      "ownerID": "62472669134017578247821430761344447806",
+      "ownerName": "HSN - Home Shopping Network - DropShip",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "94d5e151",
+      "name": "Hornbach Holding AG",
+      "ownerID": "315636858494726651847536838452946907529",
+      "ownerName": "Hornbach Holding AG",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "5cfe9925",
+      "name": "Houzz",
+      "ownerID": "170459974996718347020276254815939759147",
+      "ownerName": "Houzz",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "2f8de1e4",
+      "name": "Indigo Books & Music - General Merchandising",
+      "ownerID": "22666688113259324080358573258277196116",
+      "ownerName": "Indigo Books & Music - General Merchandising",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "0ace9785",
+      "name": "Jet.com through Commerce Hub",
+      "ownerID": "116794036908397624321358272347002480217",
+      "ownerName": "Jet.com through CommerceHub",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "083979f9",
+      "name": "Kohls.com",
+      "ownerID": "23559165423334948619189198705187610035",
+      "ownerName": "Kohls.com",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "If  header.CarrierInformation_CarrierTransMethodCode  field = LT is present. The LTL packing slip will be generated.\nIf  header.Notes_NoteCode = GFT is present. The Gift packing slip will be generated.\nHeader.References_Referencequal = BAF is used for Receipt ID\nHeader.References_Referencequal = TPP Is used for Payment Type",
+      "id": "d7c1adfe",
+      "name": "Kohls.com thru DSCO",
+      "ownerID": "268742867476678730326870133477096831900",
+      "ownerName": "Kohls.com thru DSCO",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "16e4b394",
+      "name": "Lowes Through CommerceHub",
+      "ownerID": "251341969012400204291529525588823424564",
+      "ownerName": "Lowes Through CommerceHub",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "The header Division field triggers the appropriate logo. The options are: \n11 - Macys.com\n13 - Macy\u2019s Store\n15 \u2013 Macy\u2019s Furniture",
+      "id": "b81fbcf4",
+      "name": "Macy's",
+      "ownerID": "184330383114163798989215793399701671870",
+      "ownerName": "Macy's",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "0ce057ca",
+      "name": "Macy's through CommerceHub",
+      "ownerID": "208846446785189456079849846741627528039",
+      "ownerName": "Macy's through CommerceHub",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "3d388504",
+      "name": "MedSTAT",
+      "ownerID": "333289819629720456207278460698148619238",
+      "ownerName": "MedSTAT",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "43474981",
+      "name": "Michaels Drop Ship Through Commerce Hub",
+      "ownerID": "1569483174094667015242003716139502223",
+      "ownerName": "Michaels Drop Ship Through Commerce Hub",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "c8a763e6",
+      "name": "MidwayUSA",
+      "ownerID": "216833035202419173793148524502278603342",
+      "ownerName": "MidwayUSA",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "94ea380d",
+      "name": "NEBRASKA FURNITURE MART",
+      "ownerID": "150011268429546886240531376484335268387",
+      "ownerName": "NEBRASKA FURNITURE MART",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "1375ff67",
+      "name": "Neiman Marcus through DSCO",
+      "ownerID": "204122408524558054744693202243974434049",
+      "ownerName": "Neiman Marcus through DSCO",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "e89718a9",
+      "name": "Nordstrom",
+      "ownerID": "70566242762059764183878005019290881686",
+      "ownerName": "Nordstrom",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "b03a5756",
+      "name": "Nordstrom Direct",
+      "ownerID": "62044084950196063366093269352601245516",
+      "ownerName": "Nordstrom Direct",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "b457ce41",
+      "name": "Northern Tool & Equipment",
+      "ownerID": "75988489210916809808474395680260636854",
+      "ownerName": "Northern Tool & Equipment",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "2073b5a4",
+      "name": "Office Depot Retail",
+      "ownerID": "260600914734353979972908465823650185253",
+      "ownerName": "Office Depot Retail",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "7e673610",
+      "name": "Overstock.com SOFS",
+      "ownerID": "202784115765015138379887437761020766464",
+      "ownerName": "Overstock.com SOFS",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "62b1b1e2",
+      "name": "PacSun.com",
+      "ownerID": "306780305133851830159731160401673473138",
+      "ownerName": "PacSun.com",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "e1183fa9",
+      "name": "QVC.com / iQVC",
+      "ownerID": "22786371405050308736189340745019143196",
+      "ownerName": "QVC.com / iQVC",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "a9605850",
+      "name": "Raymour & Flanigan Furniture",
+      "ownerID": "118149058420523729401764898313822815244",
+      "ownerName": "Raymour & Flanigan Furniture",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "80a0d6ba",
+      "name": "REI - Ariba",
+      "ownerID": "56860778573322903889458325353416222798",
+      "ownerName": "REI - Ariba",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "9adcc711",
+      "name": "REI Co-op",
+      "ownerID": "185262736996082871066814991447095632224",
+      "ownerName": "REI Co-op",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "fcf2a540",
+      "name": "REI Drop Ship through DSCO",
+      "ownerID": "291178627979990019186266273705921598129",
+      "ownerName": "REI Drop Ship through DSCO",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "67efc7af",
+      "name": "Saks Fifth Avenue Direct Ship To Consumer",
+      "ownerID": "52769701660575421290964198381304537940",
+      "ownerName": "Saks Fifth Avenue Direct Ship To Consumer",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "This is a SPS Commerce created sample packing slip. This is an example of the data requirements and look that a retailer would expect to see on a packing slip.",
+      "id": "9e8959e9",
+      "name": "Sample Packing Slip",
+      "ownerID": "157627141979612915626333577105111854232",
+      "ownerName": "SPS Commerce",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "a71faf7b",
+      "name": "SamsClub.com",
+      "ownerID": "4152459335359551680444712351446847712",
+      "ownerName": "SamsClub .com",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "8d015a60",
+      "name": "Scheels All Sports",
+      "ownerID": "201229077516486817413796704340042614875",
+      "ownerName": "Scheels All Sports",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "5a2c4fb2",
+      "name": "Shoe Carnival- Dropship only",
+      "ownerID": "182255762749125970273866655028829346982",
+      "ownerName": "Shoe Carnival- Dropship only",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "1fb94884",
+      "name": "Staples",
+      "ownerID": "149527790575663629513979186164181761558",
+      "ownerName": "Staples",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "46cb9608",
+      "name": "Stitch Fix, Inc.",
+      "ownerID": "2941012448261782165761852858770424691",
+      "ownerName": "Stitch Fix, Inc.",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "585dfca9",
+      "name": "Target.com Direct Vendor Ship",
+      "ownerID": "28900506925829007115859656875011500372",
+      "ownerName": "Target.com Direct Vendor Ship",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "2b86ee3b",
+      "name": "The Shopping Channel",
+      "ownerID": "64006621809018933800751010148892485252",
+      "ownerName": "The Shopping Channel",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "cbc5c1e0",
+      "name": "The Sportsmans Guide, Inc.",
+      "ownerID": "158657020089255412794331588998060238538",
+      "ownerName": "The Sportsman's Guide, Inc.",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "123637dc",
+      "name": "Tractor Supply",
+      "ownerID": "186519480239345645016734752856289977030",
+      "ownerName": "Tractor Supply",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "72d9d5de",
+      "name": "Tractor Supply Dropship",
+      "ownerID": "282592215286017771374404646634093089299",
+      "ownerName": "Tractor Supply Dropship",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "69dbe024",
+      "name": "Ulta through Ariba",
+      "ownerID": "211057141262259002445932527064473942282",
+      "ownerName": "Ulta through Ariba",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "393f3b76",
+      "name": "Verishop Inc",
+      "ownerID": "300539536542838572088798929811423719110",
+      "ownerName": "Verishop Inc.",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "46c2b7c4",
+      "name": "Walmart.com DSV",
+      "ownerID": "40036640973045331270446388130918645325",
+      "ownerName": "Walmart.com Dropship Vendors",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "fd7baab2",
+      "name": "Wayfair LLC",
+      "ownerID": "77323942895476128044357133148749987748",
+      "ownerName": "Wayfair LLC",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "The header Division field triggers the appropriate logo, packing slip layout, and hardcoded 'NOTE' text on the packing slip. The options are: WS Home, WS, Pottery Barn, PB Kids, PBteen, West Elm, Mark And Graham, or Rejuvenation.",
+      "id": "1f9f63f8",
+      "name": "WILLIAMS SONOMA INC",
+      "ownerID": "45087732790963330519488073477013116786",
+      "ownerName": "WILLIAMS SONOMA INC",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "54f3413f",
+      "name": "W.M. Barr & Co.",
+      "ownerID": "305219300058106969359982983788491743713",
+      "ownerName": "W.M. Barr & Co.",
+      "type": "packing-slip"
+    },
+    {
+      "canRender": false,
+      "description": "",
+      "id": "76bd5f92",
+      "name": "Zola, Inc",
+      "ownerID": "19744387332408957833665646051130147269",
+      "ownerName": "Zola, Inc",
+      "type": "packing-slip"
+    }
+  ],
+  "total": 80
+}

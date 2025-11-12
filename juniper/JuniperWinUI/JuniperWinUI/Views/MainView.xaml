@@ -1,0 +1,81 @@
+﻿<Page x:Class="JuniperWinUI.Views.MainView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
+             xmlns:local="using:JuniperWinUI.Views"
+             xmlns:viewModels="using:Juniper.Core.ViewModels"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             x:Name="MainViewControl"
+             mc:Ignorable="d">
+    <!--<UserControl.DataContext>
+        <viewModels:MainViewModel x:Name="ViewModel" />
+    </UserControl.DataContext>-->
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <!--<Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>-->
+        
+        <!--<Border x:Name="AppTitleBar"
+                x:FieldModifier="Public"
+                Grid.Column="1"
+                IsHitTestVisible="True"
+                VerticalAlignment="Top"
+                Background="Transparent"
+                Margin="40,0,0,0"
+                Padding="8,0,0,0"
+                Height="{Binding ElementName=NavigationView, Path=CompactPaneLength}"
+                Canvas.ZIndex="1">
+            <TextBlock x:Name="AppTitle"
+                       Text="Juniper"
+                       FontSize="24"
+                       VerticalAlignment="Center"
+                       Style="{StaticResource CaptionTextBlockStyle}" />
+        </Border>-->
+
+        <!--Navigation view-->
+        <muxc:NavigationView Grid.Column="1"
+                             x:Name="NavigationView"
+                             Header="Navigation Header"
+                             PaneTitle="Navigation PaneTitle"
+                             PaneDisplayMode="Left"
+                             AlwaysShowHeader="True"
+                             IsBackButtonVisible="Auto"
+                             IsBackEnabled="False"
+                             IsSettingsVisible="True"
+                             SelectionFollowsFocus="Disabled"
+                             IsTitleBarAutoPaddingEnabled="False"
+                             ItemInvoked="NavigationView_OnItemInvoked"
+                             BackRequested="NavigationView_OnBackRequested">
+
+
+            <muxc:NavigationView.MenuItems>
+                <muxc:NavigationViewItem x:Name="OrdersItem"
+                                         Content="Orders"
+                                         Icon="Library"
+                                         ToolTipService.ToolTip="Orders" />
+            </muxc:NavigationView.MenuItems>
+
+            <muxc:NavigationView.Content>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <!--Navigation frame-->
+                    <Frame x:Name="NavigationFrame"
+                           Navigated="NavigationFrame_OnNavigated"
+                           Grid.Row="2" />
+                </Grid>
+            </muxc:NavigationView.Content>
+
+        </muxc:NavigationView>
+    </Grid>
+</Page>

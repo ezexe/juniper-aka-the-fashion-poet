@@ -1,0 +1,375 @@
+{
+  "Header": {
+    "PurchaseOrderNumber": "021217530",
+    "BillOfLadingNumber": "123123BOL-238",
+    "Address": [
+      {
+        "AddressTypeCode": "ST",
+        "AddressName": "Order By AddressName",
+        "Address1": "SPS Commerce-512",
+        "Address2": "333 S 7th Street-951",
+        "City": "Noida",
+        "PostalCode": "201301",
+        "Contacts": [
+          {
+            "ContactTypeCode": "IC",
+            "PrimaryPhone": "612-435-9400-480",
+            "PrimaryEmail": "support@spscommerce.com-218",
+            "ContactName": "John Doe"
+          }
+        ],
+        "LocationCodeQualifier": "92",
+        "AddressLocationNumber": "9371",
+        "State": "UP",
+        "Country": "US",
+        "PackWeight": 131288715,
+        "AddressAlternateName": "Main Ba.",
+        "AddressAlternateName2": "ATTN: Marketing-964",
+        "Address3": "New: Headquarters-293",
+        "Address4": "Headquarters-951",
+        "References": [
+          {
+            "ReferenceQual": "MR",
+            "ReferenceID": "425799",
+            "Description": "Ref Description"
+          }
+        ]
+      }
+    ],
+    "CarrierInformation": [
+      {
+        "CarrierRouting": "UPSG-77",
+        "CarrierAlphaCode": "SCAC",
+        "CarrierTransMethodCode": "LT"
+      }
+    ],
+    "CarrierProNumber": "123CCN-123-443",
+    "ShipDate": "2020-12-28",
+    "Dates": [
+      {
+        "DateTimeQualifier": "036",
+        "Date": "2021-05-11"
+      }
+    ],
+    "Department": "Department",
+    "References": [
+      {
+        "ReferenceQual": "MR",
+        "ReferenceID": "425752",
+        "Description": "Ref Description"
+      }
+    ],
+    "TradingPartnerId": "SPSALLTESTID-45",
+    "Vendor": "VEND1",
+    "ShipmentIdentification": "321654998",
+    "QuantityTotals": [
+      {
+        "QuantityTotalsQualifier": "SQT",
+        "WeightQualifier": "G",
+        "Weight": 904421,
+        "WeightUOM": "KG",
+        "QuantityUOM": "CT",
+        "Volume": 999,
+        "Quantity": 262060793504328320
+      }
+    ],
+    "CustomerOrderNumber": "2695657-3",
+    "Division": "PQS",
+    "Notes": [
+      {
+        "NoteCode": "GEN",
+        "Note": "Message- Special Instructions-94"
+      }
+    ],
+    "PurchaseOrderDate": "2021-10-23",
+    "AppointmentNumber": "A",
+    "DepartmentDescription": "Admin Department-538",
+    "CustomerAccountNumber": "1234567890-488",
+    "Contacts": [
+      {
+        "ContactTypeCode": "RE",
+        "ContactName": "John Doe"
+      }
+    ],
+    "FOBRelatedInstruction": [
+      {
+        "FOBLocationQualifier": "KL",
+        "FOBLocationDescription": "FOB"
+      }
+    ]
+  },
+  "Pallet": [
+    {
+      "Pack": [
+        {
+          "ShippingSerialID": "000012345",
+          "References": [
+            {
+              "ReferenceQual": "YD"
+            }
+          ],
+          "Address": [
+            {
+              "AddressTypeCode": "Z7",
+              "LocationCodeQualifier": "92",
+              "AddressLocationNumber": "9371",
+              "AddressName": "William Bill To",
+              "Address1": "Corporate Headquarters-856",
+              "Address2": "Attn: Headquarters-775",
+              "Address3": "New: Headquarters-161",
+              "Address4": "Headquarters-766",
+              "City": "London",
+              "State": "LN",
+              "PostalCode": "55409",
+              "Country": "UK"
+            }
+          ],
+          "Item": [
+            {
+              "BuyerPartNumber": "SPSBuy",
+              "VendorPartNumber": "SPSSuppli",
+              "ShipQty": 373654,
+              "ConsumerPriceType": "UCP",
+              "ConsumerPackageCode": "043000186",
+              "ProductOrItemDescription": [
+                {
+                  "ProductCharacteristicCode": "08",
+                  "ProductDescription": "Sample Description1-222",
+                  "ProductDescriptionCode": "99"
+                },
+                {
+                  "ProductCharacteristicCode": "74",
+                  "ProductDescription": "Sample Description1-176",
+                  "ProductDescriptionCode": "99"
+                }
+              ],
+              "Dates": [
+                {
+                  "DateTimeQualifier": "036",
+                  "Date": "2021-03-31"
+                }
+              ],
+              "GTIN": "003614141",
+              "References": [
+                {
+                  "ReferenceQual": "BT",
+                  "ReferenceID": "425752"
+                },
+                {
+                  "ReferenceQual": "2I",
+                  "ReferenceID": "2695657-37"
+                }
+              ],
+              "ProductSizeDescription": "Prod",
+              "ProductColorDescription": "Fire",
+              "Subline": [
+                {
+                  "VendorPartNumber": "SPSSupplierHD-40-875",
+                  "ProductSizeDescription": "Size of product-189",
+                  "ProductColorDescription": "Cool Blue-970",
+                  "QtyPer": 810293066733872,
+                  "ProductOrItemDescription": [
+                    {
+                      "ProductCharacteristicCode": "08",
+                      "ProductDescription": "Sample Description2-760"
+                    }
+                  ]
+                }
+              ],
+              "ProductID": {
+                "PartNumberQual": "VA",
+                "PartNumber": "75100-650"
+              },
+              "ProductMaterialCode": "65286686-",
+              "ProductMaterialDescription": "Acrobat Pro DC-781",
+              "EAN": "0036141412341",
+              "UPCCaseCode": "471108151743",
+              "InternationalStandardBookNumber": "0-85131-041-9-689",
+              "Department": "Department",
+              "DepartmentDescription": "Admin Department-567",
+              "Notes": [
+                {
+                  "NoteCode": "SHP",
+                  "Note": "Message- Special Instructions-"
+                }
+              ],
+              "PhysicalDetails": [
+                {
+                  "PackQualifier": "OU",
+                  "PackValue": 3658207412,
+                  "PackUOM": "EA",
+                  "PackWeightUOM": "PackWeightUOM",
+                  "PackWeight": 131288715
+                }
+              ],
+              "ProductSizeCode": "55",
+              "ProductColorCode": "121212-14",
+              "Class": "Class"
+            }
+          ],
+          "PhysicalDetails": [
+            {
+              "PackQualifier": "OU",
+              "PackWeight": 847366,
+              "Description": "Field-1 D"
+            }
+          ],
+          "MarksAndNumbersCollection": [
+            {
+              "MarksAndNumbersQualifier1": "CA",
+              "MarksAndNumbers1": "001-255"
+            }
+          ],
+          "Notes": [
+            {
+              "NoteCode": "SPE",
+              "Note": "Message- Special Instructions-709"
+            }
+          ],
+          "CarrierPackageID": "1Z1A1V999555333111-440"
+        }
+      ]
+    }
+  ],
+  "Pack": [
+    {
+      "PackLevelType": "P",
+      "ShippingSerialID": "00001234560014762261",
+      "Address": {
+        "AddressTypeCode": "CT",
+        "LocationCodeQualifier": "92",
+        "AddressLocationNumber": "8975",
+        "AddressName": "Order By ",
+        "Address1": "SPS Comme",
+        "Address2": "333 S 7th",
+        "City": "Noida",
+        "State": "UP",
+        "PostalCode": "201301",
+        "Country": "IN"
+      },
+      "Pack": [
+        {
+          "Item": [
+            {
+              "BuyerPartNumber": "SPSBuyerI",
+              "ConsumerPackageCode": "043000186",
+              "ShipQty": 688872,
+              "VendorPartNumber": "SPSSuppli",
+              "ProductOrItemDescription": [
+                {
+                  "ProductCharacteristicCode": "08",
+                  "ProductDescription": "Sample Description1-400",
+                  "ProductDescriptionCode": "99"
+                }
+              ],
+              "References": [
+                {
+                  "ReferenceQual": "LT",
+                  "ReferenceID": "425752"
+                }
+              ],
+              "GTIN": "003614141",
+              "Dates": [
+                {
+                  "DateTimeQualifier": "036",
+                  "Date": "2021-02-25"
+                }
+              ],
+              "ShipQtyUOM": "LT",
+              "PhysicalDetails": [
+                {
+                  "PackQualifier": "OU",
+                  "PackValue": 699401,
+                  "PackUOM": "UN",
+                  "PackWeightUOM": "PackWeightUOM",
+                  "PackWeight": 131288715
+                },
+                {
+                  "PackQualifier": "IN",
+                  "PackValue": 397093723902414100,
+                  "PackUOM": "UN",
+                  "PackWeightUOM": "PackWeightUOM",
+                  "PackWeight": 131288715
+                }
+              ],
+              "Notes": [
+                {
+                  "NoteCode": "GEN",
+                  "Note": "Message- "
+                }
+              ],
+              "UPCCaseCode": "471108151",
+              "ProductSizeDescription": "ProductSi",
+              "ProductColorDescription": "Fire Engi",
+              "LineSequenceNumber": "01-10",
+              "EAN": "003614141",
+              "ProductSizeCode": "55-642",
+              "ProductColorCode": "121212-65",
+              "OrderQty": 94312,
+              "ProductMaterialDescription": "Acrobat P",
+              "Class": "Clas",
+              "ProductMaterialCode": "65286686-",
+              "Department": "Department",
+              "DepartmentDescription": "Admin Dep"
+            }
+          ],
+          "PackLevelType": "P",
+          "PhysicalDetails": [
+            {
+              "PackQualifier": "OU",
+              "PackWeight": 8625911492,
+              "PackWeightUOM": "LB"
+            }
+          ],
+          "MarksAndNumbersCollection": [
+            {
+              "MarksAndNumbersQualifier1": "UC",
+              "MarksAndNumbers1": "002-880"
+            }
+          ],
+          "ShippingSerialID": "98001234560014762261",
+          "PalletInformation": [
+            {
+              "PalletQualifier": "OU",
+              "PalletValue": 746864
+            }
+          ],
+          "Address": [
+            {
+              "AddressTypeCode": "CT",
+              "Country": "CD"
+            }
+          ]
+        }
+      ],
+      "PhysicalDetails": [
+        {
+          "PackQualifier": "OU",
+          "PackValue": 66801,
+          "PackUOM": "BX",
+          "PackWeightUOM": "PackWeightUOM",
+          "PackWeight": 131288715
+        }
+      ],
+      "References": [
+        {
+          "ReferenceQual": "R",
+          "ReferenceID": "425799"
+        }
+      ],
+      "MarksAndNumbersCollection": [
+        {
+          "MarksAndNumbersQualifier1": "CA",
+          "MarksAndNumbers1": "001"
+        }
+      ],
+      "CarrierPackageID": "1Z1A1V999",
+      "Notes": [
+        {
+          "NoteCode": "GEN",
+          "Note": "Message- "
+        }
+      ]
+    }
+  ]
+}

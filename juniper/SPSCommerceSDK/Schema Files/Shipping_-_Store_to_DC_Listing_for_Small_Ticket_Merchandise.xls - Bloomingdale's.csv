@@ -1,0 +1,67 @@
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Bloomingdale's,,,,,,,,,
+,,,,,,,,,
+ Jewelry and Sunglass Vendors - see Routing Guide,,,,,,,,,
+,,,,,,,,,
+Distribution Centers listed below,,,,,,,,,
+,,,,,,,,,
+,ALPHA,STORE ,,,,,,EFFECTIVE,
+DIV,DC LOC,NUMBER,MALL NAME/STORE NAME,ADDRESS,CITY,STATE,ZIP,DATE,COMMENTS
+BLM,SC,0001,59th St. - New York,1000 Third Ave,New York,NY,10022,,
+BLM,ST,0002,Boca Raton,5840 Glades Rd,Boca Raton,FL,33431,03/29/2021,"Serviced by ST, effective March 29, 2021"
+BLM,ST,0003,Aventura,19555 Biscayne Blvd,Aventura,FL,33180,03/29/2021,"Serviced by ST, effective March 29, 2021"
+BLM,SC,0004,Huntington,270 Walt Whitman Rd,Huntington STA,NY,11746,,
+BLM,SC,0005,Bergen County - Riverside,400 Hackensack Ave,Hackensack,NJ,07601,,
+BLM,SC,0006,Short Hills,1200 Morris Turnpike,Short Hills,NJ,07078,,
+BLM,CL,0007,Medinah Home,600 North Wabash Ave,Chicago,IL,60611,,
+BLM,CL,0008,North Michigan,900 NMichigan Ave,Chicago,IL,60611,,
+BLM,ST,0010,Palm Beach Gardens,3105 PGA Blvd,Palm Beach Gardens,FL,33410,03/29/2021,"Serviced by ST, effective March 29, 2021"
+BLM,SW,0011,Chestnut Hill I & II,225 Boylston St,Newton,MA,02467,,
+BLM,SC,0012,White Plains,175 Bloomingdale Rd,White Plains,NY,10605,,
+BLM,JP,0014,Tysons Corner Flint,8100 Tysons Corner Center,MC Lean,VA,22102,,
+BLM,SC,0016,King Of Prussia,2 Rt 202 North 660 West Dekalb Pike ,King of Prussia,PA,19406,,
+BLM,SC,0017,Willow Grove Park,2400 Moreland Park Rd,Willow Grove,PA,19090,,
+BLM,ST,0020,Orlando FL,4152 Conroy Rd,Orlando,FL,32839,03/29/2021,"Serviced by ST, effective March 29, 2021"
+BLM,HA,0022,San Francisco,845 Market St,San Francisco,CA,94103,,
+BLM,SC,0024,Bridgewater,410 Commons Way,Bridgewater,NJ,08807,,
+BLM,CL,0026,Old Orchard,4963 Old Orchard Center,Skokie,IL,60077,,
+BLM,SC,0027,Roosevelt Field,630 Old Country Rd,Garden City,NY,11530,,
+BLM,CI,0028,Century City CA,10250 Santa Monica Blvd,Los Angeles,CA,90067,,
+BLM,CI,0029,Sherman Oaks,14060 Riverside Dr,Sherman Oaks,CA,91423,,
+BLM,CI,0030,Newport Beach Fashion,701 Newport Center Dr,Newport Beach,CA,92660,,
+BLM,HA,0031,Stanford CA,1 Stanford Shopping Center,Palo Alto,CA,94304,,
+BLM,CI,0032,Beverly Center,8500 Beverly Blvd,Los Angeles,CA,90048,,
+BLM,JP,0034,Chevy Chase - Wisconsin,5300 Western Ave,Chevy Chase,MD,20815,,
+BLM,SC,0037,Willowbrook Place,1400 Willowbrook Mall,Wayne ,NJ,07470,,
+BLM,SW,0046,Norwalk,100 North Water Street ,Norwalk,CT,06854,2/1/2020,"Serviced by SW effective February 1, 2020"
+BLM,SC,0050,Westchester Furniture Clearance,2 Saw Mill River Road,Hawthorne,NY,10532,,
+BLM,SC,0053,Soho,504 Broadway,New York,NY,10012,,
+BLM,ST,0055,Lenox Square,3393 Peachtree Rd NE,Atlanta,GA,30326,,
+BLM,HA,0057,Valley Fair,2847 Stevens Creek Blvd,Santa Clara,CA,95050,Spring 2020,New Store Opening 
+BLM,CI,0058,Ala Moana,1450 Ala Moana Blvd Suite 1000,Honolulu,HI,96814,,
+BLM,CI,0060,Glendale Galleria,103 S. Brand Ave,Glendale,CA,91204,,
+BLM,CI,0061,San Diego - Fashion Valley,7057 Friars Rd,San Diego,CA,92108,,
+BLM,JP,0063,Mosaic,2920 District Ave # 190,Fairfax ,VA,22031,Summer 2021,New Store Opening 
+BLM,CI,0062,South Coast Plaza,3333 South Bristol St,Costa Mesa,CA,92626,,
+BLM,CD,0104,Cheshire Hold and Flow ,475 Knotter Drive ,Cheshire,CT,06410,02/04/2020,New Hold and Flow location 
+BLM,SC,0127,R F Furn,630 Old Country Rd,Garden City,NY,11530,,
+,,,,,,,,,
+Pool Stock Location,,,,,,,,,
+BLM,CD,0135,Cheshire Pool Stock/Customer Fulfullment Center,475 Knotter Dr,Cheshire,CT,06410,,See Routing Guide for Specific Depts.
+BLM,SC,0019,Secaucus Pool Stock,500 Meadowlands Pkwy,Secaucus,NJ,07094,,
+BLM,HI,0947,Hawaii Pool Stock (c/o Los Angeles),15541 East Gale Ave,City of Industry,CA,91745,,
+BLM,WJ,0135,West JohnsonPool Stock/Customer Fulfullment Center,181 West Johnson Ave,Cheshire,CT,06410,,See Routing Guide for Specific Depts.
+,,,,,,,,,
+,,,,,,,,,
+Small Ticket DC Locations - Alpha DC location should be transmitted in the 856 (ASN) Document,,,,,,,,,
+BLM,CI,,Los Angeles DC,15541 East Gale Ave,City of Industry,CA,91745,,
+BLM,CL,,Minooka DC ,601 Midpoint Rd,Minooka ,IL,60447,,
+BLM,DS,,Bloomingdale's Vendor Direct to Consumer,,,,,,Used for Macy's Vendor Direct to Consumer ONLY
+BLM,GN,,Gandy DC,4130 Gandy Blvd,Tampa,FL,33611,12/28/2020,Closing Spring 2021
+BLM,HA,,Hayward DC,28701 Hall Rd,Hayward,CA,94545,,
+BLM,JP,,Joppa DC,3300 Fashion Way,Joppa,MD,21085,,
+BLM,SC,,Secaucus DC,500 Meadowlands Pkwy,Secaucus,NJ,07094,,
+BLM,ST,,Stone Mountain DC,4401 Sarr Pkwy,Stone Mountain,GA,30083,,
+BLM,SW,,South Windsor,301 Govenors Highway,South Windsor,CT,06074,,

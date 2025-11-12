@@ -1,0 +1,131 @@
+﻿<UserControl x:Class="Juniper.WinUI.App.Controls.CanSendDocumentsUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="using:Juniper.WinUI.App.Controls"
+             xmlns:models="using:Juniper.Core.Models"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d">
+    <Grid  Background="{ThemeResource HomePageBackgroundBrush}"
+           Margin="0,0,0,0"
+           Padding="{StaticResource ActionsMediumPaddingLeftRight}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition  Width="Auto" />
+                <ColumnDefinition />
+                <ColumnDefinition  Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <CommandBar DefaultLabelPosition="Collapsed"
+                        Grid.Column="0">
+                <AppBarToggleButton Command="{x:Bind ViewModel.OnCommand}"
+                                    CommandParameter="CommandForceEnabled"
+                                    Label="Is Enabled"
+                                    Icon="Edit"
+                                    ToolTipService.ToolTip="Toggle Enable Editing" />
+                <AppBarSeparator />
+            </CommandBar>
+            
+            <ContentPresenter HorizontalAlignment="Left"
+                              Grid.Column="1"
+                                  Content="{x:Bind HeaderContent}" />
+
+            <StackPanel Grid.Column="2"
+                        Orientation="Horizontal"
+                        HorizontalAlignment="Right"
+                        Margin="{StaticResource ActionsMediumPaddingRight}">
+
+                <CommandBar IsEnabled="{x:Bind ViewModel.ForceEnabled,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}"
+                            DefaultLabelPosition="Bottom">
+                    <AppBarButton Command="{x:Bind ViewModel.OnCommand}"
+                                  CommandParameter="CommandCheckForError"
+                                  Label="Check for Errors"
+                                  Icon="Find"
+                                  ToolTipService.ToolTip="Check for Errors" />
+
+                    <AppBarButton Command="{x:Bind ViewModel.OnCommand}"
+                                  CommandParameter="CommandSave"
+                                  Icon="Save"
+                                  Label="Save"
+                                  ToolTipService.ToolTip="Save"
+                                  IsEnabled="{x:Bind ViewModel.OnCommand.IsRunning,Mode=OneWay,Converter={StaticResource inverseBoolConverter}}" />
+
+
+                    <AppBarButton Command="{x:Bind ViewModel.OnCommand}"
+                                  CommandParameter="CommandSend"
+                                  Margin="0,0,0,0"
+                                  Label="Send"
+                                  Icon="Send"
+                                  ToolTipService.ToolTip="Send"
+                                  IsEnabled="{x:Bind ViewModel.OnCommand.IsRunning,Mode=OneWay,Converter={StaticResource inverseBoolConverter}}" />
+
+                    <AppBarSeparator />
+
+                    <AppBarButton Icon="Delete"
+                                  Label="Delete"
+                                  ToolTipService.ToolTip="Delete"
+                                  IsEnabled="{x:Bind ViewModel.OnCommand.IsRunning,Mode=OneWay,Converter={StaticResource inverseBoolConverter}}">
+                        <Button.Flyout>
+                            <Flyout>
+                                <StackPanel>
+                                    <TextBlock Style="{ThemeResource BaseTextBlockStyle}"
+                                               Text="All local files will be deleted. Do you want to continue?"
+                                               Margin="0,0,0,12" />
+                                    <Button Command="{x:Bind ViewModel.OnCommand}"
+                                            IsEnabled="{x:Bind ViewModel.OnCommand.IsRunning,Mode=OneWay,Converter={StaticResource inverseBoolConverter}}"
+                                            CommandParameter="CommandDelete"
+                                            Content="Yes, delete this" />
+                                </StackPanel>
+                            </Flyout>
+                        </Button.Flyout>
+                    </AppBarButton>
+                </CommandBar>
+
+            </StackPanel>
+        </Grid>
+
+        <ListView Grid.Row="1"
+                  Margin="8,0,8,0"
+                  SelectionMode="Single"
+                  MaxHeight="200"
+                  ItemsSource="{x:Bind ViewModel.ValidationErrors,Mode=OneWay}">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="models:ValidationErrorModel">
+                    <Grid>
+                        <TextBlock Style="{StaticResource BodyTextBlockStyle}"
+                                   Text="{x:Bind Error}"
+                                   Foreground="{StaticResource SystemFillColorCriticalBrush}" />
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Pivot Grid.Row="2" 
+               Margin="{StaticResource ActionsPaddingSmallLeft}">
+            <PivotItem Header="Items">
+                <ContentControl Content="{x:Bind BodyContent}"
+                                RelativePanel.Below="Expander1"
+                                HorizontalAlignment="Stretch"
+                                VerticalAlignment="Stretch"
+                                HorizontalContentAlignment="Stretch"
+                                VerticalContentAlignment="Stretch" />
+            </PivotItem>
+            <PivotItem Header="Details">
+                <ContentControl Content="{x:Bind ExpanderBodyContent}"
+                                HorizontalAlignment="Stretch"
+                                VerticalAlignment="Stretch"
+                                HorizontalContentAlignment="Stretch" />
+            </PivotItem>
+        </Pivot>
+
+        <ProgressRing IsActive="{x:Bind ViewModel.IsLoading,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                      Grid.Row="2"
+                      VerticalAlignment="Center"
+                      HorizontalAlignment="Center" />
+    </Grid>
+</UserControl>

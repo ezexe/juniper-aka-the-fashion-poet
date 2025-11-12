@@ -1,0 +1,123 @@
+﻿Main
+	-MainViewModel
+		-SettingsViewModel
+		-OrdersViewModel
+		-ShipmentViewModel
+		-ViewModelsList
+		-SelectedViewModel
+	-MainView
+		-ViewsList
+		-SelectedViewView
+		
+Settings
+	-SettingsViewModel
+		-AuthenticationViewModel
+				Notes:
+				Successful responses contain an expires_in field, which shows how long the token is valid for. 
+				The number of requests applications can make for these tokens is rate-limited. 
+				Because of this, your application must cache and reuse the same token until it expires.
+			-AppID
+			-AppSecret
+			-GetAccessToken()
+			-SaveAccessToken()
+		-ShipFromSettingsViewModel
+				-Name
+				-Address
+				-Address2
+				-City
+				-State
+				-Zip
+				-Country
+				-Phone Number
+	-SettingsView
+		-AuthenticationView
+			-textbox AppID
+			-textbox AppSecret
+			-button GetAccessToken()
+		-ShipFromSettingsView
+			-textbox Name
+			-textbox Address
+			-textbox Address2
+			-textbox City
+			-textbox State
+			-textbox Zip
+			-textbox Country
+			-textbox Phone Number
+			-button Save()
+
+
+Orders
+	-OrdersViewModel
+		-OrdersList
+		-SelectedOrder
+			-CreateASN()
+		-LoadOrders()
+	-OrdersView
+		-button Load/Reload Orders
+		-listview OrdersList
+			-selestedItem SelectedOrder
+				-button CreateASN
+
+Shipments
+	-ShipmentViewModel
+		-ShipmentHeader
+			-Header
+				-ASNStructureCode
+				-TsetPurposeCode
+				-Date
+			-Shipment
+				-Packaging Code?
+				-gross weight (lbs)
+				-ID Code Qual
+				-SCAC Code
+				-Trans Method/Type Code
+				-Carrier Name
+				-Shipment Status
+				-Bill Of Lading #
+				-Carrier Pro #
+				-Ship Date
+			-ShipTo
+				-Name
+				-DC
+				-Address
+				-Address2
+				-City
+				-State
+				-Zip
+				-Country
+				-Phone Number
+			-Ship From
+				-Name
+				-Address
+				-Address2
+				-City
+				-State
+				-Zip
+				-Country
+				-Phone Number
+		-ShipmentOrder
+			-Header
+				-PO Number
+				-Gross Weight (lbs)
+				-GRP #
+				-Invoice Number
+			-Store Info
+				-Store Name
+				-StoreNumber
+				-# Of Cartons Per Store
+			-Pack Info
+				-Single Or Multy Item Per PAck
+				-Carton Capacity
+				-Using Carton Capacity
+				-# Of Cartons
+				-Item Info List
+					-UPC/EAN Code
+					-UPC/EAN Number
+					-Vendor Item Number
+					-Shipped Qty
+					-Qty Per Carton
+	-ShipmentView
+		-TabView
+			-ShipmentHeader
+			-ShipmentOrder
+			

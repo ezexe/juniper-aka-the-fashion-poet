@@ -1,0 +1,2590 @@
+{
+    "status": "ok",
+    "templates": [
+        {
+            "canRender": false,
+            "description": "",
+            "id": "45e785c3",
+            "name": "AAFES - Store/DC",
+            "ownerID": "303207733580821629668871412114131306293",
+            "ownerName": "AAFES - Store/DC",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "eb2c2689",
+            "name": "AbilityOne.com",
+            "ownerID": "2290645286343434689467593703498966957",
+            "ownerName": "AbilityOne.com",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "ca6df3cf",
+            "name": "Academy Sports",
+            "ownerID": "179900322346091741342594883699996877893",
+            "ownerName": "Academy Sports",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "459d88d0",
+            "name": "Ace Hardware",
+            "ownerID": "95071442673129472633062150693899942348",
+            "ownerName": "ACE HARDWARE",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "4715b044",
+            "name": "AC Moore",
+            "ownerID": "220544646534802930244045412043378965763",
+            "ownerName": "AC MOORE",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "cd4786b7",
+            "name": "Advance Stores Company Incorporated",
+            "ownerID": "310456851199647112171102788776192263976",
+            "ownerName": "Advance Stores Company Incorporated",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "53443e6a",
+            "name": "Altitude Sports",
+            "ownerID": "120351468248462253071822504006162737428",
+            "ownerName": "Altitude Sports",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "Label displays part numbers in order of BuyerPartNumber, InternationalStandardBookNumber, EAN , UPCCaseCode, GTIN, ConsumerPackageCode, VendorPartNumber. To display correct part number on the label, supplier should send only the part number they need.",
+            "id": "3de93098",
+            "name": "Amazon Australia",
+            "ownerID": "75598382654997795566592207280166776463",
+            "ownerName": "Amazon Australia",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "6735888d",
+            "name": "Amazon.com",
+            "ownerID": "70132919753047667723117840396213025861",
+            "ownerName": "AMAZON.COM",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "93018070",
+            "name": "Amazon Europe",
+            "ownerID": "246595467862438411552563455654867846809",
+            "ownerName": "Amazon Europe",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "ef9e51e2",
+            "name": "Amazon Marketplace",
+            "ownerID": "315128064632805656503110027745424314275",
+            "ownerName": "Amazon Marketplace",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "Label displays part numbers in order of BuyerPartNumber, InternationalStandardBookNumber, EAN , UPCCaseCode, GTIN, ConsumerPackageCode, VendorPartNumber. To display correct part number on the label, supplier should send only the part number they need.",
+            "id": "a4fcef42",
+            "name": "AMAZON WAREHOUSE (USA / Canada)",
+            "ownerID": "230058479810924977029373113506805003594",
+            "ownerName": "AMAZON WAREHOUSE",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "9d8dd4e9",
+            "name": "Animates",
+            "ownerID": "39303786449407531586827923315314059721",
+            "ownerName": "Animates",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "1b41f76b",
+            "name": "Anixter Outsourced",
+            "ownerID": "44625134345418339118638843744994086562",
+            "ownerName": "Anixter Outsourced",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "ab337118",
+            "name": "Art Van Furniture",
+            "ownerID": "219847054458603257556518715779137226705",
+            "ownerName": "Art Van Furniture",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "db95431f",
+            "name": "At Home Stores",
+            "ownerID": "58029290797391754040943579756225430939",
+            "ownerName": "At Home Stores",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "981c3214",
+            "name": "AutoZone, Inc.",
+            "ownerID": "7515582738964117228498786932093959301",
+            "ownerName": "AutoZone, Inc.",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "a74e9043",
+            "name": "Backcountry.com",
+            "ownerID": "89185967985099418397056700468224599207",
+            "ownerName": "Backcountry.com",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "e239ecc4",
+            "name": "Baer's Furniture Co. Inc.",
+            "ownerID": "51029848167520110096169361431677232383",
+            "ownerName": "Baer's Furniture Co., Inc.",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "The pack level Reference group (Referencequal = ZZ) should be used to populate  the \"Shipping Lane\" field.",
+            "id": "0965535b",
+            "name": "Baker & Taylor Inc.",
+            "ownerID": "117178453454714601688004637447983803595",
+            "ownerName": "Baker & Taylor Inc.",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "8d10c529",
+            "name": "BareWeb",
+            "ownerID": "140145033934439183759223002266421713676",
+            "ownerName": "BareWeb",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "4d456761",
+            "name": "Barnes & Noble College Bookstores",
+            "ownerID": "25410024605575328251134197445341022033",
+            "ownerName": "Barnes & Noble College Bookstores",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "4386ed1c",
+            "name": "Barnes & Noble - DC",
+            "ownerID": "136818004413594887483641917955752908851",
+            "ownerName": "Barnes & Noble - DC",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "4fc2e739",
+            "name": "Barnes & Noble - Retail Stores",
+            "ownerID": "318349386582142568798364151666972677819",
+            "ownerName": "Barnes & Noble - Retail Stores",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "e30bf085",
+            "name": "Bass Pro",
+            "ownerID": "125717426732194819842741041419235120175",
+            "ownerName": "Bass Pro",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "2c219322",
+            "name": "Bealls",
+            "ownerID": "184575211204231038288875929965407569472",
+            "ownerName": "Bealls",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "bfe02244",
+            "name": "Bed Bath And Beyond",
+            "ownerID": "62639149566645189488267816872449479988",
+            "ownerName": "BED BATH & BEYOND (CF)",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "58ae7042",
+            "name": "Belk",
+            "ownerID": "257992468160938100203999574160210407856",
+            "ownerName": "Belk",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "d4731f6f",
+            "name": "Best Buy Canada",
+            "ownerID": "7324913789609455781785880259627052938",
+            "ownerName": "Best Buy Canada",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "31aec1fa",
+            "name": "Best Buy USA",
+            "ownerID": "186046956011339847945867971819451877704",
+            "ownerName": "Best Buy & Best Buy.com",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "d7885733",
+            "name": "B & H Photo",
+            "ownerID": "192920510920652351200488681153034707531",
+            "ownerName": "B & H Photo",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "9f20eff4",
+            "name": "Big 5 Sporting Goods",
+            "ownerID": "224500347902554995905824762643269055170",
+            "ownerName": "Big 5 Sporting Goods",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "274a4c78",
+            "name": "BIG LOTS STORES INC.",
+            "ownerID": "250471123824349000701703666480464375573",
+            "ownerName": "BIG LOTS STORES INC.",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "f09acac3",
+            "name": "Big Rock Sports LLC",
+            "ownerID": "340007335694433321112287800174229197968",
+            "ownerName": "Big Rock Sports LLC",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "9a83716c",
+            "name": "Big W Discount Stores",
+            "ownerID": "135621281285243617960673582099930676913",
+            "ownerName": "Big W Discount Stores",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "27ffa4e0",
+            "name": "Bi-Mart",
+            "ownerID": "238624108441522048234415509296370828473",
+            "ownerName": "Bi-Mart",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "76113a38",
+            "name": "Blain Supply",
+            "ownerID": "91531911961579706337515467642912796096",
+            "ownerName": "Blain Supply",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "5b8094d8",
+            "name": "Bloomingdales",
+            "ownerID": "101318959921645378165218948388130990959",
+            "ownerName": "Bloomingdales",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "c7f462ab",
+            "name": "Bloomingdales Dubai - Noul LLC",
+            "ownerID": "62032246599556100628386866589014152072",
+            "ownerName": "Bloomingdales Dubai - Noul LLC",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "2d3dbc9c",
+            "name": "Bloomingdale\u2019s Outlet",
+            "ownerID": "12960465036951058562839125688459508780",
+            "ownerName": "Bloomingdale\u2019s Outlet",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "e1819487",
+            "name": "Blue Mercury",
+            "ownerID": "1255337205924550307865672514490315676",
+            "ownerName": "Blue Mercury",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "73254a65",
+            "name": "Bluestem Brands",
+            "ownerID": "320940353231559296108160620332137041373",
+            "ownerName": "Bluestem Brands (Orchard Brands All Divisions)",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "c97cbfea",
+            "name": "Boscov's",
+            "ownerID": "47725949533294295499619247621762642836",
+            "ownerName": "Boscov's",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "fa78577d",
+            "name": "BSN Sports",
+            "ownerID": "225959229103253631552707973659669895047",
+            "ownerName": "BSN Sports",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "5901f9ba",
+            "name": "Buc-ee's",
+            "ownerID": "74202315334144164531491535790870330192",
+            "ownerName": "Buc-ee's",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "b317c54c",
+            "name": "Burlington Coat Factory",
+            "ownerID": "193561672528300687085979403916493254738",
+            "ownerName": "BURLINGTON COAT FACTORY",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "92baae81",
+            "name": "BYU Bookstore",
+            "ownerID": "18126080335813149723251586365214420772",
+            "ownerName": "BYU Bookstore",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "f02bd0cc",
+            "name": "Cabelas",
+            "ownerID": "39483696449497646122890851468877071199",
+            "ownerName": "Cabela's",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "d995a37d",
+            "name": "Camping World Inc.",
+            "ownerID": "111020840905443826049373825758758092548",
+            "ownerName": "Camping World Inc.",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "93cf22d1",
+            "name": "Canadian Tire",
+            "ownerID": "28385752502423480988872841041577440960",
+            "ownerName": "Canadian Tire",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "658cf9f2",
+            "name": "Cardinal Health",
+            "ownerID": "119193758582075915554536440461805523992",
+            "ownerName": "Cardinal Health",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "3c8786b8",
+            "name": "Cardi's Furniture",
+            "ownerID": "122954341177407958881447122408980157408",
+            "ownerName": "Cardi's Furniture",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "5bba0a38",
+            "name": "Carquest",
+            "ownerID": "283200532998590836771963520364385812086",
+            "ownerName": "Carquest",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "bcfa7c36",
+            "name": "CAVENDER",
+            "ownerID": "231847581124460819842833683821110849265",
+            "ownerName": "CAVENDER",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "60653ea3",
+            "name": "Century 21",
+            "ownerID": "217649708262665367368038925529654768990",
+            "ownerName": "Century 21",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "fb808a9a",
+            "name": "Ceva Logistics",
+            "ownerID": "265661421316780275680522047702154673612",
+            "ownerName": "Ceva Logistics 2",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "7f09cf72",
+            "name": "Chewy.com",
+            "ownerID": "48086725434094184196193124327102638053",
+            "ownerName": "Chewy.com",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "cb942fdf",
+            "name": "Coast Guard Exchange Service",
+            "ownerID": "318166233300351519433182783685247838741",
+            "ownerName": "Coast Guard Exchange Service",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "905323d3",
+            "name": "Coles Supermarket",
+            "ownerID": "265272812261542770582033320863039804586",
+            "ownerName": "Coles Supermarket",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "420495f5",
+            "name": "Concourse Team Express, LLC",
+            "ownerID": "339652108049555261241738825632606440826",
+            "ownerName": "Concourse Team Express, LLC",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "8c904cc3",
+            "name": "Costco",
+            "ownerID": "315313643418879033061884489939620556446",
+            "ownerName": "Costco",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "b344db30",
+            "name": "Costco Australia",
+            "ownerID": "298661417844735745447050385202053024906",
+            "ownerName": "Costco Australia",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "fabacae6",
+            "name": "Crate and Barrel",
+            "ownerID": "305365042812075660808032759360729219527",
+            "ownerName": "Crate and Barrel",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "fbaebafd",
+            "name": "C&S Wholesale",
+            "ownerID": "61949045919677284426930327802065839448",
+            "ownerName": "C&S Wholesale",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "32c01e8b",
+            "name": "CVS Pharmacy",
+            "ownerID": "254200781194613151129521512001712970104",
+            "ownerName": "CVS Pharmacy",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "98081db0",
+            "name": "CW Management",
+            "ownerID": "246606507593746755415745806482906242835",
+            "ownerName": "CW Management",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "b4a31189",
+            "name": "Daimler Aftermarket - PDC",
+            "ownerID": "90936314811116478191217337583084208850",
+            "ownerName": "Daimler Aftermarket - PDC",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "57a085c5",
+            "name": "David Jones",
+            "ownerID": "54733678113955911976975357193349305754",
+            "ownerName": "David Jones",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "86ce372a",
+            "name": "DAVIDSONS",
+            "ownerID": "297269013357392727448752298930646160974",
+            "ownerName": "DAVIDSONS",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "d11ee237",
+            "name": "Delhaize America, Inc.",
+            "ownerID": "210023130510687870809386998740330596775",
+            "ownerName": "Delhaize America, Inc.",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "Dept Name sources from DepartmentDescription, if present.  Otherwise, will source from the Division field",
+            "id": "31ed658d",
+            "name": "Dick's Sporting Goods",
+            "ownerID": "15968348836614592586451358858029723921",
+            "ownerName": "Dick's Sporting Goods",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "3d65a1c0",
+            "name": "Dicks Sporting Goods Vendor Direct - CommerceHub",
+            "ownerID": "222551547909646950536371899141778038721",
+            "ownerName": "Dicks Sporting Goods Vendor Direct - CommerceHub",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "8a0a2adc",
+            "name": "Dillards",
+            "ownerID": "289472085960750500651625115738052061980",
+            "ownerName": "Dillards",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "bb6a6aa0",
+            "name": "Do It Best",
+            "ownerID": "168958520249066860447220138825883738689",
+            "ownerName": "Do It Best Hardware",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "629c66d6",
+            "name": "Dot Foods",
+            "ownerID": "139769289063410707105351367232232646514",
+            "ownerName": "Dot Foods",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "15d99503",
+            "name": "Douglas Germany / Netherlands",
+            "ownerID": "28721730592614964652972012054857468510",
+            "ownerName": "Douglas Germany",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "b1cedd67",
+            "name": "DSW",
+            "ownerID": "157193430222439717176474833327801725951",
+            "ownerName": "DSW",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "dcc5872c",
+            "name": "Dunham Sports",
+            "ownerID": "282268589276265537511340655741382802300",
+            "ownerName": "Dunham's Sports",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "ef1b3848",
+            "name": "Earth Fare",
+            "ownerID": "222768555400359282739243427704894096341",
+            "ownerName": "Earth Fare",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "47eff7a8",
+            "name": "Emerson Ecologics, LLC",
+            "ownerID": "138543178317333540202628506689003976289",
+            "ownerName": "Emerson Ecologics, LLC",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "bd3de455",
+            "name": "Excelligence",
+            "ownerID": "297390882283164421877824467176190913934",
+            "ownerName": "Excelligence",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "a4d7f696",
+            "name": "Fanatics",
+            "ownerID": "43712695908425087979079141841982689205",
+            "ownerName": "Fanatics",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "210c4429",
+            "name": "Farmers Trading Co",
+            "ownerID": "7018199824149182226106687533011699659",
+            "ownerName": "Farmers Trading Co",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "7b84e7eb",
+            "name": "FASTENAL",
+            "ownerID": "256039711535486589711571198191605431577",
+            "ownerName": "FASTENAL",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "0cef8e03",
+            "name": "Federated Co-op Foods",
+            "ownerID": "114024832950860295257243117972915878776",
+            "ownerName": "Federated Co-op Foods",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "94bb97cf",
+            "name": "Ferguson Enterprises",
+            "ownerID": "289406054208279388031660008219886786203",
+            "ownerName": "Ferguson Enterprises",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "86e87d2c",
+            "name": "FGL Sports Ltd.",
+            "ownerID": "219896241567494055036382414722121853688",
+            "ownerName": "FGL Sports Ltd.",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "dc2bf4f9",
+            "name": "Fisher Scientific Company LLC",
+            "ownerID": "321570149190999270361809513143602196395",
+            "ownerName": "Fisher Scientific Company LLC",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "f737a182",
+            "name": "Five Below Inc.",
+            "ownerID": "198462886208265962256081489722283389176",
+            "ownerName": "Five Below Inc.",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "480d1ae6",
+            "name": "Fleet Farm",
+            "ownerID": "82007767591628085782317972272112315832",
+            "ownerName": "Mills Fleet Farm",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "93fb4e73",
+            "name": "FOLLETT HIGHER EDUCATION GROUP",
+            "ownerID": "309329166264496134657792181407988357826",
+            "ownerName": "FOLLETT HIGHER EDUCATION GROUP",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "09faff09",
+            "name": "Foot Locker",
+            "ownerID": "225328627621597706534848229056035632971",
+            "ownerName": "Foot Locker",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "73e24c33",
+            "name": "Foot Locker Second Label",
+            "ownerID": "225328627621597706534848229056035632971",
+            "ownerName": "Foot Locker",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "b07aba38",
+            "name": "Fred Meyer - Non Food",
+            "ownerID": "287023489143937195129308349364365598958",
+            "ownerName": "Fred Meyer - Non Food",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "fee38456",
+            "name": "Freds Inc",
+            "ownerID": "311256823253597563359832354885465706193",
+            "ownerName": "Fred'S, Inc.",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "4624fe74",
+            "name": "FRONTGATE",
+            "ownerID": "169821973714634206121945500570311239782",
+            "ownerName": "FRONTGATE/Cinmar",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "171c0699",
+            "name": "Furniture Row, LLC",
+            "ownerID": "209804833737958090951315367460630836688",
+            "ownerName": "Furniture Row, LLC",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "c30bf33b",
+            "name": "GNC Inc",
+            "ownerID": "58493911013602812770324798459399447168",
+            "ownerName": "GNC Corp",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "0ddd1740",
+            "name": "Golftown",
+            "ownerID": "138869561262713202874797101898562636015",
+            "ownerName": "GOLF TOWN",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "1a85fa51",
+            "name": "Golf Warehouse",
+            "ownerID": "204930600241024507421532937481276879634",
+            "ownerName": "The Golf Warehouse Inc",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "49f73fa7",
+            "name": "Golf Warehouse",
+            "ownerID": "58493911013602812770324798459399447168",
+            "ownerName": "GNC Corp",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "4c001759",
+            "name": "Grainger",
+            "ownerID": "205877797545868000309295487937350390059",
+            "ownerName": "Grainger",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "07f0ff02",
+            "name": "Grove Collaborative",
+            "ownerID": "146135109733207253482743858706450435740",
+            "ownerName": "Grove Collaborative",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "f07045cf",
+            "name": "GUITAR CENTER",
+            "ownerID": "8125268672326855053659699911386047197",
+            "ownerName": "GUITAR CENTER",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "460a155e",
+            "name": "Hamricks",
+            "ownerID": "147297251836979483148220760581140145246",
+            "ownerName": "Hamricks",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "When header.Address.AddressTypeCode = ST the AddressAlternateName field is required and is Used for the Carrier Facility Code/Pool Code",
+            "id": "89efd2b2",
+            "name": "HARMON STORES",
+            "ownerID": "272270873786624635999322314638588274243",
+            "ownerName": "HARMON STORES",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "a3a7cc3f",
+            "name": "Harris Scarfe",
+            "ownerID": "213141616197618338563903509559539403446",
+            "ownerName": "Harris Scarfe Australia Pty Ltd",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "e4922611",
+            "name": "Harris Teeter",
+            "ownerID": "216941362267699884753820116424501924534",
+            "ownerName": "Harris Teeter",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "f3b3b60e",
+            "name": "Harvey Norman",
+            "ownerID": "7779233737947112744286293960913536690",
+            "ownerName": "Harvey Norman",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "f25da7cd",
+            "name": "HAVERTY'S",
+            "ownerID": "5640730351492793759376205891993433454",
+            "ownerName": "HAVERTY'S",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "2b4635da",
+            "name": "Hayneedle.com",
+            "ownerID": "15628558539355900741242710687499054425",
+            "ownerName": "Hayneedle.com",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "9d06d8b5",
+            "name": "HD Supply, Inc.",
+            "ownerID": "103203279716222348007070650940957092430",
+            "ownerName": "HD Supply, Inc.",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "d556f58e",
+            "name": "HEB GROCERY",
+            "ownerID": "9594021848149351212608624453843722108",
+            "ownerName": "HEB GROCERY",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "64277886",
+            "name": "HENRY SCHEIN",
+            "ownerID": "55662932853166477109995491807667057972",
+            "ownerName": "HENRY SCHEIN",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "1c11acca",
+            "name": "Hibbett Sporting Goods, Inc.",
+            "ownerID": "208870643656807623296886982673762241779",
+            "ownerName": "Hibbett Sporting Goods, Inc.",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "46ae6915",
+            "name": "Home Depot",
+            "ownerID": "315563183116536952447236472779026854658",
+            "ownerName": "Home Depot",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "232ad859",
+            "name": "Home Depot Canada",
+            "ownerID": "51732890949062217532147377831291232872",
+            "ownerName": "Home Depot Canada",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "48bb03dc",
+            "name": "Home Depot Pro",
+            "ownerID": "170995464599907812870541805934009532122",
+            "ownerName": "Home Depot Pro",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "8bf3d2ef",
+            "name": "Hornbach Holding AG",
+            "ownerID": "315636858494726651847536838452946907529",
+            "ownerName": "Hornbach Holding AG",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "8aa4d1fd",
+            "name": "House",
+            "ownerID": "52351710404842441399747038544301654549",
+            "ownerName": "House",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "0371173b",
+            "name": "HSN Home Shopping Network Warehouse",
+            "ownerID": "102327076620382111424432333173903128569",
+            "ownerName": "HSN - Home Shopping Network - Warehouse",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "31e812f0",
+            "name": "Hudson Bay (Zellers)",
+            "ownerID": "229553784139404733186639835749437011663",
+            "ownerName": "Hudson Bay",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "aa3a7489",
+            "name": "iHerb",
+            "ownerID": "232892918883113365174712823164992832563",
+            "ownerName": "iHerb",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "361b4c4e",
+            "name": "Indigo Books & Music - General Merchandising",
+            "ownerID": "22666688113259324080358573258277196116",
+            "ownerName": "Indigo Books & Music - General Merchandising",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "b0950a2e",
+            "name": "Intermountain Farmers",
+            "ownerID": "146478801591570015387896719474974182130",
+            "ownerName": "Intermountain Farmers",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "d542487a",
+            "name": "JCPenney (Retail / Catalog)",
+            "ownerID": "134340431264138854693771166414453586422",
+            "ownerName": "JCPenney Retail",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "ded2a035",
+            "name": "Jet.com",
+            "ownerID": "175996370666253474287257093940147936501",
+            "ownerName": "Jet.com",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "63929b83",
+            "name": "JOANN STORES",
+            "ownerID": "265982583299743209933662087675323888279",
+            "ownerName": "JOANN STORES",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "3413d3da",
+            "name": "Joe Fresh",
+            "ownerID": "201925719153830648130586174338101567997",
+            "ownerName": "Loblaws Inc",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "1edab7b1",
+            "name": "John Lewis",
+            "ownerID": "146005820860656290083719282176069933628",
+            "ownerName": "John Lewis",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "48cc7717",
+            "name": "Kansas Sampler Inc",
+            "ownerID": "324344473837015940306642793331269498283",
+            "ownerName": "Kansas Sampler Inc",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "2fcb9da0",
+            "name": "KEYSTONE AUTOMOTIVE",
+            "ownerID": "235728894882729319529367731976463851990",
+            "ownerName": "KEYSTONE AUTOMOTIVE",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "04e41471",
+            "name": "KITCHEN WAREHOUSE PTY LTD",
+            "ownerID": "116022988844028105453543883235822670862",
+            "ownerName": "KITCHEN WAREHOUSE PTY LTD",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "860712c3",
+            "name": "Kmart Australia and New Zealand",
+            "ownerID": "234451303572884277702840571784892478569",
+            "ownerName": "Kmart Australia & New Zealand",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "If division is not present or = 'D2S' the Direct to Store label will be generated. If division = 'X2S' then the cross-format to store label will be generated",
+            "id": "2b11bff3",
+            "name": "Kmart.com thru LogicBroker",
+            "ownerID": "66718067448168536172683926201655774483",
+            "ownerName": "Kmart.com thru LogicBroker",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "\"Division\" options:\n- Bulk\n- Pack by Store\nThese are provided on the 850 in REF02(ZZ), and determine the label format",
+            "id": "fa66bdd6",
+            "name": "Kohl's Corporation",
+            "ownerID": "298198253631923133984588429707599697520",
+            "ownerName": "Kohl's Corporation",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "Value from Pack/Address/[AddressTypeCode=Z7]AddressLocationNumber will be source into the label partially. Only characters 10-13 will be displayed on the label (Leading zeros will be omitted).",
+            "id": "b58e0e81",
+            "name": "KROGER",
+            "ownerID": "292119569323507119172278550033373750460",
+            "ownerName": "KROGER",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "630c8c83",
+            "name": "Lakeshore Learning Materials",
+            "ownerID": "47347884857786770948803800746746671623",
+            "ownerName": "Lakeshore Learning Materials",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "4f5d9fc1",
+            "name": "Leroy Merlin",
+            "ownerID": "171891793602429581160266322620023552227",
+            "ownerName": "Leroy Merlin",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "4e442faf",
+            "name": "Leslie's Poolmart",
+            "ownerID": "145176865298155039478294225057132482768",
+            "ownerName": "Leslie's Poolmart",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "4e73d635",
+            "name": "Levin Furniture",
+            "ownerID": "305325751284235489345090929496992955756",
+            "ownerName": "Levin Furniture",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "ec747dfa",
+            "name": "Lids Corporation",
+            "ownerID": "181499078987900989702109399624510490335",
+            "ownerName": "Lids Corporation",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "7b4ae636",
+            "name": "Lincraft",
+            "ownerID": "942790939117026182202755198267186827",
+            "ownerName": "Lincraft",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "8baae766",
+            "name": "Living Spaces Furniture",
+            "ownerID": "271128881907478174024732035070173609672",
+            "ownerName": "Living Spaces Furniture",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "3cdc01d8",
+            "name": "LL BEAN",
+            "ownerID": "24495975840111123119903610300619391771",
+            "ownerName": "LL BEAN",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "da3d08de",
+            "name": "L & L PRODUCTS INC",
+            "ownerID": "265227519796519536938562752832692050302",
+            "ownerName": "L & L PRODUCTS INC",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "Header.References (MR qualifier) should be used to indicate if the shipment contains Media or Non-media Items.  Send \"Media\" if shipment contains only Books, Music, Video, DVD (BMVD) items. Send \"non-media\"  if shipment contains only non-BMVD items. Leave blank if  shipment contains a combination of BMVD and non-BMVD items.",
+            "id": "ecd6d7dd",
+            "name": "Lone Cone",
+            "ownerID": "316607225435881848412270168971365572584",
+            "ownerName": "Lone Cone",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "4ebe7441",
+            "name": "Lowes",
+            "ownerID": "210954123303717908152940342201793874108",
+            "ownerName": "Lowes",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "682f7785",
+            "name": "Lowes Through CommerceHub",
+            "ownerID": "251341969012400204291529525588823424564",
+            "ownerName": "Lowes Through CommerceHub",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "Macy's has a slightly different label for \"Big Ticket\" or furniture merchandise than they do for \"small ticket\" items. \n\"Small Ticket\" label will default. The presence of the  Header.Address_AddressLocationNumber = BT (AddressTypeCode = BO) group triggers logic for \"Big Ticket\" shipping labels.",
+            "id": "d16ee00a",
+            "name": "Macy's",
+            "ownerID": "184330383114163798989215793399701671870",
+            "ownerName": "Macy's",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "50bccc03",
+            "name": "Marks Work Wearhouse",
+            "ownerID": "57473575548997259067200430828582627123",
+            "ownerName": "Marks Work Wearhouse",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "edd3b6b3",
+            "name": "Mattoon Rural King",
+            "ownerID": "150034265099588907163167035501836282747",
+            "ownerName": "Mattoon Rural King Supply",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "ce6c96f9",
+            "name": "MAYO HARDWARE PTY LTD",
+            "ownerID": "252754273574376493076759573905274698835",
+            "ownerName": "MAYO HARDWARE PTY LTD",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "8f05eb02",
+            "name": "McKesson",
+            "ownerID": "140331601647534741886897099319071609059",
+            "ownerName": "McKesson",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "507d55ae",
+            "name": "MCKESSON-CANADA",
+            "ownerID": "242557509808167838996128464034669311109",
+            "ownerName": "MCKESSON-CANADA",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "0342e5a0",
+            "name": "McLane Company",
+            "ownerID": "178641978671541077088013641262119970856",
+            "ownerName": "McLane Company",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "168ffd85",
+            "name": "MCX",
+            "ownerID": "150461534282100505466492734076208777268",
+            "ownerName": "MCX (Marine Corps Exchange)",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "187ad1e1",
+            "name": "MECCA BRANDS PTY LTD",
+            "ownerID": "261078736655033567892840888019842133849",
+            "ownerName": "MECCA BRANDS PTY LTD",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "5e8d9103",
+            "name": "MEC MOUNTAIN EQUIPMENT COMPANY LTD",
+            "ownerID": "83387370853599903729676613078392593044",
+            "ownerName": "MEC MOUNTAIN EQUIPMENT COMPANY LTD.",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "78234941",
+            "name": "MedSTAT",
+            "ownerID": "333289819629720456207278460698148619238",
+            "ownerName": "MedSTAT",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "a5c5a848",
+            "name": "Meijer Inc.",
+            "ownerID": "83700791736701678046510678170644516308",
+            "ownerName": "Meijer Inc.",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "797caeaa",
+            "name": "Merchant Distributor Inc",
+            "ownerID": "85356101126626701430076564034269333046",
+            "ownerName": "Merchant Distributor Inc",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "bc1b2db0",
+            "name": "Metcash Limited",
+            "ownerID": "141268207682516447735704524687030927277",
+            "ownerName": "Metcash Limited",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "2cf367ff",
+            "name": "Michaels",
+            "ownerID": "110009249683436849127243318306213965523",
+            "ownerName": "Michaels",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "dce9db00",
+            "name": "Micro Center",
+            "ownerID": "91946022944012876412321647353790703632",
+            "ownerName": "Micro Center",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "075a1447",
+            "name": "MidwayUSA",
+            "ownerID": "216833035202419173793148524502278603342",
+            "ownerName": "MidwayUSA",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "4c8995b0",
+            "name": "Moosejaw Mountaineering",
+            "ownerID": "210284916437196304562795504092501221059",
+            "ownerName": "Moosejaw Mountaineering",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "82ab5d0c",
+            "name": "Mountain Bikes Direct",
+            "ownerID": "44117932515999090101498352677555255861",
+            "ownerName": "Mountain Bikes Direct",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "060c5ac8",
+            "name": "MSC Industrial Supply",
+            "ownerID": "185453739459648037804365774553107938087",
+            "ownerName": "MSC INDUSTRIAL SUPPLY",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "82384569",
+            "name": "Myer Australia",
+            "ownerID": "266501074336042124177773897238048130286",
+            "ownerName": "Myer Australia",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "53d2c84e",
+            "name": "NAPA BALKAMP SALT LAKE CITY",
+            "ownerID": "293779887313948373827096465216642662240",
+            "ownerName": "NAPA BALKAMP SALT LAKE CITY",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "5787424e",
+            "name": "Napa Balkmap Plainfield",
+            "ownerID": "293779887313948373827096465216642662240",
+            "ownerName": "NAPA BALKAMP SALT LAKE CITY",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "cd4d984e",
+            "name": "Nash Finch",
+            "ownerID": "222501751303533524779558860777493341368",
+            "ownerName": "Nash Finch",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "21325a74",
+            "name": "NEBRASKA FURNITURE MART",
+            "ownerID": "150011268429546886240531376484335268387",
+            "ownerName": "NEBRASKA FURNITURE MART",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "5288baed",
+            "name": "NEIMAN MARCUS GROUP",
+            "ownerID": "279995857274635689035403794850198735691",
+            "ownerName": "NEIMAN MARCUS GROUP",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "6e8e5bbf",
+            "name": "Nexcom Navy Exchange",
+            "ownerID": "64925949163417322496531646932109765559",
+            "ownerName": "NexcomNavyExchange",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "ca9aaa0e",
+            "name": "Nike Retail WE",
+            "ownerID": "251605214339534913578751234687021294292",
+            "ownerName": "Nike Retail WE",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "fdd9095f",
+            "name": "Nordstrom",
+            "ownerID": "70566242762059764183878005019290881686",
+            "ownerName": "Nordstrom",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "afb256a6",
+            "name": "Nordstrom - Canada",
+            "ownerID": "31815732894425336590692097709091575942",
+            "ownerName": "Nordstrom - Canada",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "49cbf71c",
+            "name": "Northern Tool & Equipment",
+            "ownerID": "75988489210916809808474395680260636854",
+            "ownerName": "Northern Tool & Equipment",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "1a4946df",
+            "name": "Ocean State Job Lot",
+            "ownerID": "5048902585334199517028905310948576995",
+            "ownerName": "Ocean State Job Lot",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "19a8acdc",
+            "name": "Off Broadway Shoes",
+            "ownerID": "9268066613349010019737264798603908106",
+            "ownerName": "Off Broadway Shoes",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "83bb7c13",
+            "name": "Office Depot Retail",
+            "ownerID": "260600914734353979972908465823650185253",
+            "ownerName": "Office Depot Retail",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "315e31f6",
+            "name": "Officemax Holdings Limited",
+            "ownerID": "36792881637242515926551276602341994026",
+            "ownerName": "Officemax Holdings Limited",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "f2af973f",
+            "name": "Officeworks",
+            "ownerID": "187762554798047389168292898171382774154",
+            "ownerName": "Officeworks",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "34408b64",
+            "name": "Orchard Supply Hardware",
+            "ownerID": "76660615209633151679454515970457246884",
+            "ownerName": "Orchard Supply Hardware - Direct Ship",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "ab10b876",
+            "name": "Overstock.com Direct",
+            "ownerID": "48650081025994169856440647699531210664",
+            "ownerName": "Overstock.com Direct",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "e432871e",
+            "name": "Party City Corp",
+            "ownerID": "4040718635298065072906430844898968423",
+            "ownerName": "Party City Corp",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "ac6822fa",
+            "name": "Peavey Industries",
+            "ownerID": "248513034263040351676267739479413808492",
+            "ownerName": "Peavey Industries",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "e6c8cc89",
+            "name": "Petbarn",
+            "ownerID": "51947588635202209660673365072503134460",
+            "ownerName": "Petbarn",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "48c4f079",
+            "name": "Pet Circle",
+            "ownerID": "126439162056265531849612435617627626349",
+            "ownerName": "Pet Circle",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "4cf28d23",
+            "name": "PetCulture",
+            "ownerID": "135528111702570354662356329829330041231",
+            "ownerName": "PetCulture",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "e4ca72bd",
+            "name": "PetSmart",
+            "ownerID": "276986262628422427609287070912928581177",
+            "ownerName": "PetSmart",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "d4ae738b",
+            "name": "Petstock Pty Ltd",
+            "ownerID": "48038555808527172167760558001061024921",
+            "ownerName": "PETSTOCK PTY LTD",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "8457b1c2",
+            "name": "Pet Valu, Inc.",
+            "ownerID": "103672630750533624420782043953141395033",
+            "ownerName": "Pet Valu, Inc.",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "b8819af8",
+            "name": "PGA Tour Superstore",
+            "ownerID": "305420358633285222139409991272339458848",
+            "ownerName": "PGA Tour Superstore",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "437be4e7",
+            "name": "Pharmacy 4 Less",
+            "ownerID": "295312153460953551538867517606312010668",
+            "ownerName": "Pharmacy 4 Less",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "1790c84a",
+            "name": "Publix Super Markets",
+            "ownerID": "250930223869576056980206854183365569922",
+            "ownerName": "Publix Super Markets",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "763a17b9",
+            "name": "Pure Hockey",
+            "ownerID": "323481863132589779189276502780870453829",
+            "ownerName": "Pure Hockey",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "a287ea92",
+            "name": "Rack Room Shoes",
+            "ownerID": "125125850967051188566742166896986251843",
+            "ownerName": "Rack Room Shoes",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "909e2cf5",
+            "name": "REI",
+            "ownerID": "185262736996082871066814991447095632224",
+            "ownerName": "REI",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "d6c8cbc5",
+            "name": "REI - Ariba",
+            "ownerID": "56860778573322903889458325353416222798",
+            "ownerName": "REI - Ariba",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "766982b2",
+            "name": "Restaurant Supply Chain Solutions, LLC",
+            "ownerID": "98677079242622672890089397235068886097",
+            "ownerName": "Restaurant Supply Chain Solutions, LLC",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "a566aed7",
+            "name": "Retail Concepts, Inc",
+            "ownerID": "156742298195981464185726502021925421088",
+            "ownerName": "Retail Concepts, Inc",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "367bbaac",
+            "name": "Rite Aid",
+            "ownerID": "225518037097088741926363646093716647274",
+            "ownerName": "Rite Aid",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "6c2be56b",
+            "name": "Rocky Brands",
+            "ownerID": "35303493874802614230524242645852640069",
+            "ownerName": "Rocky Brands",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "16ea1767",
+            "name": "RSR Group",
+            "ownerID": "31965687412283531172919317715718250279",
+            "ownerName": "RSR Group",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "e5f0846e",
+            "name": "SAFEWAY",
+            "ownerID": "95199092361038708653979469299935050050",
+            "ownerName": "SAFEWAY",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "ac9fe37b",
+            "name": "Saks Canada",
+            "ownerID": "268991720271318970672584847208780607907",
+            "ownerName": "Saks Canada",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "eabc8672",
+            "name": "SAKS INC",
+            "ownerID": "221009636871006372853537019901073393001",
+            "ownerName": "SAKS INC",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "0138d03c",
+            "name": "Sally Beauty Holdings",
+            "ownerID": "11654387671513820655257126434596440641",
+            "ownerName": "Sally Beauty Holdings",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "This is a SPS Commerce created sample Bulk Import shipping label. This is an example of the data requirements and look that a retailer would expect to see on this type of label.",
+            "id": "15aa5856",
+            "name": "Sample Label - Bulk Import",
+            "ownerID": "157627141979612915626333577105111854232",
+            "ownerName": "SPS Commerce",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "This is a SPS Commerce created sample Cross Dock shipping label. This is an example of the data requirements and look that a retailer would expect to see on this type of label.",
+            "id": "6a5aac7e",
+            "name": "Sample Label - Cross Dock",
+            "ownerID": "157627141979612915626333577105111854232",
+            "ownerName": "SPS Commerce",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "28c654ff",
+            "name": "SamsClub.com",
+            "ownerID": "4152459335359551680444712351446847712",
+            "ownerName": "SamsClub .com",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "961d00f6",
+            "name": "Scheels All Sports",
+            "ownerID": "201229077516486817413796704340042614875",
+            "ownerName": "Scheels All Sports",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "c674584f",
+            "name": "SCHOOL SPECIALTY",
+            "ownerID": "313239968372043855600687966388533309296",
+            "ownerName": "SCHOOL SPECIALTY",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "5d2127a6",
+            "name": "Sears Holdings Corporation",
+            "ownerID": "198012307509112678691670426871063132169",
+            "ownerName": "Sears Holdings Corporation",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "bca50796",
+            "name": "Sephora",
+            "ownerID": "330920469951091046889221995613094198223",
+            "ownerName": "Sephora",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "22c83ef6",
+            "name": "Sephora Canada",
+            "ownerID": "324875165225367179543739425933899456210",
+            "ownerName": "Sephora Canada",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "49775d55",
+            "name": "Shaver Shop",
+            "ownerID": "5334223987993181954777254789784041623",
+            "ownerName": "Shaver Shop Pty Ltd",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "64c9c2bd",
+            "name": "Shopko",
+            "ownerID": "72184465324373805671188707706103207237",
+            "ownerName": "Shopko",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "3bc40cd1",
+            "name": "SHOPPERS DRUG MART",
+            "ownerID": "77673138219011952066050984204261965916",
+            "ownerName": "SHOPPERS DRUG MART",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "f2b8e80d",
+            "name": "Snap-On Incorporated (SupplyWeb)",
+            "ownerID": "224903897367279233965952415412889029008",
+            "ownerName": "Snap-On Incorporated (SupplyWeb)",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "f4dadaa5",
+            "name": "Spartan Food Stores",
+            "ownerID": "290925533828111992873228396986004964002",
+            "ownerName": "Spartan Food Stores",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "f2c031f4",
+            "name": "Spencer Gifts",
+            "ownerID": "12567986073483826470961998109637451330",
+            "ownerName": "Spencer Gifts",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "ebd0bfce",
+            "name": "Sporting Life Inc.",
+            "ownerID": "159779435716718428147159542172432555955",
+            "ownerName": "Sporting Life Inc",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "363b69d1",
+            "name": "Sportsman's Warehouse",
+            "ownerID": "201544735332442086360852804584834045253",
+            "ownerName": "Sportsman's Warehouse",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "ed46d657",
+            "name": "Sportsmans Warehouse Australia",
+            "ownerID": "86359430237050953974277219919879160267",
+            "ownerName": "Sportsmans Warehouse Australia",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "e044a497",
+            "name": "Sports South LLC",
+            "ownerID": "153885757012814481700983758394532196368",
+            "ownerName": "Sports South LLC",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "b1793851",
+            "name": "SPOTLIGHT PTY LTD",
+            "ownerID": "253208188475055946983850152682607903393",
+            "ownerName": "SPOTLIGHT PTY LTD",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "628d2def",
+            "name": "Spreetail",
+            "ownerID": "297046966426218790941181589334495368024",
+            "ownerName": "Spreetail",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "d8cc5108",
+            "name": "SP Richards",
+            "ownerID": "199345815490126025548214368644484861630",
+            "ownerName": "SP Richards",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "8d859f12",
+            "name": "Sprouts Farmers Market LLC",
+            "ownerID": "278434958326848500450938831220276831882",
+            "ownerName": "Sprouts Farmers Market, LLC",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "ca6f1f64",
+            "name": "Stage Stores",
+            "ownerID": "119457767179694010251857354381901895867",
+            "ownerName": "Stage Stores",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "8504c13f",
+            "name": "Staples",
+            "ownerID": "149527790575663629513979186164181761558",
+            "ownerName": "Staples",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "ac140fe2",
+            "name": "Starbucks Corporation",
+            "ownerID": "304451030415204424041868772140327628754",
+            "ownerName": "Starbucks Corporation",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "da4d33a0",
+            "name": "Statewide Independent Wholesalers Limited",
+            "ownerID": "304203484808297636153165247544592047975",
+            "ownerName": "Statewide Independent Wholesalers Limited",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "a52f5f27",
+            "name": "Steinhafels",
+            "ownerID": "320371075708796025994004688866654381313",
+            "ownerName": "Steinhafels",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "ca654c2e",
+            "name": "Stein Mart",
+            "ownerID": "46129175634738604809491328993374990841",
+            "ownerName": "Stein Mart",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "932d0964",
+            "name": "Super Retail Group",
+            "ownerID": "16393396561212255580700526803811672584",
+            "ownerName": "Super Retail Group",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "ec1749f8",
+            "name": "SUR LA TABLE",
+            "ownerID": "264966983800749648073790980712859070605",
+            "ownerName": "SUR LA TABLE",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "d6978191",
+            "name": "Sylvane, Inc.",
+            "ownerID": "12489170242399733563094661777903675070",
+            "ownerName": "Sylvane, Inc.",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "3c97b8f1",
+            "name": "Symbion",
+            "ownerID": "59192529762560721058284929631992147608",
+            "ownerName": "Symbion",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "Populate \"Division\" with one of the following options:\n- Master Carton\n- Master Carton Open to Receive\n- Predistro\n- Pallet\n- PIPO Assortment Item\n- PIPO\n- Direct-to-Store\n- Domestic",
+            "id": "9b8f7f72",
+            "name": "Target",
+            "ownerID": "146727697690965488373260637295707385270",
+            "ownerName": "Target",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "65655f6c",
+            "name": "Target Australia",
+            "ownerID": "227231380286891981265250899508191038698",
+            "ownerName": "Target Australia",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "83689bb9",
+            "name": "The Buckle",
+            "ownerID": "78145504681372575844299184242509418615",
+            "ownerName": "The Buckle",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "4539f1df",
+            "name": "THE ICONIC",
+            "ownerID": "3348496112205106046480092307292820404",
+            "ownerName": "THE ICONIC",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "d96b617f",
+            "name": "The Pep Boys",
+            "ownerID": "84885818646150820988644063340201540760",
+            "ownerName": "The Pep Boys - Manny, Moe & Jack",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "5fc60a5a",
+            "name": "The Sportsmans Guide, Inc.",
+            "ownerID": "158657020089255412794331588998060238538",
+            "ownerName": "The Sportsman's Guide, Inc.",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "aee9fe9a",
+            "name": "The Walt Disney Company",
+            "ownerID": "6456839382871624869664916475044949137",
+            "ownerName": "The Walt Disney Company",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "c69bf834",
+            "name": "Thrive Market, Inc.",
+            "ownerID": "42853960820332769558314043704973937996",
+            "ownerName": "Thrive Market, Inc.",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "18c4146b",
+            "name": "TJ MAXX",
+            "ownerID": "56269916201514446050113117785207396443",
+            "ownerName": "TJ MAXX",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "Send Header/Division = \"prepack\" in order to generate the prepack label",
+            "id": "b0fa6656",
+            "name": "Town Shoes",
+            "ownerID": "41024169075104923425396446200439169250",
+            "ownerName": "Town Shoes",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "bdacc972",
+            "name": "Toymate",
+            "ownerID": "95498842042088085447299795988955950522",
+            "ownerName": "Toymate",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "ba6e29f6",
+            "name": "Tractor Supply",
+            "ownerID": "186519480239345645016734752856289977030",
+            "ownerName": "Tractor Supply",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "53779145",
+            "name": "TRUE VALUE",
+            "ownerID": "57592435062958234846433988950025647500",
+            "ownerName": "TRUE VALUE",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "7da52ae8",
+            "name": "Ulta through Ariba",
+            "ownerID": "211057141262259002445932527064473942282",
+            "ownerName": "Ulta through Ariba",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "The Pack level Notes group is used to indicate a partial shipment. I shipping a partial carton, then Notes group should be present with \"PARTIAL\" in the Note field.",
+            "id": "a9454e40",
+            "name": "Ulta through OpenText",
+            "ownerID": "248497222914023602110386813812481017343",
+            "ownerName": "Ulta through OpenText",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "469b40d0",
+            "name": "UNITED HARDWARE",
+            "ownerID": "165867365911455904893560019609503699599",
+            "ownerName": "UNITED HARDWARE",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "823421dc",
+            "name": "Urban Outfitters, Inc.",
+            "ownerID": "196666636805757470038132177488145473303",
+            "ownerName": "Urban Outfitters, Inc.",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "363dff74",
+            "name": "US Foods",
+            "ownerID": "322499373350711692069216085242061647564",
+            "ownerName": "US Foods",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "75f3856c",
+            "name": "Veteran's Canteen Service - Direct Store",
+            "ownerID": "254322927861207747814630992534049196704",
+            "ownerName": "Veteran's Canteen Service - Direct Store",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "bca150b5",
+            "name": "Vitamin Discount Center, Inc.",
+            "ownerID": "99090018189205029830590456032480741395",
+            "ownerName": "Vitamin Discount Center, Inc.",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "008d0003",
+            "name": "Vitamin Shoppe",
+            "ownerID": "287159270542426929187164626112235743606",
+            "ownerName": "Vitamin Shoppe Procurement Services, Inc",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "0e601b87",
+            "name": "Volvo Parts",
+            "ownerID": "331166575200783344600042699418201316411",
+            "ownerName": "Volvo Parts",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "ddfac997",
+            "name": "Von Maur, Inc.",
+            "ownerID": "247521040201103350736394755152273377532",
+            "ownerName": "Von Maur, Inc.",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "04a9f306",
+            "name": "Walgreen CF",
+            "ownerID": "194218890274972831353847670493749974187",
+            "ownerName": "Walgreen CF",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "The CarrierPackageID field is used to trigger the Carrier Routing barcode label. If Pack Level CarrierPackageID = \"92\" is present then the Carrier Routing barcode label format will be generated.",
+            "id": "fcf529df",
+            "name": "Walmart.com DSV",
+            "ownerID": "40036640973045331270446388130918645325",
+            "ownerName": "Walmart.com Dropship Vendors",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "AddressAlternateName (when AddressTypeCode = ST) should contain the DC#",
+            "id": "c8a6ebc7",
+            "name": "Walmart USA / Canada DSDC Label",
+            "ownerID": "184974913482923864976351177423177109706",
+            "ownerName": "Walmart-USA",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "0427e80f",
+            "name": "Walmart USA / Canada Not DSDC Label",
+            "ownerID": "184974913482923864976351177423177109706",
+            "ownerName": "Walmart-USA",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "AddressAlternateName (when AddressTypeCode = ST) should contain the DC#\nAny MarksAndNumbers1 value less than 14 characters will be dropped",
+            "id": "6d922b25",
+            "name": "Walmart USA / Canada SSCC-14 Label",
+            "ownerID": "184974913482923864976351177423177109706",
+            "ownerName": "Walmart-USA",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "70b37027",
+            "name": "WASSERSTROM COMPANY",
+            "ownerID": "14867956350775670074688934172663967072",
+            "ownerName": "WASSERSTROM COMPANY",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "2b889423",
+            "name": "Wayfair LLC",
+            "ownerID": "77323942895476128044357133148749987748",
+            "ownerName": "Wayfair LLC",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "ea604696",
+            "name": "Wb Mason",
+            "ownerID": "49142824466625587276884234051927330239",
+            "ownerName": "Wb Mason",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "dcfa2aa2",
+            "name": "WEGMANS",
+            "ownerID": "43088691877659749800600374811812361906",
+            "ownerName": "WEGMANS",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "The Header 'Note' field is mandatory and used to trigger the appropriate validation logic and label type. One of the following will need to be sent: 'Standard' or 'FlowThrough'.",
+            "id": "19b18b28",
+            "name": "WILLIAMS SONOMA INC",
+            "ownerID": "45087732790963330519488073477013116786",
+            "ownerName": "WILLIAMS SONOMA INC",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "4ac84da0",
+            "name": "Winston Brands",
+            "ownerID": "13918660493181218371439017181382480807",
+            "ownerName": "Winston Brands",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "6cab8ca1",
+            "name": "W.M. Barr & Co.",
+            "ownerID": "305219300058106969359982983788491743713",
+            "ownerName": "W.M. Barr & Co.",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "4470228a",
+            "name": "Woolworths",
+            "ownerID": "61962759513073707352263077870563737717",
+            "ownerName": "Woolworths Limited",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "890b4ad0",
+            "name": "Worldwide Golf Enterprises, Inc",
+            "ownerID": "257306221104621120060202917616832284902",
+            "ownerName": "Worldwide Golf Enterprises, Inc.",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "d004fd99",
+            "name": "Your Other Warehouse",
+            "ownerID": "212170295909050202513409213291297518206",
+            "ownerName": "Your Other Warehouse",
+            "type": "label"
+        },
+        {
+            "canRender": false,
+            "description": "",
+            "id": "d09c23bb",
+            "name": "Zappos.com",
+            "ownerID": "340025737249305415910720065533331750550",
+            "ownerName": "Zappos.com",
+            "type": "label"
+        }
+    ],
+    "total": 282,
+
+
+
+    "aliases": [
+        {
+            "alias": "production",
+            "version": "1.02"
+        }
+    ],
+    "canRender": false,
+    "createdAt": "Sun, 21 Jun 2020 18:47:41 GMT",
+    "description": "",
+    "format": "xsl",
+    "id": "eabc8672",
+    "name": "SAKS INC",
+    "outputFormat": "pdf",
+    "ownerID": "221009636871006372853537019901073393001",
+    "ownerName": "SAKS INC",
+    "status": "ok",
+    "type": "label",
+    "versions": [
+        {
+            "createdAt": "2020-06-21 18:47:41.512128",
+            "tags": [
+                "v1"
+            ],
+            "version": "1.00",
+            "versionNotes": ""
+        },
+        {
+            "createdAt": "2020-08-17 05:23:37.852947",
+            "tags": [
+                "v1"
+            ],
+            "version": "1.01",
+            "versionNotes": ""
+        },
+        {
+            "createdAt": "2020-11-12 02:45:48.906578",
+            "tags": [
+                "v1"
+            ],
+            "version": "1.02",
+            "versionNotes": ""
+        }
+    ]
+}

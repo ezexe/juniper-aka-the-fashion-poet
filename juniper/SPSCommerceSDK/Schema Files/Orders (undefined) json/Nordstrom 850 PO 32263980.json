@@ -1,0 +1,3317 @@
+{
+  "Header" : {
+    "OrderHeader" : {
+      "TradingPartnerId" : "545ALLJUNIPER08",
+      "PurchaseOrderNumber" : "32263980",
+      "TsetPurposeCode" : "00",
+      "PrimaryPOTypeCode" : "SA",
+      "PurchaseOrderDate" : "2021-09-13",
+      "BuyersCurrency" : "USD",
+      "Department" : "0855",
+      "Vendor" : "0478259728"
+    },
+    "PaymentTerms" : [ {
+      "TermsType" : "05",
+      "TermsBasisDateCode" : "3",
+      "TermsNetDueDays" : 45,
+      "TermsDescription" : "NET 45 DAYS"
+    } ],
+    "Dates" : [ {
+      "DateTimeQualifier" : "001",
+      "Date" : "2021-11-03"
+    }, {
+      "DateTimeQualifier" : "037",
+      "Date" : "2021-10-27"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "TO",
+      "LocationCodeQualifier" : "92",
+      "AddressLocationNumber" : "0005179153"
+    } ],
+    "FOBRelatedInstruction" : [ {
+      "FOBPayCode" : "CC",
+      "FOBLocationQualifier" : "OA",
+      "FOBLocationDescription" : "US Origin (after loading on equipment)",
+      "FOBTitlePassageCode" : "OA",
+      "FOBTitlePassageLocation" : "US Origin (after loading on equipment)"
+    } ],
+    "CarrierInformation" : [ {
+      "CarrierTransMethodCode" : "M"
+    } ],
+    "References" : [ {
+      "ReferenceQual" : "MR",
+      "ReferenceID" : "000"
+    }, {
+      "ReferenceQual" : "PD",
+      "ReferenceID" : "HL",
+      "Description" : "NRHL PERSISTENT"
+    }, {
+      "ReferenceQual" : "TC",
+      "ReferenceID" : "00",
+      "Description" : "VENDOR PAYS NO FREIGHT"
+    }, {
+      "ReferenceQual" : "ZZ",
+      "Description" : "ALL NORDSTROM P.O.TERMS & CONDITIONS APPLY SEE WWW.NORDSTROMSUPPLIER.COM"
+    } ]
+  },
+  "LineItem" : [ {
+    "OrderLine" : {
+      "LineSequenceNumber" : "1",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7173",
+      "ConsumerPackageCode" : "810065439802",
+      "OrderQty" : 17.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 23.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "XS",
+      "ProductColorDescription" : "WHITE"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "POPLIN FLUTTER SLV TIERED MIDI:WHITE:XS"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 17.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "2",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7173",
+      "ConsumerPackageCode" : "810065439819",
+      "OrderQty" : 34.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 23.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "S",
+      "ProductColorDescription" : "WHITE"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "POPLIN FLUTTER SLV TIERED MIDI:WHITE:S"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 34.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "3",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7173",
+      "ConsumerPackageCode" : "810065439826",
+      "OrderQty" : 34.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 23.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "M",
+      "ProductColorDescription" : "WHITE"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "POPLIN FLUTTER SLV TIERED MIDI:WHITE:M"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 34.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "4",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7173",
+      "ConsumerPackageCode" : "810065439833",
+      "OrderQty" : 17.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 23.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "L",
+      "ProductColorDescription" : "WHITE"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "POPLIN FLUTTER SLV TIERED MIDI:WHITE:L"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 17.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "5",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7173",
+      "ConsumerPackageCode" : "810065439840",
+      "OrderQty" : 21.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 23.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "XS",
+      "ProductColorDescription" : "BLACK"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "POPLIN FLUTTER SLV TIERED MIDI:BLACK:XS"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 21.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "6",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7173",
+      "ConsumerPackageCode" : "810065439857",
+      "OrderQty" : 42.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 23.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "S",
+      "ProductColorDescription" : "BLACK"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "POPLIN FLUTTER SLV TIERED MIDI:BLACK:S"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 42.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "7",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7173",
+      "ConsumerPackageCode" : "810065439864",
+      "OrderQty" : 42.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 23.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "M",
+      "ProductColorDescription" : "BLACK"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "POPLIN FLUTTER SLV TIERED MIDI:BLACK:M"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 42.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "8",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7173",
+      "ConsumerPackageCode" : "810065439871",
+      "OrderQty" : 21.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 23.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "L",
+      "ProductColorDescription" : "BLACK"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "POPLIN FLUTTER SLV TIERED MIDI:BLACK:L"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 21.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "9",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7181",
+      "ConsumerPackageCode" : "810081701044",
+      "OrderQty" : 17.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 23.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "XS",
+      "ProductColorDescription" : "WHITE"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "COTTON MIDI DRESS W OPEN BACK:WHITE:XS"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 17.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "10",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7181",
+      "ConsumerPackageCode" : "810081701051",
+      "OrderQty" : 34.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 23.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "S",
+      "ProductColorDescription" : "WHITE"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "COTTON MIDI DRESS W OPEN BACK:WHITE:S"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 34.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "11",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7181",
+      "ConsumerPackageCode" : "810081701068",
+      "OrderQty" : 34.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 23.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "M",
+      "ProductColorDescription" : "WHITE"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "COTTON MIDI DRESS W OPEN BACK:WHITE:M"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 34.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "12",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7181",
+      "ConsumerPackageCode" : "810081701075",
+      "OrderQty" : 17.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 23.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "L",
+      "ProductColorDescription" : "WHITE"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "COTTON MIDI DRESS W OPEN BACK:WHITE:L"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 17.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "13",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7182",
+      "ConsumerPackageCode" : "810081701082",
+      "OrderQty" : 21.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "XS",
+      "ProductColorDescription" : "BLACK"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "VNK W SMOCKED W/B MIDI DRESS:BLACK:XS"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 21.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "14",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7182",
+      "ConsumerPackageCode" : "810081701099",
+      "OrderQty" : 42.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "S",
+      "ProductColorDescription" : "BLACK"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "VNK W SMOCKED W/B MIDI DRESS:BLACK:S"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 42.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "15",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7182",
+      "ConsumerPackageCode" : "810081701105",
+      "OrderQty" : 42.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "M",
+      "ProductColorDescription" : "BLACK"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "VNK W SMOCKED W/B MIDI DRESS:BLACK:M"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 42.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "16",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7182",
+      "ConsumerPackageCode" : "810081701112",
+      "OrderQty" : 21.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "L",
+      "ProductColorDescription" : "BLACK"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "VNK W SMOCKED W/B MIDI DRESS:BLACK:L"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 21.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "17",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7181",
+      "ConsumerPackageCode" : "810081709569",
+      "OrderQty" : 21.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 23.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "XS",
+      "ProductColorDescription" : "BLACK"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "COTTON MIDI DRESS W OPEN BACK:BLACK:XS"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 21.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "18",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7181",
+      "ConsumerPackageCode" : "810081709576",
+      "OrderQty" : 42.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 23.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "S",
+      "ProductColorDescription" : "BLACK"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "COTTON MIDI DRESS W OPEN BACK:BLACK:S"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 42.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "19",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7181",
+      "ConsumerPackageCode" : "810081709583",
+      "OrderQty" : 42.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 23.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "M",
+      "ProductColorDescription" : "BLACK"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "COTTON MIDI DRESS W OPEN BACK:BLACK:M"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 42.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "20",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7181",
+      "ConsumerPackageCode" : "810081709590",
+      "OrderQty" : 21.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 23.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "L",
+      "ProductColorDescription" : "BLACK"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "COTTON MIDI DRESS W OPEN BACK:BLACK:L"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 21.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "21",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7226",
+      "ConsumerPackageCode" : "810081709606",
+      "OrderQty" : 17.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "XS",
+      "ProductColorDescription" : "WHITE"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "VNK RUFFLE TIERED DRESS:WHITE:XS"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 17.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "22",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7226",
+      "ConsumerPackageCode" : "810081709613",
+      "OrderQty" : 34.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "S",
+      "ProductColorDescription" : "WHITE"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "VNK RUFFLE TIERED DRESS:WHITE:S"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 34.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "23",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7226",
+      "ConsumerPackageCode" : "810081709620",
+      "OrderQty" : 34.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "M",
+      "ProductColorDescription" : "WHITE"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "VNK RUFFLE TIERED DRESS:WHITE:M"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 34.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "24",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7226",
+      "ConsumerPackageCode" : "810081709637",
+      "OrderQty" : 17.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "L",
+      "ProductColorDescription" : "WHITE"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "VNK RUFFLE TIERED DRESS:WHITE:L"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 17.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "25",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7226",
+      "ConsumerPackageCode" : "810081709644",
+      "OrderQty" : 21.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "XS",
+      "ProductColorDescription" : "BLACK"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "VNK RUFFLE TIERED DRESS:BLACK:XS"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 21.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "26",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7226",
+      "ConsumerPackageCode" : "810081709651",
+      "OrderQty" : 42.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "S",
+      "ProductColorDescription" : "BLACK"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "VNK RUFFLE TIERED DRESS:BLACK:S"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 42.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "27",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7226",
+      "ConsumerPackageCode" : "810081709668",
+      "OrderQty" : 42.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "M",
+      "ProductColorDescription" : "BLACK"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "VNK RUFFLE TIERED DRESS:BLACK:M"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 42.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "28",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7226",
+      "ConsumerPackageCode" : "810081709675",
+      "OrderQty" : 21.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "L",
+      "ProductColorDescription" : "BLACK"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "VNK RUFFLE TIERED DRESS:BLACK:L"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 21.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "29",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7182",
+      "ConsumerPackageCode" : "810081709682",
+      "OrderQty" : 21.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "XS",
+      "ProductColorDescription" : "NAVY"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "VNK W SMOCKED W/B MIDI DRESS:NAVY:XS"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 21.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "30",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7182",
+      "ConsumerPackageCode" : "810081709699",
+      "OrderQty" : 42.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "S",
+      "ProductColorDescription" : "NAVY"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "VNK W SMOCKED W/B MIDI DRESS:NAVY:S"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 42.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "31",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7182",
+      "ConsumerPackageCode" : "810081709705",
+      "OrderQty" : 42.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "M",
+      "ProductColorDescription" : "NAVY"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "VNK W SMOCKED W/B MIDI DRESS:NAVY:M"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 42.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "32",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7182",
+      "ConsumerPackageCode" : "810081709712",
+      "OrderQty" : 21.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "L",
+      "ProductColorDescription" : "NAVY"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "VNK W SMOCKED W/B MIDI DRESS:NAVY:L"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 21.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "33",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7173",
+      "ConsumerPackageCode" : "810081709729",
+      "OrderQty" : 21.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 23.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "XS",
+      "ProductColorDescription" : "NAVY"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "POPLIN FLUTTER SLV TIERED MIDI:NAVY:XS"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 21.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "34",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7173",
+      "ConsumerPackageCode" : "810081709736",
+      "OrderQty" : 42.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 23.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "S",
+      "ProductColorDescription" : "NAVY"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "POPLIN FLUTTER SLV TIERED MIDI:NAVY:S"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 42.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "35",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7173",
+      "ConsumerPackageCode" : "810081709743",
+      "OrderQty" : 42.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 23.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "M",
+      "ProductColorDescription" : "NAVY"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "POPLIN FLUTTER SLV TIERED MIDI:NAVY:M"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 42.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "36",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7173",
+      "ConsumerPackageCode" : "810081709750",
+      "OrderQty" : 21.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 23.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "L",
+      "ProductColorDescription" : "NAVY"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "POPLIN FLUTTER SLV TIERED MIDI:NAVY:L"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 21.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "37",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7173",
+      "ConsumerPackageCode" : "810081709767",
+      "OrderQty" : 17.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 23.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "XS",
+      "ProductColorDescription" : "OLIVE"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "POPLIN FLUTTER SLV TIERED MIDI:OLIVE:XS"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 17.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "38",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7173",
+      "ConsumerPackageCode" : "810081709774",
+      "OrderQty" : 34.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 23.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "S",
+      "ProductColorDescription" : "OLIVE"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "POPLIN FLUTTER SLV TIERED MIDI:OLIVE:S"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 34.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "39",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7173",
+      "ConsumerPackageCode" : "810081709781",
+      "OrderQty" : 34.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 23.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "M",
+      "ProductColorDescription" : "OLIVE"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "POPLIN FLUTTER SLV TIERED MIDI:OLIVE:M"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 34.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "40",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7173",
+      "ConsumerPackageCode" : "810081709798",
+      "OrderQty" : 17.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 23.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "L",
+      "ProductColorDescription" : "OLIVE"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "POPLIN FLUTTER SLV TIERED MIDI:OLIVE:L"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 17.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "41",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7213",
+      "ConsumerPackageCode" : "810081709804",
+      "OrderQty" : 25.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "XS",
+      "ProductColorDescription" : "LT BLUE MULTI"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 138.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "PRINTED RUFFLE FRONT MIDI DRES:LIGHT BLUE MULTI:XS"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 25.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "42",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7213",
+      "ConsumerPackageCode" : "810081709811",
+      "OrderQty" : 50.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "S",
+      "ProductColorDescription" : "LT BLUE MULTI"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 138.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "PRINTED RUFFLE FRONT MIDI DRES:LIGHT BLUE MULTI:S"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 50.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "43",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7213",
+      "ConsumerPackageCode" : "810081709828",
+      "OrderQty" : 50.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "M",
+      "ProductColorDescription" : "LT BLUE MULTI"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 138.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "PRINTED RUFFLE FRONT MIDI DRES:LIGHT BLUE MULTI:M"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 50.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "44",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7213",
+      "ConsumerPackageCode" : "810081709835",
+      "OrderQty" : 25.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "L",
+      "ProductColorDescription" : "LT BLUE MULTI"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 138.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "PRINTED RUFFLE FRONT MIDI DRES:LIGHT BLUE MULTI:L"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 25.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "45",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7213",
+      "ConsumerPackageCode" : "810081709842",
+      "OrderQty" : 25.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "XS",
+      "ProductColorDescription" : "WHITE MULTI"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 138.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "PRINTED RUFFLE FRONT MIDI DRES:WHITE MULTI:XS"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 25.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "46",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7213",
+      "ConsumerPackageCode" : "810081709859",
+      "OrderQty" : 50.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "S",
+      "ProductColorDescription" : "WHITE MULTI"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 138.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "PRINTED RUFFLE FRONT MIDI DRES:WHITE MULTI:S"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 50.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "47",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7213",
+      "ConsumerPackageCode" : "810081709866",
+      "OrderQty" : 50.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "M",
+      "ProductColorDescription" : "WHITE MULTI"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 138.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "PRINTED RUFFLE FRONT MIDI DRES:WHITE MULTI:M"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 50.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "48",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7213",
+      "ConsumerPackageCode" : "810081709873",
+      "OrderQty" : 25.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "L",
+      "ProductColorDescription" : "WHITE MULTI"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 138.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "PRINTED RUFFLE FRONT MIDI DRES:WHITE MULTI:L"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 25.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "49",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7214",
+      "ConsumerPackageCode" : "810081709880",
+      "OrderQty" : 21.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "XS",
+      "ProductColorDescription" : "YELLOW MULTI"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 138.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "TANK TIERED RUFFLE DRESS:YELLOW MULTI:XS"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 21.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "50",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7214",
+      "ConsumerPackageCode" : "810081709897",
+      "OrderQty" : 42.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "S",
+      "ProductColorDescription" : "YELLOW MULTI"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 138.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "TANK TIERED RUFFLE DRESS:YELLOW MULTI:S"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 42.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "51",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7214",
+      "ConsumerPackageCode" : "810081709903",
+      "OrderQty" : 42.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "M",
+      "ProductColorDescription" : "YELLOW MULTI"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 138.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "TANK TIERED RUFFLE DRESS:YELLOW MULTI:M"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 42.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "52",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7214",
+      "ConsumerPackageCode" : "810081709910",
+      "OrderQty" : 21.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "L",
+      "ProductColorDescription" : "YELLOW MULTI"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 138.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "TANK TIERED RUFFLE DRESS:YELLOW MULTI:L"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 21.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "53",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7214",
+      "ConsumerPackageCode" : "810081709927",
+      "OrderQty" : 17.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "XS",
+      "ProductColorDescription" : "WHITE MULTI"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 138.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "TANK TIERED RUFFLE DRESS:WHITE MULTI:XS"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 17.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "54",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7214",
+      "ConsumerPackageCode" : "810081709934",
+      "OrderQty" : 34.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "S",
+      "ProductColorDescription" : "WHITE MULTI"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 138.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "TANK TIERED RUFFLE DRESS:WHITE MULTI:S"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 34.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "55",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7214",
+      "ConsumerPackageCode" : "810081709941",
+      "OrderQty" : 34.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "M",
+      "ProductColorDescription" : "WHITE MULTI"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 138.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "TANK TIERED RUFFLE DRESS:WHITE MULTI:M"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 34.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "56",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7214",
+      "ConsumerPackageCode" : "810081709958",
+      "OrderQty" : 17.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "L",
+      "ProductColorDescription" : "WHITE MULTI"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 138.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "TANK TIERED RUFFLE DRESS:WHITE MULTI:L"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 17.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "57",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7214",
+      "ConsumerPackageCode" : "810081709965",
+      "OrderQty" : 21.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "XS",
+      "ProductColorDescription" : "LT BLUE MULTI"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 138.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "TANK TIERED RUFFLE DRESS:LIGHT BLUE MULTI:XS"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 21.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "58",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7214",
+      "ConsumerPackageCode" : "810081709972",
+      "OrderQty" : 42.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "S",
+      "ProductColorDescription" : "LT BLUE MULTI"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 138.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "TANK TIERED RUFFLE DRESS:LIGHT BLUE MULTI:S"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 42.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "59",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7214",
+      "ConsumerPackageCode" : "810081709989",
+      "OrderQty" : 42.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "M",
+      "ProductColorDescription" : "LT BLUE MULTI"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 138.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "TANK TIERED RUFFLE DRESS:LIGHT BLUE MULTI:M"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 42.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "60",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7214",
+      "ConsumerPackageCode" : "810081709996",
+      "OrderQty" : 21.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "L",
+      "ProductColorDescription" : "LT BLUE MULTI"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 138.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "TANK TIERED RUFFLE DRESS:LIGHT BLUE MULTI:L"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 21.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "61",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7215",
+      "ConsumerPackageCode" : "810094060015",
+      "OrderQty" : 21.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "XS",
+      "ProductColorDescription" : "MULTI"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "HIGH NK PRINTED DRESS:MULTI:XS"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 21.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "62",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7215",
+      "ConsumerPackageCode" : "810094060022",
+      "OrderQty" : 42.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "S",
+      "ProductColorDescription" : "MULTI"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "HIGH NK PRINTED DRESS:MULTI:S"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 42.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "63",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7215",
+      "ConsumerPackageCode" : "810094060039",
+      "OrderQty" : 42.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "M",
+      "ProductColorDescription" : "MULTI"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "HIGH NK PRINTED DRESS:MULTI:M"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 42.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "64",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7215",
+      "ConsumerPackageCode" : "810094060046",
+      "OrderQty" : 21.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "L",
+      "ProductColorDescription" : "MULTI"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "HIGH NK PRINTED DRESS:MULTI:L"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 21.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "65",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7215",
+      "ConsumerPackageCode" : "810094060053",
+      "OrderQty" : 21.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "XS",
+      "ProductColorDescription" : "BLACK MULTI"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "HIGH NK PRINTED DRESS:BLACK MULTI:XS"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 21.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "66",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7215",
+      "ConsumerPackageCode" : "810094060060",
+      "OrderQty" : 42.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "S",
+      "ProductColorDescription" : "BLACK MULTI"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "HIGH NK PRINTED DRESS:BLACK MULTI:S"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 42.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "67",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7215",
+      "ConsumerPackageCode" : "810094060077",
+      "OrderQty" : 42.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "M",
+      "ProductColorDescription" : "BLACK MULTI"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "HIGH NK PRINTED DRESS:BLACK MULTI:M"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 42.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "68",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7215",
+      "ConsumerPackageCode" : "810094060084",
+      "OrderQty" : 21.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "L",
+      "ProductColorDescription" : "BLACK MULTI"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "HIGH NK PRINTED DRESS:BLACK MULTI:L"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 21.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "69",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7215",
+      "ConsumerPackageCode" : "810094060091",
+      "OrderQty" : 21.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "XS",
+      "ProductColorDescription" : "NAVY MULTI"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "HIGH NK PRINTED DRESS:NAVY MULTI:XS"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 21.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "70",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7215",
+      "ConsumerPackageCode" : "810094060107",
+      "OrderQty" : 42.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "S",
+      "ProductColorDescription" : "NAVY MULTI"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "HIGH NK PRINTED DRESS:NAVY MULTI:S"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 42.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "71",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7215",
+      "ConsumerPackageCode" : "810094060114",
+      "OrderQty" : 42.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "M",
+      "ProductColorDescription" : "NAVY MULTI"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "HIGH NK PRINTED DRESS:NAVY MULTI:M"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 42.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "72",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7215",
+      "ConsumerPackageCode" : "810094060121",
+      "OrderQty" : 21.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 25.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "L",
+      "ProductColorDescription" : "NAVY MULTI"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "HIGH NK PRINTED DRESS:NAVY MULTI:L"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 21.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "73",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7219",
+      "ConsumerPackageCode" : "810094060138",
+      "OrderQty" : 17.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 22.5,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "XS",
+      "ProductColorDescription" : "WHITE"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 44.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 118.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "KNIT VNK FIT N FLARE:WHITE:XS"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 17.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "74",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7219",
+      "ConsumerPackageCode" : "810094060145",
+      "OrderQty" : 34.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 22.5,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "S",
+      "ProductColorDescription" : "WHITE"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 44.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 118.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "KNIT VNK FIT N FLARE:WHITE:S"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 34.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "75",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7219",
+      "ConsumerPackageCode" : "810094060152",
+      "OrderQty" : 34.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 22.5,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "M",
+      "ProductColorDescription" : "WHITE"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 44.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 118.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "KNIT VNK FIT N FLARE:WHITE:M"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 34.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "76",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7219",
+      "ConsumerPackageCode" : "810094060169",
+      "OrderQty" : 17.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 22.5,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "L",
+      "ProductColorDescription" : "WHITE"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 44.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 118.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "KNIT VNK FIT N FLARE:WHITE:L"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 17.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "77",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7219",
+      "ConsumerPackageCode" : "810094060176",
+      "OrderQty" : 21.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 22.5,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "XS",
+      "ProductColorDescription" : "NAVY"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 44.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 118.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "KNIT VNK FIT N FLARE:NAVY:XS"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 21.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "78",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7219",
+      "ConsumerPackageCode" : "810094060183",
+      "OrderQty" : 42.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 22.5,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "S",
+      "ProductColorDescription" : "NAVY"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 44.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 118.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "KNIT VNK FIT N FLARE:NAVY:S"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 42.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "79",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7219",
+      "ConsumerPackageCode" : "810094060190",
+      "OrderQty" : 42.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 22.5,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "M",
+      "ProductColorDescription" : "NAVY"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 44.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 118.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "KNIT VNK FIT N FLARE:NAVY:M"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 42.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "80",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7219",
+      "ConsumerPackageCode" : "810094060206",
+      "OrderQty" : 21.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 22.5,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "L",
+      "ProductColorDescription" : "NAVY"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 44.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 118.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "KNIT VNK FIT N FLARE:NAVY:L"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 21.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "81",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7219",
+      "ConsumerPackageCode" : "810094060510",
+      "OrderQty" : 21.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 22.5,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "XS",
+      "ProductColorDescription" : "BLACK"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 44.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 118.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "KNIT VNK FIT N FLARE:BLACK:XS"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 21.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "82",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7219",
+      "ConsumerPackageCode" : "810094060527",
+      "OrderQty" : 42.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 22.5,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "S",
+      "ProductColorDescription" : "BLACK"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 44.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 118.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "KNIT VNK FIT N FLARE:BLACK:S"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 42.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "83",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7219",
+      "ConsumerPackageCode" : "810094060534",
+      "OrderQty" : 42.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 22.5,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "M",
+      "ProductColorDescription" : "BLACK"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 44.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 118.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "KNIT VNK FIT N FLARE:BLACK:M"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 42.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "84",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7219",
+      "ConsumerPackageCode" : "810094060541",
+      "OrderQty" : 21.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 22.5,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "L",
+      "ProductColorDescription" : "BLACK"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 44.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 118.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "KNIT VNK FIT N FLARE:BLACK:L"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 21.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "85",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7181",
+      "ConsumerPackageCode" : "810094060558",
+      "OrderQty" : 21.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 23.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "XS",
+      "ProductColorDescription" : "NAVY"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "COTTON MIDI DRESS W OPEN BACK:NAVY:XS"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 21.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "86",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7181",
+      "ConsumerPackageCode" : "810094060565",
+      "OrderQty" : 42.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 23.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "S",
+      "ProductColorDescription" : "NAVY"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "COTTON MIDI DRESS W OPEN BACK:NAVY:S"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 42.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "87",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7181",
+      "ConsumerPackageCode" : "810094060572",
+      "OrderQty" : 42.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 23.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "M",
+      "ProductColorDescription" : "NAVY"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "COTTON MIDI DRESS W OPEN BACK:NAVY:M"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 42.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "88",
+      "BuyerPartNumber" : "0",
+      "VendorPartNumber" : "WO-7181",
+      "ConsumerPackageCode" : "810094060589",
+      "OrderQty" : 21.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 23.0,
+      "PurchasePriceBasis" : "PE",
+      "ProductSizeDescription" : "L",
+      "ProductColorDescription" : "NAVY"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 49.97
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 128.0
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "COTTON MIDI DRESS W OPEN BACK:NAVY:L"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0873",
+        "Qty" : 21.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "TC990101",
+      "ReferenceIdentification" : "RH02"
+    } ]
+  } ],
+  "Summary" : {
+    "TotalLineItemNumber" : 88
+  }
+}

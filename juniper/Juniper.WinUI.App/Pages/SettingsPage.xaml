@@ -1,0 +1,323 @@
+﻿<Page
+    x:Class="Juniper.WinUI.App.Pages.SettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="using:Juniper.WinUI.App.Pages"
+    xmlns:userControls="using:Juniper.WinUI.App.Controls"
+    xmlns:models="using:Juniper.Core.Models"
+    xmlns:dynamo="using:Juniper.Core.AWS.DynamoDB"
+    xmlns:tables="using:Juniper.Core.AWS.DynamoDB.Tables"
+    mc:Ignorable="d"
+    NavigationCacheMode="Enabled">
+    <Grid
+        Padding="{StaticResource PageDefaultPaddingLarge}">
+        <Grid.RowDefinitions>
+            <RowDefinition
+                Height="Auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <userControls:PageTitleHeaderUserControl
+            x:Name="PageTitleHeader"
+            x:FieldModifier="public"
+            HeaderText="Settings">
+            <userControls:PageTitleHeaderUserControl.HeaderContent>
+                <CommandBar
+                    HorizontalAlignment="Left"
+                    Margin="{StaticResource ActionsPaddingDown}">
+                    <AppBarButton
+                        x:Name="SaveSettingsButton"
+                        VerticalAlignment="Top"
+                        Command="{x:Bind ViewModel.OnCommand}"
+                        CommandParameter="CommandSaveSettings"
+                        Icon="Save"
+                        Label="Save" />
+                </CommandBar>
+            </userControls:PageTitleHeaderUserControl.HeaderContent>
+        </userControls:PageTitleHeaderUserControl>
+
+        <ScrollViewer
+            Grid.Row="1"
+            VerticalScrollBarVisibility="Auto"
+            VerticalScrollMode="Auto"
+            Padding="{StaticResource PageDefaultPadding}">
+            <StackPanel>
+                <!--AppId and Secret-->
+                <userControls:TitledFieldsUserControl
+                    HeaderText="AppId and Secret"
+                    Grid.Row="1">
+                    <userControls:TitledFieldsUserControl.Fields>
+                        <StackPanel
+                            Width="{StaticResource BasePageUserControlWidth}"
+                            Padding="{StaticResource ActionsMediumPadding}">
+                            <TextBox
+                                Text="{x:Bind ViewModel.AppId, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                                Style="{StaticResource NewDefaultTextBoxStyle}"
+                                Width="{StaticResource MultipleOf4RectBaseMedium}"
+                                HorizontalAlignment="Left"
+                                VerticalAlignment="Top"
+                                Header="App Id" />
+
+                            <StackPanel
+                                Orientation="Horizontal"
+                                HorizontalAlignment="Stretch"
+                                VerticalAlignment="Top">
+                                <PasswordBox
+                                    Name="passworBoxWithRevealmode"
+                                    PasswordChanged="passworBoxWithRevealmode_PasswordChanged"
+                                    MinWidth="200"
+                                    Margin="{StaticResource ActionsPadding}"
+                                    PasswordRevealMode="Hidden"
+                                    Header="App Secret" />
+
+                                <ToggleButton
+                                    x:Name="TBViewPass"
+                                    VerticalAlignment="Bottom"
+                                    ToolTipService.ToolTip="View Password"
+                                    Margin="{StaticResource ActionsPaddingUpDown}"
+                                    Click="TBViewPass_Click">
+                                    <ToggleButton.Content>
+                                        <SymbolIcon
+                                            Symbol="View" />
+                                    </ToggleButton.Content>
+                                </ToggleButton>
+                            </StackPanel>
+
+                            <Button
+                                Content="Get Token"
+                                Command="{x:Bind ViewModel.OnCommand}"
+                                CommandParameter="CommandGetToken"
+                                Margin="{StaticResource ActionsPadding}" />
+
+                            <TextBlock
+                                TextWrapping="Wrap"
+                                Margin="{StaticResource ActionsPadding}">
+                                <Run
+                                    Text="Expires At: " />
+                                <Run
+                                    Text="{Binding LatestAccessTokenResponse.ExpiresAt, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+                            </TextBlock>
+                        </StackPanel>
+                    </userControls:TitledFieldsUserControl.Fields>
+                </userControls:TitledFieldsUserControl>
+
+                <!--Base Fields-->
+                <userControls:TitledFieldsUserControl
+                    HeaderText="Base Fields"
+                    Grid.Row="2">
+                    <userControls:TitledFieldsUserControl.Fields>
+                        <StackPanel
+                            Width="{StaticResource BasePageUserControlWidth}"
+                            Padding="{StaticResource ActionsMediumPadding}">
+                            <!--<StackPanel Orientation="Horizontal">
+                                <TextBox Text="{x:Bind ViewModel.SacksPartnerID, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                                         Header="Saks Partner ID" />
+
+                                <TextBox Text="{x:Bind ViewModel.NordstromPartnerID, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                                         Header="Nordstrom Partner ID"
+                                         VerticalAlignment="Center" />
+
+                                <TextBox Text="{x:Bind ViewModel.NordstromCANPartnerID, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                                         Header="Nordstrom Canada Partner ID"
+                                         VerticalAlignment="Center" />
+
+                                <TextBox Text="{x:Bind ViewModel.BloomingdalesPartnerID, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                                         Header="Bloomingdales Partner ID"
+                                         VerticalAlignment="Center" />
+
+                                <TextBox Text="{x:Bind ViewModel.BloomingdalesOutletPartnerID, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                                         Header="Bloomingdales Outlet Partner ID"
+                                         VerticalAlignment="Center" />
+
+                            </StackPanel>-->
+                            <StackPanel
+                                Orientation="Horizontal">
+                                <TextBox
+                                    Text="{x:Bind ViewModel.Gs1CompanyPrefix, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                                    Header="GS1 Company Prefix" />
+
+                                <TextBox
+                                    Text="{x:Bind ViewModel.FOBTitlePassageLocation, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                                    Header="FOB Title Passage Location"
+                                    VerticalAlignment="Center" />
+                            </StackPanel>
+                        </StackPanel>
+                    </userControls:TitledFieldsUserControl.Fields>
+                </userControls:TitledFieldsUserControl>
+
+                <!--Last Used Document Numbers-->
+                <userControls:TitledFieldsUserControl
+                    HeaderText="Last Used Document Numbers"
+                    Grid.Row="3">
+                    <userControls:TitledFieldsUserControl.Fields>
+                        <StackPanel
+                            Width="{StaticResource BasePageUserControlWidth}"
+                            Padding="{StaticResource ActionsMediumPadding}">
+                            <StackPanel
+                                Orientation="Horizontal">
+                                <NumberBox
+                                    Text="{x:Bind ViewModel.LastUsedASNMasterBOLNumber, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                    Width="150"
+                                    Header="Next Master BOL #" />
+
+                                <NumberBox
+                                    Text="{x:Bind ViewModel.LastUsedASNBOLNumber, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                    Width="150"
+                                    Header="Last ASN BOL #" />
+
+                                <NumberBox
+                                    Text="{x:Bind ViewModel.LastUsedASNNumber, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                    Width="150"
+                                    Header="Last ASN #" />
+
+                                <NumberBox
+                                    Text="{x:Bind ViewModel.LastUsedInvoiceNumber, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                    Width="150"
+                                    Header="Last Invoice #" />
+                            </StackPanel>
+                        </StackPanel>
+                    </userControls:TitledFieldsUserControl.Fields>
+                </userControls:TitledFieldsUserControl>
+
+                <!--Default Carrier-->
+                <userControls:TitledFieldsUserControl
+                    HeaderText="Default Carrier Information">
+                    <userControls:TitledFieldsUserControl.Fields>
+                        <userControls:AddableGridViewUserControl
+                            Width="{StaticResource BasePageUserControlWidth}"
+                            Padding="{StaticResource ActionsMediumPadding}"
+                            ItemsSource="{x:Bind ViewModel.BaseCarrierInformation, Mode=OneWay}"
+                            ActionButtonCommandParam="CommandAddCarrierInformation">
+                            <userControls:AddableGridViewUserControl.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel>
+                                        <TextBox
+                                            Text="{Binding Title, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                            HorizontalAlignment="Left"
+                                            Width="200"
+                                            Header="Title" />
+                                        <ContentControl
+                                            ContentTemplate="{StaticResource dtBaseCarrierInformationModel}" />
+                                    </StackPanel>
+                                </DataTemplate>
+                            </userControls:AddableGridViewUserControl.ItemTemplate>
+                        </userControls:AddableGridViewUserControl>
+                    </userControls:TitledFieldsUserControl.Fields>
+                </userControls:TitledFieldsUserControl>
+
+                <!--Tags-->
+                <userControls:TitledFieldsUserControl
+                    HeaderText="Tags">
+                    <userControls:TitledFieldsUserControl.Fields>
+                        <userControls:AddableGridViewUserControl
+                            Width="{StaticResource BasePageUserControlWidth}"
+                            Padding="{StaticResource ActionsMediumPadding}"
+                            ItemsSource="{x:Bind dynamo:TagsLibrary.Current.TagsList}"
+                            ActionButtonCommandParam="CommandAddTags">
+                            <userControls:AddableGridViewUserControl.ItemTemplate>
+                                <DataTemplate
+                                    x:DataType="tables:TagsTable">
+                                    <StackPanel>
+                                        <TextBox
+                                            Header="Name"
+                                            Text="{x:Bind TagName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+
+                                        <TextBox
+                                            Header="Value"
+                                            Text="{x:Bind TagValue, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                                    </StackPanel>
+                                </DataTemplate>
+                            </userControls:AddableGridViewUserControl.ItemTemplate>
+                        </userControls:AddableGridViewUserControl>
+                    </userControls:TitledFieldsUserControl.Fields>
+                </userControls:TitledFieldsUserControl>
+                
+                <!--Ships From-->
+                <userControls:TitledFieldsUserControl
+                    HeaderText="Ships From Address"
+                    Grid.Row="5">
+                    <userControls:TitledFieldsUserControl.Fields>
+                        <Grid
+                            Width="{StaticResource BasePageUserControlWidth}"
+                            Padding="{StaticResource ActionsMediumPadding}">
+                            <Grid.RowDefinitions>
+                                <RowDefinition
+                                    Height="Auto" />
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+
+                            <TextBox
+                                Text="{x:Bind ViewModel.SFAddressName, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                                MinWidth="200"
+                                HorizontalAlignment="Left"
+                                Header="Address Name" />
+
+                            <userControls:AddressFieldsUserControl
+                                DataContext="{x:Bind ViewModel.ShipFromSettings}"
+                                Grid.Row="1" />
+                        </Grid>
+                    </userControls:TitledFieldsUserControl.Fields>
+                </userControls:TitledFieldsUserControl>
+
+                <!--File Paths-->
+                <userControls:TitledFieldsUserControl
+                    HeaderText="File Paths And Directories"
+                    Grid.Row="6">
+                    <userControls:TitledFieldsUserControl.Fields>
+                        <StackPanel
+                            HorizontalAlignment="Stretch"
+                            Padding="{StaticResource ActionsMediumPadding}">
+                            <StackPanel.Resources>
+                                <Style
+                                    TargetType="TextBox">
+                                    <Setter
+                                        Property="HorizontalAlignment"
+                                        Value="Stretch" />
+                                    <Setter
+                                        Property="Margin"
+                                        Value="{StaticResource ActionsPaddingSmall}" />
+                                </Style>
+                            </StackPanel.Resources>
+                            <TextBox
+                                Text="{x:Bind ViewModel.SavedDataFilePath, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                                Header="Saved Data Directory" />
+
+                            <!--<TextBox Text="{x:Bind ViewModel.SentShipmentsFilePath, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                                     Header="Secondary Sent Shipments Directory" />
+
+                            <TextBox Text="{x:Bind ViewModel.SentInvoicesFilePath, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                                     Header="Secondary Sent Invoices Directory" />
+
+                            <TextBox Text="{x:Bind ViewModel.LoacalPurchaseOrdersFilePath, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                                     Header="Secondary Purchase Orders Directory" />
+
+                            <TextBox Text="{x:Bind ViewModel.BloomingDalesStoreToDCFilePath, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                                     Header="BloomingDales Store To DC" />
+
+                            <TextBox Text="{x:Bind ViewModel.BloomingDalesOutletStoreToDCFilePath, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                                     Header="BloomingDales Outlet Store To DC" />
+
+                            <TextBox Text="{x:Bind ViewModel.SaksStoreToDCFilePath, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                                     Header="Saks Store To DC" />
+
+                            <TextBox Text="{x:Bind ViewModel.NordstromStoreAddressFilePath, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                                     Header="Nordstrom Store To DC" />
+
+                            <TextBox Text="{x:Bind ViewModel.NordCanadaFilePath, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                                     Header="Nordstrom Canada Store To DC" />-->
+
+                            <TextBox
+                                Text="{x:Bind ViewModel.BolTemplateFilePath, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                                Header="Bol Template File Path" />
+
+                            <TextBox
+                                Text="{x:Bind ViewModel.UPCsFilePath, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                                Header="UPC's File Path" />
+                        </StackPanel>
+                    </userControls:TitledFieldsUserControl.Fields>
+                </userControls:TitledFieldsUserControl>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

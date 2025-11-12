@@ -1,0 +1,103 @@
+﻿<Page x:Class="Juniper.WinUI.App.Navigation.NavigationRootPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:Juniper.WinUI.App.Navigation"
+      xmlns:userControls="using:Juniper.WinUI.App.Controls"
+      xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d"
+      HighContrastAdjustment="None"
+      NavigationCacheMode="Enabled">
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary>
+                    <ResourceDictionary.ThemeDictionaries>
+                        <ResourceDictionary x:Key="Light">
+                            <StaticResource x:Key="NavigationViewContentBackground"
+                                            ResourceKey="LayerFillColorDefaultBrush" />
+                            <SolidColorBrush x:Key="NavigationViewExpandedPaneBackground"
+                                             Color="Transparent" />
+                            <SolidColorBrush x:Key="NavigationViewTopPaneBackground"
+                                             Color="Transparent" />
+                        </ResourceDictionary>
+                        <ResourceDictionary x:Key="Dark">
+                            <StaticResource x:Key="NavigationViewContentBackground"
+                                            ResourceKey="LayerFillColorDefaultBrush" />
+                            <SolidColorBrush x:Key="NavigationViewExpandedPaneBackground"
+                                             Color="Transparent" />
+                        </ResourceDictionary>
+                        <ResourceDictionary x:Key="HighContrast">
+                            <SolidColorBrush x:Key="NavigationViewContentBackground"
+                                             Color="{ThemeResource SystemColorWindowColor}" />
+                            <SolidColorBrush x:Key="NavigationViewExpandedPaneBackground"
+                                             Color="{ThemeResource SystemColorWindowColor}" />
+                        </ResourceDictionary>
+                    </ResourceDictionary.ThemeDictionaries>
+                </ResourceDictionary>
+                <!--<ResourceDictionary>
+                    <DataTemplate x:Key="NavigationViewHeaderTemplate">
+                        <userControls:PageHeaderUserControl Title="{Binding}"
+                                                            BackgroundColorOpacity="0"
+                                                            Background="Transparent"/>
+                    </DataTemplate>
+                </ResourceDictionary>-->
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Border x:Name="AppTitleBar"
+                Grid.Column="1"
+                IsHitTestVisible="True"
+                VerticalAlignment="Top"
+                Background="Transparent"
+                Height="{Binding ElementName=NavigationViewControl, Path=CompactPaneLength}"
+                Canvas.ZIndex="1">
+            <TextBlock x:Name="AppTitle"
+                       x:FieldModifier="public"
+                       Visibility="Visible"
+                       Text="{x:Bind GetAppTitleFromSystem(),Mode=OneTime}"
+                       VerticalAlignment="Center"
+                       Style="{StaticResource CaptionTextBlockStyle}" />
+        </Border>
+        
+        <muxc:NavigationView Canvas.ZIndex="0"
+                             Background="Transparent"
+                             x:Name="NavigationViewControl"
+                             Grid.Column="1"
+                             AlwaysShowHeader="False"
+                             IsPaneOpen="False"
+                             IsPaneToggleButtonVisible="True"
+                             Header=" "
+                             IsTabStop="False"
+                             IsTitleBarAutoPaddingEnabled="False"
+                             PaneOpening="NavigationViewControl_PaneOpened"
+                             PaneClosing="NavigationViewControl_PaneClosing"
+                             DisplayModeChanged="NavigationViewControl_DisplayModeChanged"
+                             ItemInvoked="OnNavigationViewItemInvoked"
+                             Loaded="OnNavigationViewControlLoaded">
+            <Frame x:Name="rootFrame"
+                   Navigated="OnRootFrameNavigated" />
+        </muxc:NavigationView>
+
+        <ProgressRing x:Name="mainProgressRing"
+                      x:FieldModifier="Public"
+                      IsActive="True"
+                      Grid.Column="1"
+                      VerticalAlignment="Center" />
+        
+        <InfoBar x:Name="mainInfoBar"
+                 Grid.Column="1"
+                 VerticalAlignment="Bottom"
+                 IsOpen="False"
+                 Title="Title"
+                 Message="Essential app message for your users to be informed of, acknowledge, or take action on."
+                 Severity="Informational" />
+    </Grid>
+</Page>

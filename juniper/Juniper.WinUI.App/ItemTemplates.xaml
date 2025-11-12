@@ -1,0 +1,30 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:models="using:Juniper.Core.Models"
+                    x:Class="Juniper.WinUI.App.ItemTemplates"
+                    xmlns:behaviors="using:Juniper.WinUI.App.Behaviors"
+                    xmlns:local="using:Juniper.WinUI.App">
+    <DataTemplate x:DataType="models:BaseCarrierInformationModel"
+                  x:Key="dtBaseCarrierInformationModel">
+        <StackPanel Width="{StaticResource BasePageUserControlWidth}">
+            <!--<StackPanel Orientation="Horizontal">
+                <TextBox Text="{Binding Title, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                         Header="Title" />
+            </StackPanel>-->
+
+            <StackPanel Orientation="Horizontal">
+                <TextBox Text="{Binding CarrierAlphaCode, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                         Header="Carrier Alpha Code"
+                         MaxLength="4" />
+                <TextBox Text="{Binding CarrierRouting, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                         Header="Carrier Routing" />
+                <ComboBox ItemsSource="{Binding CarrierTransMethodCodesList}"
+                          SelectedValue="{Binding CarrierTransMethodCode,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}"
+                          Header="Carrier Trans Method" />
+                <ComboBox ItemsSource="{Binding StatusCodes}"
+                          SelectedValue="{Binding StatusCode,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}"
+                          Header="Status Code" />
+            </StackPanel>
+        </StackPanel>
+    </DataTemplate>
+</ResourceDictionary>

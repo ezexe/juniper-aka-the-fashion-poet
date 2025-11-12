@@ -1,0 +1,1264 @@
+{
+  "Header" : {
+    "ShipmentHeader" : {
+      "TradingPartnerId" : "591855JUNIPER08",
+      "ShipmentIdentification" : "266",
+      "ShipDate" : "2021-12-07",
+      "TsetPurposeCode" : "00",
+      "ShipNoticeDate" : "2021-12-06",
+      "ShipNoticeTime" : "14:27:00",
+      "ASNStructureCode" : "0001",
+      "BillOfLadingNumber" : "1865"
+    },
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "LocationCodeQualifier" : "92",
+      "AddressLocationNumber" : "0575"
+    }, {
+      "AddressTypeCode" : "SF",
+      "AddressName" : "Juniper 08 LLC"
+    } ],
+    "CarrierInformation" : [ {
+      "CarrierTransMethodCode" : "M",
+      "CarrierAlphaCode" : "DYN",
+      "CarrierRouting" : "DYNAMIC GROUND"
+    } ],
+    "QuantityAndWeight" : [ {
+      "PackingMedium" : "CTN",
+      "PackingMaterial" : "CT",
+      "LadingQuantity" : 25,
+      "WeightQualifier" : "G",
+      "Weight" : 3.0,
+      "WeightUOM" : "LB"
+    } ]
+  },
+  "OrderLevel" : [ {
+    "OrderHeader" : {
+      "PurchaseOrderNumber" : "0007743608",
+      "Department" : "0832"
+    },
+    "QuantityAndWeight" : [ {
+      "PackingMedium" : "CTN",
+      "PackingMaterial" : "25",
+      "LadingQuantity" : 1,
+      "WeightQualifier" : "G",
+      "Weight" : 3.0,
+      "WeightUOM" : "LB"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "BY",
+      "LocationCodeQualifier" : "92",
+      "AddressLocationNumber" : "0402"
+    } ],
+    "PackLevel" : [ {
+      "Pack" : {
+        "PackLevelType" : "P",
+        "ShippingSerialID" : "00081006543001816490"
+      },
+      "ItemLevel" : [ {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061432",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061449",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061456",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061463",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      } ]
+    } ]
+  }, {
+    "OrderHeader" : {
+      "PurchaseOrderNumber" : "0007743608",
+      "Department" : "0832"
+    },
+    "QuantityAndWeight" : [ {
+      "PackingMedium" : "CTN",
+      "PackingMaterial" : "25",
+      "LadingQuantity" : 1,
+      "WeightQualifier" : "G",
+      "Weight" : 3.0,
+      "WeightUOM" : "LB"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "BY",
+      "LocationCodeQualifier" : "92",
+      "AddressLocationNumber" : "0406"
+    } ],
+    "PackLevel" : [ {
+      "Pack" : {
+        "PackLevelType" : "P",
+        "ShippingSerialID" : "00081006543001816506"
+      },
+      "ItemLevel" : [ {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061432",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061449",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061456",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061463",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      } ]
+    } ]
+  }, {
+    "OrderHeader" : {
+      "PurchaseOrderNumber" : "0007743608",
+      "Department" : "0832"
+    },
+    "QuantityAndWeight" : [ {
+      "PackingMedium" : "CTN",
+      "PackingMaterial" : "25",
+      "LadingQuantity" : 1,
+      "WeightQualifier" : "G",
+      "Weight" : 3.0,
+      "WeightUOM" : "LB"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "BY",
+      "LocationCodeQualifier" : "92",
+      "AddressLocationNumber" : "0709"
+    } ],
+    "PackLevel" : [ {
+      "Pack" : {
+        "PackLevelType" : "P",
+        "ShippingSerialID" : "00081006543001816513"
+      },
+      "ItemLevel" : [ {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061432",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061449",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061456",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061463",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      } ]
+    } ]
+  }, {
+    "OrderHeader" : {
+      "PurchaseOrderNumber" : "0007743608",
+      "Department" : "0832"
+    },
+    "QuantityAndWeight" : [ {
+      "PackingMedium" : "CTN",
+      "PackingMaterial" : "25",
+      "LadingQuantity" : 1,
+      "WeightQualifier" : "G",
+      "Weight" : 3.0,
+      "WeightUOM" : "LB"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "BY",
+      "LocationCodeQualifier" : "92",
+      "AddressLocationNumber" : "0712"
+    } ],
+    "PackLevel" : [ {
+      "Pack" : {
+        "PackLevelType" : "P",
+        "ShippingSerialID" : "00081006543001816520"
+      },
+      "ItemLevel" : [ {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061432",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061449",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061456",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061463",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      } ]
+    } ]
+  }, {
+    "OrderHeader" : {
+      "PurchaseOrderNumber" : "0007743608",
+      "Department" : "0832"
+    },
+    "QuantityAndWeight" : [ {
+      "PackingMedium" : "CTN",
+      "PackingMaterial" : "25",
+      "LadingQuantity" : 1,
+      "WeightQualifier" : "G",
+      "Weight" : 3.0,
+      "WeightUOM" : "LB"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "BY",
+      "LocationCodeQualifier" : "92",
+      "AddressLocationNumber" : "0717"
+    } ],
+    "PackLevel" : [ {
+      "Pack" : {
+        "PackLevelType" : "P",
+        "ShippingSerialID" : "00081006543001816537"
+      },
+      "ItemLevel" : [ {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061432",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061449",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061456",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061463",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      } ]
+    } ]
+  }, {
+    "OrderHeader" : {
+      "PurchaseOrderNumber" : "0007743608",
+      "Department" : "0832"
+    },
+    "QuantityAndWeight" : [ {
+      "PackingMedium" : "CTN",
+      "PackingMaterial" : "25",
+      "LadingQuantity" : 1,
+      "WeightQualifier" : "G",
+      "Weight" : 3.0,
+      "WeightUOM" : "LB"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "BY",
+      "LocationCodeQualifier" : "92",
+      "AddressLocationNumber" : "0718"
+    } ],
+    "PackLevel" : [ {
+      "Pack" : {
+        "PackLevelType" : "P",
+        "ShippingSerialID" : "00081006543001816544"
+      },
+      "ItemLevel" : [ {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061432",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061449",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061456",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061463",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      } ]
+    } ]
+  }, {
+    "OrderHeader" : {
+      "PurchaseOrderNumber" : "0007743608",
+      "Department" : "0832"
+    },
+    "QuantityAndWeight" : [ {
+      "PackingMedium" : "CTN",
+      "PackingMaterial" : "25",
+      "LadingQuantity" : 1,
+      "WeightQualifier" : "G",
+      "Weight" : 3.0,
+      "WeightUOM" : "LB"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "BY",
+      "LocationCodeQualifier" : "92",
+      "AddressLocationNumber" : "0731"
+    } ],
+    "PackLevel" : [ {
+      "Pack" : {
+        "PackLevelType" : "P",
+        "ShippingSerialID" : "00081006543001816551"
+      },
+      "ItemLevel" : [ {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061432",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061449",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061456",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061463",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      } ]
+    } ]
+  }, {
+    "OrderHeader" : {
+      "PurchaseOrderNumber" : "0007743608",
+      "Department" : "0832"
+    },
+    "QuantityAndWeight" : [ {
+      "PackingMedium" : "CTN",
+      "PackingMaterial" : "25",
+      "LadingQuantity" : 1,
+      "WeightQualifier" : "G",
+      "Weight" : 3.0,
+      "WeightUOM" : "LB"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "BY",
+      "LocationCodeQualifier" : "92",
+      "AddressLocationNumber" : "0734"
+    } ],
+    "PackLevel" : [ {
+      "Pack" : {
+        "PackLevelType" : "P",
+        "ShippingSerialID" : "00081006543001816568"
+      },
+      "ItemLevel" : [ {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061432",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061449",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061456",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061463",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      } ]
+    } ]
+  }, {
+    "OrderHeader" : {
+      "PurchaseOrderNumber" : "0007743608",
+      "Department" : "0832"
+    },
+    "QuantityAndWeight" : [ {
+      "PackingMedium" : "CTN",
+      "PackingMaterial" : "25",
+      "LadingQuantity" : 1,
+      "WeightQualifier" : "G",
+      "Weight" : 3.0,
+      "WeightUOM" : "LB"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "BY",
+      "LocationCodeQualifier" : "92",
+      "AddressLocationNumber" : "0744"
+    } ],
+    "PackLevel" : [ {
+      "Pack" : {
+        "PackLevelType" : "P",
+        "ShippingSerialID" : "00081006543001816575"
+      },
+      "ItemLevel" : [ {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061432",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061449",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061456",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061463",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      } ]
+    } ]
+  }, {
+    "OrderHeader" : {
+      "PurchaseOrderNumber" : "0007743608",
+      "Department" : "0832"
+    },
+    "QuantityAndWeight" : [ {
+      "PackingMedium" : "CTN",
+      "PackingMaterial" : "25",
+      "LadingQuantity" : 1,
+      "WeightQualifier" : "G",
+      "Weight" : 3.0,
+      "WeightUOM" : "LB"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "BY",
+      "LocationCodeQualifier" : "92",
+      "AddressLocationNumber" : "0752"
+    } ],
+    "PackLevel" : [ {
+      "Pack" : {
+        "PackLevelType" : "P",
+        "ShippingSerialID" : "00081006543001816582"
+      },
+      "ItemLevel" : [ {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061432",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061449",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061456",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061463",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      } ]
+    } ]
+  }, {
+    "OrderHeader" : {
+      "PurchaseOrderNumber" : "0007743608",
+      "Department" : "0832"
+    },
+    "QuantityAndWeight" : [ {
+      "PackingMedium" : "CTN",
+      "PackingMaterial" : "25",
+      "LadingQuantity" : 1,
+      "WeightQualifier" : "G",
+      "Weight" : 3.0,
+      "WeightUOM" : "LB"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "BY",
+      "LocationCodeQualifier" : "92",
+      "AddressLocationNumber" : "0773"
+    } ],
+    "PackLevel" : [ {
+      "Pack" : {
+        "PackLevelType" : "P",
+        "ShippingSerialID" : "00081006543001816599"
+      },
+      "ItemLevel" : [ {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061432",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061449",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061456",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061463",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      } ]
+    } ]
+  }, {
+    "OrderHeader" : {
+      "PurchaseOrderNumber" : "0007743608",
+      "Department" : "0832"
+    },
+    "QuantityAndWeight" : [ {
+      "PackingMedium" : "CTN",
+      "PackingMaterial" : "25",
+      "LadingQuantity" : 1,
+      "WeightQualifier" : "G",
+      "Weight" : 3.0,
+      "WeightUOM" : "LB"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "BY",
+      "LocationCodeQualifier" : "92",
+      "AddressLocationNumber" : "0776"
+    } ],
+    "PackLevel" : [ {
+      "Pack" : {
+        "PackLevelType" : "P",
+        "ShippingSerialID" : "00081006543001816605"
+      },
+      "ItemLevel" : [ {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061432",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061449",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061456",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061463",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      } ]
+    } ]
+  }, {
+    "OrderHeader" : {
+      "PurchaseOrderNumber" : "0007743608",
+      "Department" : "0832"
+    },
+    "QuantityAndWeight" : [ {
+      "PackingMedium" : "CTN",
+      "PackingMaterial" : "25",
+      "LadingQuantity" : 1,
+      "WeightQualifier" : "G",
+      "Weight" : 3.0,
+      "WeightUOM" : "LB"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "BY",
+      "LocationCodeQualifier" : "92",
+      "AddressLocationNumber" : "0779"
+    } ],
+    "PackLevel" : [ {
+      "Pack" : {
+        "PackLevelType" : "P",
+        "ShippingSerialID" : "00081006543001816612"
+      },
+      "ItemLevel" : [ {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061432",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061449",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061456",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061463",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      } ]
+    } ]
+  }, {
+    "OrderHeader" : {
+      "PurchaseOrderNumber" : "0007743608",
+      "Department" : "0832"
+    },
+    "QuantityAndWeight" : [ {
+      "PackingMedium" : "CTN",
+      "PackingMaterial" : "25",
+      "LadingQuantity" : 1,
+      "WeightQualifier" : "G",
+      "Weight" : 3.0,
+      "WeightUOM" : "LB"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "BY",
+      "LocationCodeQualifier" : "92",
+      "AddressLocationNumber" : "0784"
+    } ],
+    "PackLevel" : [ {
+      "Pack" : {
+        "PackLevelType" : "P",
+        "ShippingSerialID" : "00081006543001816629"
+      },
+      "ItemLevel" : [ {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061432",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061449",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061456",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061463",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      } ]
+    } ]
+  }, {
+    "OrderHeader" : {
+      "PurchaseOrderNumber" : "0007743608",
+      "Department" : "0832"
+    },
+    "QuantityAndWeight" : [ {
+      "PackingMedium" : "CTN",
+      "PackingMaterial" : "25",
+      "LadingQuantity" : 1,
+      "WeightQualifier" : "G",
+      "Weight" : 3.0,
+      "WeightUOM" : "LB"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "BY",
+      "LocationCodeQualifier" : "92",
+      "AddressLocationNumber" : "0807"
+    } ],
+    "PackLevel" : [ {
+      "Pack" : {
+        "PackLevelType" : "P",
+        "ShippingSerialID" : "00081006543001816636"
+      },
+      "ItemLevel" : [ {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061432",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061449",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061456",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061463",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      } ]
+    } ]
+  }, {
+    "OrderHeader" : {
+      "PurchaseOrderNumber" : "0007743608",
+      "Department" : "0832"
+    },
+    "QuantityAndWeight" : [ {
+      "PackingMedium" : "CTN",
+      "PackingMaterial" : "25",
+      "LadingQuantity" : 1,
+      "WeightQualifier" : "G",
+      "Weight" : 3.0,
+      "WeightUOM" : "LB"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "BY",
+      "LocationCodeQualifier" : "92",
+      "AddressLocationNumber" : "0808"
+    } ],
+    "PackLevel" : [ {
+      "Pack" : {
+        "PackLevelType" : "P",
+        "ShippingSerialID" : "00081006543001816643"
+      },
+      "ItemLevel" : [ {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061432",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061449",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061456",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061463",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      } ]
+    } ]
+  }, {
+    "OrderHeader" : {
+      "PurchaseOrderNumber" : "0007743608",
+      "Department" : "0832"
+    },
+    "QuantityAndWeight" : [ {
+      "PackingMedium" : "CTN",
+      "PackingMaterial" : "25",
+      "LadingQuantity" : 1,
+      "WeightQualifier" : "G",
+      "Weight" : 3.0,
+      "WeightUOM" : "LB"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "BY",
+      "LocationCodeQualifier" : "92",
+      "AddressLocationNumber" : "0810"
+    } ],
+    "PackLevel" : [ {
+      "Pack" : {
+        "PackLevelType" : "P",
+        "ShippingSerialID" : "00081006543001816650"
+      },
+      "ItemLevel" : [ {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061432",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061449",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061456",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061463",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      } ]
+    } ]
+  }, {
+    "OrderHeader" : {
+      "PurchaseOrderNumber" : "0007743608",
+      "Department" : "0832"
+    },
+    "QuantityAndWeight" : [ {
+      "PackingMedium" : "CTN",
+      "PackingMaterial" : "25",
+      "LadingQuantity" : 1,
+      "WeightQualifier" : "G",
+      "Weight" : 3.0,
+      "WeightUOM" : "LB"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "BY",
+      "LocationCodeQualifier" : "92",
+      "AddressLocationNumber" : "0814"
+    } ],
+    "PackLevel" : [ {
+      "Pack" : {
+        "PackLevelType" : "P",
+        "ShippingSerialID" : "00081006543001816667"
+      },
+      "ItemLevel" : [ {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061432",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061449",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061456",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061463",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      } ]
+    } ]
+  }, {
+    "OrderHeader" : {
+      "PurchaseOrderNumber" : "0007743608",
+      "Department" : "0832"
+    },
+    "QuantityAndWeight" : [ {
+      "PackingMedium" : "CTN",
+      "PackingMaterial" : "25",
+      "LadingQuantity" : 1,
+      "WeightQualifier" : "G",
+      "Weight" : 3.0,
+      "WeightUOM" : "LB"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "BY",
+      "LocationCodeQualifier" : "92",
+      "AddressLocationNumber" : "0816"
+    } ],
+    "PackLevel" : [ {
+      "Pack" : {
+        "PackLevelType" : "P",
+        "ShippingSerialID" : "00081006543001816674"
+      },
+      "ItemLevel" : [ {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061432",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061449",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061456",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061463",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      } ]
+    } ]
+  }, {
+    "OrderHeader" : {
+      "PurchaseOrderNumber" : "0007743608",
+      "Department" : "0832"
+    },
+    "QuantityAndWeight" : [ {
+      "PackingMedium" : "CTN",
+      "PackingMaterial" : "25",
+      "LadingQuantity" : 1,
+      "WeightQualifier" : "G",
+      "Weight" : 3.0,
+      "WeightUOM" : "LB"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "BY",
+      "LocationCodeQualifier" : "92",
+      "AddressLocationNumber" : "0820"
+    } ],
+    "PackLevel" : [ {
+      "Pack" : {
+        "PackLevelType" : "P",
+        "ShippingSerialID" : "00081006543001816681"
+      },
+      "ItemLevel" : [ {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061432",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061449",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061456",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061463",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      } ]
+    } ]
+  }, {
+    "OrderHeader" : {
+      "PurchaseOrderNumber" : "0007743608",
+      "Department" : "0832"
+    },
+    "QuantityAndWeight" : [ {
+      "PackingMedium" : "CTN",
+      "PackingMaterial" : "25",
+      "LadingQuantity" : 1,
+      "WeightQualifier" : "G",
+      "Weight" : 3.0,
+      "WeightUOM" : "LB"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "BY",
+      "LocationCodeQualifier" : "92",
+      "AddressLocationNumber" : "0821"
+    } ],
+    "PackLevel" : [ {
+      "Pack" : {
+        "PackLevelType" : "P",
+        "ShippingSerialID" : "00081006543001816698"
+      },
+      "ItemLevel" : [ {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061432",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061449",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061456",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061463",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      } ]
+    } ]
+  }, {
+    "OrderHeader" : {
+      "PurchaseOrderNumber" : "0007743608",
+      "Department" : "0832"
+    },
+    "QuantityAndWeight" : [ {
+      "PackingMedium" : "CTN",
+      "PackingMaterial" : "25",
+      "LadingQuantity" : 1,
+      "WeightQualifier" : "G",
+      "Weight" : 3.0,
+      "WeightUOM" : "LB"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "BY",
+      "LocationCodeQualifier" : "92",
+      "AddressLocationNumber" : "0837"
+    } ],
+    "PackLevel" : [ {
+      "Pack" : {
+        "PackLevelType" : "P",
+        "ShippingSerialID" : "00081006543001816704"
+      },
+      "ItemLevel" : [ {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061432",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061449",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061456",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061463",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      } ]
+    } ]
+  }, {
+    "OrderHeader" : {
+      "PurchaseOrderNumber" : "0007743608",
+      "Department" : "0832"
+    },
+    "QuantityAndWeight" : [ {
+      "PackingMedium" : "CTN",
+      "PackingMaterial" : "25",
+      "LadingQuantity" : 1,
+      "WeightQualifier" : "G",
+      "Weight" : 3.0,
+      "WeightUOM" : "LB"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "BY",
+      "LocationCodeQualifier" : "92",
+      "AddressLocationNumber" : "0839"
+    } ],
+    "PackLevel" : [ {
+      "Pack" : {
+        "PackLevelType" : "P",
+        "ShippingSerialID" : "00081006543001816711"
+      },
+      "ItemLevel" : [ {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061432",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061449",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061456",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061463",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      } ]
+    } ]
+  }, {
+    "OrderHeader" : {
+      "PurchaseOrderNumber" : "0007743608",
+      "Department" : "0832"
+    },
+    "QuantityAndWeight" : [ {
+      "PackingMedium" : "CTN",
+      "PackingMaterial" : "25",
+      "LadingQuantity" : 1,
+      "WeightQualifier" : "G",
+      "Weight" : 3.0,
+      "WeightUOM" : "LB"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "BY",
+      "LocationCodeQualifier" : "92",
+      "AddressLocationNumber" : "0843"
+    } ],
+    "PackLevel" : [ {
+      "Pack" : {
+        "PackLevelType" : "P",
+        "ShippingSerialID" : "00081006543001816728"
+      },
+      "ItemLevel" : [ {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061432",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061449",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061456",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061463",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      } ]
+    } ]
+  }, {
+    "OrderHeader" : {
+      "PurchaseOrderNumber" : "0007743608",
+      "Department" : "0832"
+    },
+    "QuantityAndWeight" : [ {
+      "PackingMedium" : "CTN",
+      "PackingMaterial" : "25",
+      "LadingQuantity" : 1,
+      "WeightQualifier" : "G",
+      "Weight" : 3.0,
+      "WeightUOM" : "LB"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "BY",
+      "LocationCodeQualifier" : "92",
+      "AddressLocationNumber" : "0853"
+    } ],
+    "PackLevel" : [ {
+      "Pack" : {
+        "PackLevelType" : "P",
+        "ShippingSerialID" : "00081006543001816735"
+      },
+      "ItemLevel" : [ {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061432",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061449",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061456",
+          "ShipQty" : 2.0,
+          "ShipQtyUOM" : "EA"
+        }
+      }, {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094061463",
+          "ShipQty" : 1.0,
+          "ShipQtyUOM" : "EA"
+        }
+      } ]
+    } ]
+  } ],
+  "Summary" : {
+    "TotalLineItemNumber" : 151
+  }
+}

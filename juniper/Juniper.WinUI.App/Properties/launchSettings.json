@@ -1,0 +1,22 @@
+{
+  "profiles": {
+    "Juniper.WinUI.App (Package)": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false
+    },
+    "Juniper.WinUI.App (Unpackaged)": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    },
+    "sandbox": {
+      "commandName": "MsixPackage",
+      "commandLineArgs": "sandbox",
+      "nativeDebugging": false
+    },
+    "iselie": {
+      "commandName": "MsixPackage",
+      "commandLineArgs": "iselie",
+      "nativeDebugging": false
+    }
+  }
+}

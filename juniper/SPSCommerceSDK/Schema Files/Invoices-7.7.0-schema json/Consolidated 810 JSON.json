@@ -1,0 +1,84 @@
+{
+  "Header" : {
+    "InvoiceHeader" : {
+      "TradingPartnerId" : "AUOALLJUNIPER08",
+      "InvoiceNumber" : "11683",
+      "InvoiceDate" : "2021-09-21",
+      "PurchaseOrderDate" : "2021-10-08",
+      "PurchaseOrderNumber" : "4440680",
+      "Department" : "0828",
+      "Vendor" : "0005179153",
+      "ShipDate" : "2021-10-25"
+    },
+    "PaymentTerms" : [ {
+      "TermsType" : "05",
+      "TermsBasisDateCode" : "2",
+      "TermsNetDueDays" : 60
+    }, {
+      "TermsType" : "01",
+      "TermsBasisDateCode" : "2",
+      "TermsNetDueDays" : 30
+    }, {
+      "TermsType" : "12",
+      "TermsDiscountPercentage" : 8.0,
+      "TermsDiscountDueDays" : 60
+    } ],
+    "Dates" : [ {
+      "DateTimeQualifier" : "011",
+      "Date" : "2021-10-25"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "LocationCodeQualifier" : "92",
+      "AddressLocationNumber" : "000018359"
+    }, {
+      "AddressTypeCode" : "BY",
+      "LocationCodeQualifier" : "92",
+      "AddressLocationNumber" : "0152"
+    }, {
+      "AddressTypeCode" : "RI",
+      "LocationCodeQualifier" : "1",
+      "AddressLocationNumber" : "000018359"
+    } ],
+    "References" : [ {
+      "ReferenceQual" : "MA",
+      "ReferenceID" : "256"
+    } ],
+    "FOBRelatedInstruction" : [ {
+      "FOBPayCode" : "CC",
+      "FOBTitlePassageCode" : "AC",
+      "FOBTitlePassageLocation" : "Brooklyn, NY"
+    } ],
+    "CarrierInformation" : [ {
+      "CarrierTransMethodCode" : "M",
+      "CarrierAlphaCode" : "DYN",
+      "CarrierRouting" : "DYNAMIC"
+    } ],
+    "QuantityTotals" : [ {
+      "QuantityTotalsQualifier" : "SQT",
+      "Quantity" : 6.0,
+      "QuantityUOM" : "CT",
+      "Weight" : 6.0,
+      "WeightUOM" : "LB"
+    } ]
+  },
+  "LineItem" : [ {
+    "InvoiceLine" : {
+      "LineSequenceNumber" : "9",
+      "ConsumerPackageCode" : "810081705240",
+      "InvoiceQty" : 1.0,
+      "InvoiceQtyUOM" : "EA",
+      "PurchasePriceType" : "QT",
+      "PurchasePrice" : 10.5
+    },
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "DEEP VNK JUMPSUIT"
+    } ]
+  } ],
+  "Summary" : {
+    "TotalAmount" : 63.0,
+    "TotalSalesAmount" : 63.0,
+    "TotalLineItemNumber" : 4
+  }
+}

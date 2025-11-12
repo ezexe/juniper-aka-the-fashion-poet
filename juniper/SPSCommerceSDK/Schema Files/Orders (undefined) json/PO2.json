@@ -1,0 +1,2397 @@
+{
+  "Header": {
+    "OrderHeader": {
+      "TradingPartnerId": "AUOALLJUNIPER08",
+      "PurchaseOrderNumber": "7335484",
+      "TsetPurposeCode": "00",
+      "PrimaryPOTypeCode": "SA",
+      "PurchaseOrderDate": "2021-12-30",
+      "Department": "0803",
+      "JobNumber": "3834000001"
+    },
+    "PaymentTerms": [
+      {
+        "TermsType": "05",
+        "TermsBasisDateCode": "2",
+        "TermsNetDueDays": 60
+      }
+    ],
+    "Dates": [
+      {
+        "DateTimeQualifier": "001",
+        "Date": "2022-02-10"
+      },
+      {
+        "DateTimeQualifier": "064",
+        "Date": "2022-02-01"
+      }
+    ],
+    "FOBRelatedInstruction": [
+      {
+        "FOBPayCode": "DF"
+      }
+    ],
+    "References": [
+      {
+        "ReferenceQual": "BT",
+        "ReferenceID": "3834000001"
+      },
+      {
+        "ReferenceQual": "DP",
+        "ReferenceID": "0803"
+      },
+      {
+        "ReferenceQual": "PG",
+        "ReferenceID": "DRESSES"
+      }
+    ],
+    "Notes": [
+      {
+        "Note": "Delivery of Goods constitutes agreement as defined by Master Purchasing"
+      },
+      {
+        "Note": "Agreement as posted on macysnet.com"
+      }
+    ]
+  },
+  "LineItem": [
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "1",
+        "ConsumerPackageCode": "810081709163",
+        "ProductID": [
+          {
+            "PartNumberQual": "CG",
+            "PartNumber": "53"
+          }
+        ],
+        "OrderQty": 18.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 30.0,
+        "PurchasePriceBasis": "WE",
+        "Class": "53"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "MSR",
+          "UnitPrice": 59.99
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0075",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0076",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0151",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0152",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0153",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0155",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0160",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0161",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0170",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0171",
+              "Qty": 1.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0180",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0190",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0194",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0195",
+              "Qty": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "2",
+        "ConsumerPackageCode": "810081709170",
+        "ProductID": [
+          {
+            "PartNumberQual": "CG",
+            "PartNumber": "53"
+          }
+        ],
+        "OrderQty": 18.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 30.0,
+        "PurchasePriceBasis": "WE",
+        "Class": "53"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "MSR",
+          "UnitPrice": 59.99
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0075",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0076",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0151",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0152",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0153",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0155",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0160",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0161",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0170",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0171",
+              "Qty": 1.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0180",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0190",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0194",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0195",
+              "Qty": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "3",
+        "ConsumerPackageCode": "810081709187",
+        "ProductID": [
+          {
+            "PartNumberQual": "CG",
+            "PartNumber": "53"
+          }
+        ],
+        "OrderQty": 36.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 30.0,
+        "PurchasePriceBasis": "WE",
+        "Class": "53"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "MSR",
+          "UnitPrice": 59.99
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0075",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0076",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0151",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0152",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0153",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0155",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0160",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0161",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0170",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0171",
+              "Qty": 2.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0180",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0190",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0194",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0195",
+              "Qty": 2.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "4",
+        "ConsumerPackageCode": "810081709194",
+        "ProductID": [
+          {
+            "PartNumberQual": "CG",
+            "PartNumber": "53"
+          }
+        ],
+        "OrderQty": 18.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 30.0,
+        "PurchasePriceBasis": "WE",
+        "Class": "53"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "MSR",
+          "UnitPrice": 59.99
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0075",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0076",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0151",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0152",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0153",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0155",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0160",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0161",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0170",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0171",
+              "Qty": 1.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0180",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0190",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0194",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0195",
+              "Qty": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "5",
+        "ConsumerPackageCode": "810094060268",
+        "ProductID": [
+          {
+            "PartNumberQual": "CG",
+            "PartNumber": "53"
+          }
+        ],
+        "OrderQty": 18.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 30.0,
+        "PurchasePriceBasis": "WE",
+        "Class": "53"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "MSR",
+          "UnitPrice": 59.99
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0075",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0076",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0151",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0152",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0153",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0155",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0160",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0161",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0170",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0171",
+              "Qty": 1.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0180",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0190",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0194",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0195",
+              "Qty": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "6",
+        "ConsumerPackageCode": "810094066604",
+        "ProductID": [
+          {
+            "PartNumberQual": "CG",
+            "PartNumber": "53"
+          }
+        ],
+        "OrderQty": 18.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 30.0,
+        "PurchasePriceBasis": "WE",
+        "Class": "53"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "MSR",
+          "UnitPrice": 59.99
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0075",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0076",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0151",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0152",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0153",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0155",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0160",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0161",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0170",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0171",
+              "Qty": 1.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0180",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0190",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0194",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0195",
+              "Qty": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "7",
+        "ConsumerPackageCode": "810094066611",
+        "ProductID": [
+          {
+            "PartNumberQual": "CG",
+            "PartNumber": "53"
+          }
+        ],
+        "OrderQty": 18.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 30.0,
+        "PurchasePriceBasis": "WE",
+        "Class": "53"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "MSR",
+          "UnitPrice": 59.99
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0075",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0076",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0151",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0152",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0153",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0155",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0160",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0161",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0170",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0171",
+              "Qty": 1.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0180",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0190",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0194",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0195",
+              "Qty": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "8",
+        "ConsumerPackageCode": "810094066628",
+        "ProductID": [
+          {
+            "PartNumberQual": "CG",
+            "PartNumber": "53"
+          }
+        ],
+        "OrderQty": 36.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 30.0,
+        "PurchasePriceBasis": "WE",
+        "Class": "53"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "MSR",
+          "UnitPrice": 59.99
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0075",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0076",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0151",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0152",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0153",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0155",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0160",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0161",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0170",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0171",
+              "Qty": 2.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0180",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0190",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0194",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0195",
+              "Qty": 2.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "9",
+        "ConsumerPackageCode": "810094066635",
+        "ProductID": [
+          {
+            "PartNumberQual": "CG",
+            "PartNumber": "53"
+          }
+        ],
+        "OrderQty": 18.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 30.0,
+        "PurchasePriceBasis": "WE",
+        "Class": "53"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "MSR",
+          "UnitPrice": 59.99
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0075",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0076",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0151",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0152",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0153",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0155",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0160",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0161",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0170",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0171",
+              "Qty": 1.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0180",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0190",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0194",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0195",
+              "Qty": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "10",
+        "ConsumerPackageCode": "810094066642",
+        "ProductID": [
+          {
+            "PartNumberQual": "CG",
+            "PartNumber": "53"
+          }
+        ],
+        "OrderQty": 18.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 30.0,
+        "PurchasePriceBasis": "WE",
+        "Class": "53"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "MSR",
+          "UnitPrice": 59.99
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0075",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0076",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0151",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0152",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0153",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0155",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0160",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0161",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0170",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0171",
+              "Qty": 1.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0180",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0190",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0194",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0195",
+              "Qty": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "11",
+        "ConsumerPackageCode": "810094067335",
+        "ProductID": [
+          {
+            "PartNumberQual": "CG",
+            "PartNumber": "51"
+          }
+        ],
+        "OrderQty": 18.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 30.0,
+        "PurchasePriceBasis": "WE",
+        "Class": "51"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "MSR",
+          "UnitPrice": 59.99
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0038",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0076",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0153",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0154",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0155",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0160",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0161",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0171",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0180",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0190",
+              "Qty": 1.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0192",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0194",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0195",
+              "Qty": 2.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "12",
+        "ConsumerPackageCode": "810094067342",
+        "ProductID": [
+          {
+            "PartNumberQual": "CG",
+            "PartNumber": "51"
+          }
+        ],
+        "OrderQty": 18.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 30.0,
+        "PurchasePriceBasis": "WE",
+        "Class": "51"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "MSR",
+          "UnitPrice": 59.99
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0038",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0076",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0153",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0154",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0155",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0160",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0161",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0171",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0180",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0190",
+              "Qty": 1.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0192",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0194",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0195",
+              "Qty": 2.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "13",
+        "ConsumerPackageCode": "810094067359",
+        "ProductID": [
+          {
+            "PartNumberQual": "CG",
+            "PartNumber": "51"
+          }
+        ],
+        "OrderQty": 36.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 30.0,
+        "PurchasePriceBasis": "WE",
+        "Class": "51"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "MSR",
+          "UnitPrice": 59.99
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0038",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0076",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0153",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0154",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0155",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0160",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0161",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0171",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0180",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0190",
+              "Qty": 2.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0192",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0194",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0195",
+              "Qty": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "14",
+        "ConsumerPackageCode": "810094067366",
+        "ProductID": [
+          {
+            "PartNumberQual": "CG",
+            "PartNumber": "51"
+          }
+        ],
+        "OrderQty": 18.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 30.0,
+        "PurchasePriceBasis": "WE",
+        "Class": "51"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "MSR",
+          "UnitPrice": 59.99
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0038",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0076",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0153",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0154",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0155",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0160",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0161",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0171",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0180",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0190",
+              "Qty": 1.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0192",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0194",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0195",
+              "Qty": 2.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "15",
+        "ConsumerPackageCode": "810094067373",
+        "ProductID": [
+          {
+            "PartNumberQual": "CG",
+            "PartNumber": "51"
+          }
+        ],
+        "OrderQty": 18.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 30.0,
+        "PurchasePriceBasis": "WE",
+        "Class": "51"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "MSR",
+          "UnitPrice": 59.99
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0038",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0076",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0153",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0154",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0155",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0160",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0161",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0171",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0180",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0190",
+              "Qty": 1.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0192",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0194",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0195",
+              "Qty": 2.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "16",
+        "ConsumerPackageCode": "810094067380",
+        "ProductID": [
+          {
+            "PartNumberQual": "CG",
+            "PartNumber": "51"
+          }
+        ],
+        "OrderQty": 18.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 30.0,
+        "PurchasePriceBasis": "WE",
+        "Class": "51"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "MSR",
+          "UnitPrice": 59.99
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0038",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0076",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0151",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0152",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0153",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0154",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0155",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0160",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0161",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0170",
+              "Qty": 1.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0171",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0180",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0190",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0192",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0194",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0195",
+              "Qty": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "17",
+        "ConsumerPackageCode": "810094067397",
+        "ProductID": [
+          {
+            "PartNumberQual": "CG",
+            "PartNumber": "51"
+          }
+        ],
+        "OrderQty": 18.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 30.0,
+        "PurchasePriceBasis": "WE",
+        "Class": "51"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "MSR",
+          "UnitPrice": 59.99
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0038",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0076",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0151",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0152",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0153",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0154",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0155",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0160",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0161",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0170",
+              "Qty": 1.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0171",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0180",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0190",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0192",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0194",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0195",
+              "Qty": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "18",
+        "ConsumerPackageCode": "810094067403",
+        "ProductID": [
+          {
+            "PartNumberQual": "CG",
+            "PartNumber": "51"
+          }
+        ],
+        "OrderQty": 36.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 30.0,
+        "PurchasePriceBasis": "WE",
+        "Class": "51"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "MSR",
+          "UnitPrice": 59.99
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0038",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0076",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0151",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0152",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0153",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0154",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0155",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0160",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0161",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0170",
+              "Qty": 2.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0171",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0180",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0190",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0192",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0194",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0195",
+              "Qty": 2.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "19",
+        "ConsumerPackageCode": "810094067410",
+        "ProductID": [
+          {
+            "PartNumberQual": "CG",
+            "PartNumber": "51"
+          }
+        ],
+        "OrderQty": 18.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 30.0,
+        "PurchasePriceBasis": "WE",
+        "Class": "51"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "MSR",
+          "UnitPrice": 59.99
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0038",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0076",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0151",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0152",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0153",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0154",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0155",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0160",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0161",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0170",
+              "Qty": 1.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0171",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0180",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0190",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0192",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0194",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0195",
+              "Qty": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "20",
+        "ConsumerPackageCode": "810094067427",
+        "ProductID": [
+          {
+            "PartNumberQual": "CG",
+            "PartNumber": "51"
+          }
+        ],
+        "OrderQty": 18.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 30.0,
+        "PurchasePriceBasis": "WE",
+        "Class": "51"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "MSR",
+          "UnitPrice": 59.99
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0038",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0076",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0151",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0152",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0153",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0154",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0155",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0160",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0161",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0170",
+              "Qty": 1.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0171",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0180",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0190",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0192",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0194",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0195",
+              "Qty": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "21",
+        "ConsumerPackageCode": "810094067434",
+        "ProductID": [
+          {
+            "PartNumberQual": "CG",
+            "PartNumber": "51"
+          }
+        ],
+        "OrderQty": 18.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 30.0,
+        "PurchasePriceBasis": "WE",
+        "Class": "51"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "MSR",
+          "UnitPrice": 59.99
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0038",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0076",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0151",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0152",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0153",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0154",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0155",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0160",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0161",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0170",
+              "Qty": 1.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0171",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0180",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0190",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0192",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0194",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0195",
+              "Qty": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "22",
+        "ConsumerPackageCode": "810094067441",
+        "ProductID": [
+          {
+            "PartNumberQual": "CG",
+            "PartNumber": "51"
+          }
+        ],
+        "OrderQty": 18.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 30.0,
+        "PurchasePriceBasis": "WE",
+        "Class": "51"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "MSR",
+          "UnitPrice": 59.99
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0038",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0076",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0151",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0152",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0153",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0154",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0155",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0160",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0161",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0170",
+              "Qty": 1.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0171",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0180",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0190",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0192",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0194",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0195",
+              "Qty": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "23",
+        "ConsumerPackageCode": "810094067458",
+        "ProductID": [
+          {
+            "PartNumberQual": "CG",
+            "PartNumber": "51"
+          }
+        ],
+        "OrderQty": 36.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 30.0,
+        "PurchasePriceBasis": "WE",
+        "Class": "51"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "MSR",
+          "UnitPrice": 59.99
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0038",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0076",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0151",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0152",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0153",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0154",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0155",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0160",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0161",
+              "Qty": 4.0
+            },
+            {
+              "Location": "0170",
+              "Qty": 2.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0171",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0180",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0190",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0192",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0194",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0195",
+              "Qty": 2.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "24",
+        "ConsumerPackageCode": "810094067465",
+        "ProductID": [
+          {
+            "PartNumberQual": "CG",
+            "PartNumber": "51"
+          }
+        ],
+        "OrderQty": 18.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 30.0,
+        "PurchasePriceBasis": "WE",
+        "Class": "51"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "MSR",
+          "UnitPrice": 59.99
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0038",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0076",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0151",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0152",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0153",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0154",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0155",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0160",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0161",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0170",
+              "Qty": 1.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0171",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0180",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0190",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0192",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0194",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0195",
+              "Qty": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "OrderLine": {
+        "LineSequenceNumber": "25",
+        "ConsumerPackageCode": "810094067472",
+        "ProductID": [
+          {
+            "PartNumberQual": "CG",
+            "PartNumber": "51"
+          }
+        ],
+        "OrderQty": 18.0,
+        "OrderQtyUOM": "EA",
+        "PurchasePrice": 30.0,
+        "PurchasePriceBasis": "WE",
+        "Class": "51"
+      },
+      "PriceInformation": [
+        {
+          "PriceTypeIDCode": "MSR",
+          "UnitPrice": 59.99
+        }
+      ],
+      "QuantitiesSchedulesLocations": [
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0038",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0076",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0151",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0152",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0153",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0154",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0155",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0160",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0161",
+              "Qty": 2.0
+            },
+            {
+              "Location": "0170",
+              "Qty": 1.0
+            }
+          ]
+        },
+        {
+          "TotalQtyUOM": "EA",
+          "LocationQuantity": [
+            {
+              "Location": "0171",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0180",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0190",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0192",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0194",
+              "Qty": 1.0
+            },
+            {
+              "Location": "0195",
+              "Qty": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Summary": {
+    "TotalLineItemNumber": 25
+  }
+}

@@ -1,0 +1,2839 @@
+{
+  "Header" : {
+    "OrderHeader" : {
+      "TradingPartnerId" : "591ALLJUNIPER08",
+      "PurchaseOrderNumber" : "0007879116",
+      "TsetPurposeCode" : "00",
+      "PrimaryPOTypeCode" : "SA",
+      "PurchaseOrderDate" : "2021-12-13",
+      "Department" : "0832",
+      "Vendor" : "436"
+    },
+    "PaymentTerms" : [ {
+      "TermsType" : "01",
+      "TermsBasisDateCode" : "2",
+      "TermsNetDueDays" : 30
+    } ],
+    "Dates" : [ {
+      "DateTimeQualifier" : "010",
+      "Date" : "2021-12-28"
+    }, {
+      "DateTimeQualifier" : "001",
+      "Date" : "2022-02-08"
+    } ],
+    "References" : [ {
+      "ReferenceQual" : "VR",
+      "ReferenceID" : "7124274"
+    }, {
+      "ReferenceQual" : "PG",
+      "ReferenceID" : "46"
+    } ],
+    "Notes" : [ {
+      "Note" : "All purchase orders placed by Saks & Company LLC d/b/a Saks OFF 5TH or Hudson's Bay Company ULC d/b/a Saks OFF 5TH for Saks OFF 5TH's stores business are governed by the terms and conditions set forth in the Saks OFF 5TH Vendor Standards Manual and any addenda, which are located at https://sites.google.com/hbc.com/hbc-vendor-standards/saks-off-5th/vendor-standards"
+    } ]
+  },
+  "LineItem" : [ {
+    "OrderLine" : {
+      "LineSequenceNumber" : "1",
+      "VendorPartNumber" : "WO-7212",
+      "ConsumerPackageCode" : "810081707961",
+      "OrderQty" : 47.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 24.0,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "X SMALL",
+      "ProductColorDescription" : "OLIVE"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 138.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 49.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "L/S RUFFLE DRESS"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "0575"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0401",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0402",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0709",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0712",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0713",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0714",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0717",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0718",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0719",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0723",
+        "Qty" : 1.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0725",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0731",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0733",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0734",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0735",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0738",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0739",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0747",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0749",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0754",
+        "Qty" : 1.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0759",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0763",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0771",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0774",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0776",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0777",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0785",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0807",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0808",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0814",
+        "Qty" : 1.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0816",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0817",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0819",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0820",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0821",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0823",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0828",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0831",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0837",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0839",
+        "Qty" : 1.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0842",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0843",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0844",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0845",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0846",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0847",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0848",
+        "Qty" : 1.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "2",
+      "VendorPartNumber" : "WO-7212",
+      "ConsumerPackageCode" : "810081707978",
+      "OrderQty" : 94.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 24.0,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "SMALL",
+      "ProductColorDescription" : "OLIVE"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 138.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 49.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "L/S RUFFLE DRESS"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "0575"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0401",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0402",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0709",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0712",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0713",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0714",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0717",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0718",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0719",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0723",
+        "Qty" : 2.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0725",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0731",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0733",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0734",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0735",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0738",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0739",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0747",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0749",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0754",
+        "Qty" : 2.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0759",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0763",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0771",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0774",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0776",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0777",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0785",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0807",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0808",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0814",
+        "Qty" : 2.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0816",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0817",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0819",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0820",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0821",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0823",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0828",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0831",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0837",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0839",
+        "Qty" : 2.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0842",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0843",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0844",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0845",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0846",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0847",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0848",
+        "Qty" : 2.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "3",
+      "VendorPartNumber" : "WO-7212",
+      "ConsumerPackageCode" : "810081707985",
+      "OrderQty" : 94.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 24.0,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "MEDIUM",
+      "ProductColorDescription" : "OLIVE"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 138.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 49.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "L/S RUFFLE DRESS"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "0575"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0401",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0402",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0709",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0712",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0713",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0714",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0717",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0718",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0719",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0723",
+        "Qty" : 2.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0725",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0731",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0733",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0734",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0735",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0738",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0739",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0747",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0749",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0754",
+        "Qty" : 2.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0759",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0763",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0771",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0774",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0776",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0777",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0785",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0807",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0808",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0814",
+        "Qty" : 2.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0816",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0817",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0819",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0820",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0821",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0823",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0828",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0831",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0837",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0839",
+        "Qty" : 2.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0842",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0843",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0844",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0845",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0846",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0847",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0848",
+        "Qty" : 2.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "4",
+      "VendorPartNumber" : "WO-7212",
+      "ConsumerPackageCode" : "810081707992",
+      "OrderQty" : 47.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 24.0,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "LARGE",
+      "ProductColorDescription" : "OLIVE"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 138.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 49.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "L/S RUFFLE DRESS"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "0575"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0401",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0402",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0709",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0712",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0713",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0714",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0717",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0718",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0719",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0723",
+        "Qty" : 1.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0725",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0731",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0733",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0734",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0735",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0738",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0739",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0747",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0749",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0754",
+        "Qty" : 1.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0759",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0763",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0771",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0774",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0776",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0777",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0785",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0807",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0808",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0814",
+        "Qty" : 1.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0816",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0817",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0819",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0820",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0821",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0823",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0828",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0831",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0837",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0839",
+        "Qty" : 1.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0842",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0843",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0844",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0845",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0846",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0847",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0848",
+        "Qty" : 1.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "5",
+      "VendorPartNumber" : "7292",
+      "ConsumerPackageCode" : "810094062958",
+      "OrderQty" : 29.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 24.0,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "X SMALL",
+      "ProductColorDescription" : "NAVY / MUL"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 138.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 49.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "L/S VN RUFFLE DRESS"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "0575"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0705",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0709",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0712",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0713",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0714",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0717",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0718",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0719",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0726",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0733",
+        "Qty" : 1.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0738",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0739",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0771",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0773",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0777",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0779",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0784",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0785",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0807",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0808",
+        "Qty" : 1.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0816",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0821",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0823",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0826",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0837",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0842",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0843",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0852",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0853",
+        "Qty" : 1.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "6",
+      "VendorPartNumber" : "7292",
+      "ConsumerPackageCode" : "810094062965",
+      "OrderQty" : 58.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 24.0,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "SMALL",
+      "ProductColorDescription" : "NAVY / MUL"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 138.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 49.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "L/S VN RUFFLE DRESS"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "0575"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0705",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0709",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0712",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0713",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0714",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0717",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0718",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0719",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0726",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0733",
+        "Qty" : 2.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0738",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0739",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0771",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0773",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0777",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0779",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0784",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0785",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0807",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0808",
+        "Qty" : 2.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0816",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0821",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0823",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0826",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0837",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0842",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0843",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0852",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0853",
+        "Qty" : 2.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "7",
+      "VendorPartNumber" : "7292",
+      "ConsumerPackageCode" : "810094062972",
+      "OrderQty" : 58.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 24.0,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "MEDIUM",
+      "ProductColorDescription" : "NAVY / MUL"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 138.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 49.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "L/S VN RUFFLE DRESS"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "0575"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0705",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0709",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0712",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0713",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0714",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0717",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0718",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0719",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0726",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0733",
+        "Qty" : 2.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0738",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0739",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0771",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0773",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0777",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0779",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0784",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0785",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0807",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0808",
+        "Qty" : 2.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0816",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0821",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0823",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0826",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0837",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0842",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0843",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0852",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0853",
+        "Qty" : 2.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "8",
+      "VendorPartNumber" : "7292",
+      "ConsumerPackageCode" : "810094062989",
+      "OrderQty" : 29.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 24.0,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "LARGE",
+      "ProductColorDescription" : "NAVY / MUL"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 138.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 49.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "L/S VN RUFFLE DRESS"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "0575"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0705",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0709",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0712",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0713",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0714",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0717",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0718",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0719",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0726",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0733",
+        "Qty" : 1.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0738",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0739",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0771",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0773",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0777",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0779",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0784",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0785",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0807",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0808",
+        "Qty" : 1.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0816",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0821",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0823",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0826",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0837",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0842",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0843",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0852",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0853",
+        "Qty" : 1.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "9",
+      "VendorPartNumber" : "16373",
+      "ConsumerPackageCode" : "810094065195",
+      "OrderQty" : 47.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 15.0,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "X SMALL",
+      "ProductColorDescription" : "WHITE"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 78.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 29.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "L/S CUT OUT VNK TOP"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "0575"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0402",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0406",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0412",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0414",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0706",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0709",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0712",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0714",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0715",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0717",
+        "Qty" : 1.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0718",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0719",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0723",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0731",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0734",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0739",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0744",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0755",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0756",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0763",
+        "Qty" : 1.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0767",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0773",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0776",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0777",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0778",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0779",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0781",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0807",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0808",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0810",
+        "Qty" : 1.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0814",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0816",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0817",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0819",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0820",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0821",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0823",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0825",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0828",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0837",
+        "Qty" : 1.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0839",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0843",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0844",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0846",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0847",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0852",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0853",
+        "Qty" : 1.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "10",
+      "VendorPartNumber" : "16373",
+      "ConsumerPackageCode" : "810094065201",
+      "OrderQty" : 94.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 15.0,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "SMALL",
+      "ProductColorDescription" : "WHITE"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 78.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 29.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "L/S CUT OUT VNK TOP"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "0575"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0402",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0406",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0412",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0414",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0706",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0709",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0712",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0714",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0715",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0717",
+        "Qty" : 2.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0718",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0719",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0723",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0731",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0734",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0739",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0744",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0755",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0756",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0763",
+        "Qty" : 2.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0767",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0773",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0776",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0777",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0778",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0779",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0781",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0807",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0808",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0810",
+        "Qty" : 2.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0814",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0816",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0817",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0819",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0820",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0821",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0823",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0825",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0828",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0837",
+        "Qty" : 2.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0839",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0843",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0844",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0846",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0847",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0852",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0853",
+        "Qty" : 2.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "11",
+      "VendorPartNumber" : "16373",
+      "ConsumerPackageCode" : "810094065218",
+      "OrderQty" : 94.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 15.0,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "MEDIUM",
+      "ProductColorDescription" : "WHITE"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 78.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 29.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "L/S CUT OUT VNK TOP"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "0575"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0402",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0406",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0412",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0414",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0706",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0709",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0712",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0714",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0715",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0717",
+        "Qty" : 2.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0718",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0719",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0723",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0731",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0734",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0739",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0744",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0755",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0756",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0763",
+        "Qty" : 2.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0767",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0773",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0776",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0777",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0778",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0779",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0781",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0807",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0808",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0810",
+        "Qty" : 2.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0814",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0816",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0817",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0819",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0820",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0821",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0823",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0825",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0828",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0837",
+        "Qty" : 2.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0839",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0843",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0844",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0846",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0847",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0852",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0853",
+        "Qty" : 2.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "12",
+      "VendorPartNumber" : "16373",
+      "ConsumerPackageCode" : "810094065225",
+      "OrderQty" : 47.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 15.0,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "LARGE",
+      "ProductColorDescription" : "WHITE"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 78.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 29.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "L/S CUT OUT VNK TOP"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "0575"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0402",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0406",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0412",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0414",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0706",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0709",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0712",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0714",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0715",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0717",
+        "Qty" : 1.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0718",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0719",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0723",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0731",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0734",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0739",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0744",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0755",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0756",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0763",
+        "Qty" : 1.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0767",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0773",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0776",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0777",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0778",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0779",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0781",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0807",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0808",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0810",
+        "Qty" : 1.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0814",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0816",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0817",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0819",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0820",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0821",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0823",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0825",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0828",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0837",
+        "Qty" : 1.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0839",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0843",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0844",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0846",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0847",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0852",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0853",
+        "Qty" : 1.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "13",
+      "VendorPartNumber" : "16373",
+      "ConsumerPackageCode" : "810094065232",
+      "OrderQty" : 47.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 15.0,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "X SMALL",
+      "ProductColorDescription" : "BLACK"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 78.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 29.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "L/S CUT OUT VNK TOP"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "0575"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0401",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0402",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0414",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0709",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0712",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0714",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0717",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0718",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0719",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0723",
+        "Qty" : 1.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0725",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0731",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0733",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0734",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0735",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0738",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0739",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0747",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0749",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0754",
+        "Qty" : 1.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0763",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0770",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0771",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0774",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0776",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0777",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0785",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0807",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0808",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0814",
+        "Qty" : 1.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0816",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0817",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0819",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0820",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0821",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0823",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0828",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0831",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0837",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0839",
+        "Qty" : 1.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0842",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0843",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0844",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0845",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0846",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0847",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0848",
+        "Qty" : 1.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "14",
+      "VendorPartNumber" : "16373",
+      "ConsumerPackageCode" : "810094065249",
+      "OrderQty" : 94.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 15.0,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "SMALL",
+      "ProductColorDescription" : "BLACK"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 78.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 29.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "L/S CUT OUT VNK TOP"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "0575"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0401",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0402",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0414",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0709",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0712",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0714",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0717",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0718",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0719",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0723",
+        "Qty" : 2.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0725",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0731",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0733",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0734",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0735",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0738",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0739",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0747",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0749",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0754",
+        "Qty" : 2.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0763",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0770",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0771",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0774",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0776",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0777",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0785",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0807",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0808",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0814",
+        "Qty" : 2.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0816",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0817",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0819",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0820",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0821",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0823",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0828",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0831",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0837",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0839",
+        "Qty" : 2.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0842",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0843",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0844",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0845",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0846",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0847",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0848",
+        "Qty" : 2.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "15",
+      "VendorPartNumber" : "16373",
+      "ConsumerPackageCode" : "810094065256",
+      "OrderQty" : 94.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 15.0,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "MEDIUM",
+      "ProductColorDescription" : "BLACK"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 78.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 29.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "L/S CUT OUT VNK TOP"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "0575"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0401",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0402",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0414",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0709",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0712",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0714",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0717",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0718",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0719",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0723",
+        "Qty" : 2.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0725",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0731",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0733",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0734",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0735",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0738",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0739",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0747",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0749",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0754",
+        "Qty" : 2.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0763",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0770",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0771",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0774",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0776",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0777",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0785",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0807",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0808",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0814",
+        "Qty" : 2.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0816",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0817",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0819",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0820",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0821",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0823",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0828",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0831",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0837",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0839",
+        "Qty" : 2.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0842",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0843",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0844",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0845",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0846",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0847",
+        "Qty" : 2.0
+      }, {
+        "Location" : "0848",
+        "Qty" : 2.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  }, {
+    "OrderLine" : {
+      "LineSequenceNumber" : "16",
+      "VendorPartNumber" : "16373",
+      "ConsumerPackageCode" : "810094065263",
+      "OrderQty" : 47.0,
+      "OrderQtyUOM" : "EA",
+      "PurchasePrice" : 15.0,
+      "PurchasePriceBasis" : "QT",
+      "ProductSizeDescription" : "LARGE",
+      "ProductColorDescription" : "BLACK"
+    },
+    "PriceInformation" : [ {
+      "PriceTypeIDCode" : "MSR",
+      "UnitPrice" : 78.0
+    }, {
+      "PriceTypeIDCode" : "RTL",
+      "UnitPrice" : 29.99
+    } ],
+    "ProductOrItemDescription" : [ {
+      "ProductCharacteristicCode" : "08",
+      "ProductDescription" : "L/S CUT OUT VNK TOP"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "AddressName" : "0575"
+    } ],
+    "QuantitiesSchedulesLocations" : [ {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0401",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0402",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0414",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0709",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0712",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0714",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0717",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0718",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0719",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0723",
+        "Qty" : 1.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0725",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0731",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0733",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0734",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0735",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0738",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0739",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0747",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0749",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0754",
+        "Qty" : 1.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0763",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0770",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0771",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0774",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0776",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0777",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0785",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0807",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0808",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0814",
+        "Qty" : 1.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0816",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0817",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0819",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0820",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0821",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0823",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0828",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0831",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0837",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0839",
+        "Qty" : 1.0
+      } ]
+    }, {
+      "TotalQtyUOM" : "EA",
+      "LocationQuantity" : [ {
+        "Location" : "0842",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0843",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0844",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0845",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0846",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0847",
+        "Qty" : 1.0
+      }, {
+        "Location" : "0848",
+        "Qty" : 1.0
+      } ]
+    } ],
+    "ChargesAllowances" : [ {
+      "AllowChrgIndicator" : "N",
+      "AllowChrgAgencyCode" : "VI",
+      "AllowChrgAgency" : "HA",
+      "AllowChrgHandlingDescription" : "HANG"
+    } ]
+  } ],
+  "Summary" : {
+    "TotalLineItemNumber" : 16
+  }
+}

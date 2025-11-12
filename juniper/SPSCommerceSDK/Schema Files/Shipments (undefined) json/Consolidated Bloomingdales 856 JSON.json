@@ -1,0 +1,81 @@
+{
+  "Header" : {
+    "ShipmentHeader" : {
+      "TradingPartnerId" : "545856ALLJUNI",
+      "ShipmentIdentification" : "21",
+      "ShipDate" : "2021-11-22",
+      "TsetPurposeCode" : "00",
+      "ShipNoticeDate" : "2021-11-22",
+      "ShipNoticeTime" : "13:19:00",
+      "ASNStructureCode" : "0001",
+      "BillOfLadingNumber" : "1842",
+      "CarrierProNumber" : "XPO"
+    },
+    "References" : [ {
+      "ReferenceQual" : "MB",
+      "ReferenceID" : "1842"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "ST",
+      "LocationCodeQualifier" : "92",
+      "AddressLocationNumber" : "0879"
+    }, {
+      "AddressTypeCode" : "SF",
+      "AddressName" : "JUNIPER 08 LLC",
+      "Address1" : "4014 1ST AVE",
+      "Address2" : "BLDG 26 STE 601",
+      "City" : "BROOKLYN",
+      "State" : "NY",
+      "PostalCode" : "11232"
+    } ],
+    "CarrierInformation" : [ {
+      "CarrierTransMethodCode" : "M",
+      "CarrierAlphaCode" : "CNWY"
+    } ],
+    "QuantityAndWeight" : [ {
+      "PackingMedium" : "CTN",
+      "PackingMaterial" : "CT",
+      "LadingQuantity" : 18,
+      "WeightQualifier" : "G",
+      "Weight" : 180.0,
+      "WeightUOM" : "LB"
+    } ]
+  },
+  "OrderLevel" : [ {
+    "OrderHeader" : {
+      "PurchaseOrderNumber" : "32263980",
+      "PurchaseOrderDate" : "2021-09-13",
+      "Department" : "0855",
+      "Vendor" : "0478259728"
+    },
+    "QuantityAndWeight" : [ {
+      "PackingMedium" : "CTN",
+      "PackingMaterial" : "25",
+      "LadingQuantity" : 18,
+      "WeightQualifier" : "G",
+      "Weight" : 180.0,
+      "WeightUOM" : "LB"
+    } ],
+    "Address" : [ {
+      "AddressTypeCode" : "BY",
+      "LocationCodeQualifier" : "92",
+      "AddressLocationNumber" : "0873"
+    } ],
+    "PackLevel" : [ {
+      "Pack" : {
+        "PackLevelType" : "P",
+        "ShippingSerialID" : "00081006543001808921"
+      },
+      "ItemLevel" : [ {
+        "ShipmentLine" : {
+          "ConsumerPackageCode" : "810094060015",
+          "ShipQty" : 21.0,
+          "ShipQtyUOM" : "EA"
+        }
+      } ]
+    } ]
+  } ],
+  "Summary" : {
+    "TotalLineItemNumber" : 38
+  }
+}

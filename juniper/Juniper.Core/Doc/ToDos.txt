@@ -1,0 +1,14 @@
+﻿check prepare or add restrictive access drives(no problem if the drive is maped locally)
+remove job number from bloomingdales display-
+prepack distinction by style/vendor part number
+https://docs.google.com/spreadsheets/d/1EjeownMbfSqsdIlgyxjv7-6mU2JkSk5t/edit#gid=81448105
+check office 365 vs. aws
+check cancel date in asn?
+printing labels
+search asn number
+search bill of lading number
+search po number
+search style number
+search by account/vendor
+add PO progress
+packing list-
